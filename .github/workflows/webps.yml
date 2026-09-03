@@ -14,6 +14,8 @@ jobs:
       with:
         fetch-depth: 0
         persist-credentials: false
+        with:
+          version: 9  
 
     - name: Install pnpm
       uses: pnpm/action-setup@v6
