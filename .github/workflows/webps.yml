@@ -1,4 +1,3 @@
-# 将构建产物推送到 web 分支
 - name: Deploy to web branch
   if: github.event_name == 'push'
   run: |
