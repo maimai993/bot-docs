@@ -1,16 +1,9 @@
 <template><div><h1 id="猜词" tabindex="-1"><a class="header-anchor" href="#猜词"><span>猜词</span></a></h1>
-<h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<p><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/koishi-plugin-wordle-game" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/v/koishi-plugin-wordle-game" alt="" loading="lazy"></a></p>
-<p><strong>指令名称</strong>: wordleGame</p>
-<p><strong>功能描述</strong>: 猜单词游戏，支持经典、汉兜、词影、Numberle、Math、Lewdle 等多种模式</p>
-<h2 id="使用方法" tabindex="-1"><a class="header-anchor" href="#使用方法"><span>使用方法</span></a></h2>
-<h3 id="指令名称" tabindex="-1"><a class="header-anchor" href="#指令名称"><span>指令名称</span></a></h3>
-<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>wordleGame</span></span>
-<span class="line"><span>wordleGame.加入 [金额]</span></span>
-<span class="line"><span>wordleGame.开始.经典</span></span>
-<span class="line"><span>wordleGame.猜 &#x3C;单词></span></span>
-<span class="line"><span>wordleGame.查单词 &#x3C;单词></span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="参数说明" tabindex="-1"><a class="header-anchor" href="#参数说明"><span>参数说明</span></a></h3>
+<p>#功能描述<br>
+猜单词/成语游戏，支持经典、汉兜、词影、Numberle、Math、Lewdle 等多种模式，内置排行榜与积分系统。</p>
+<hr>
+<h2 id="完整指令列表" tabindex="-1"><a class="header-anchor" href="#完整指令列表"><span>完整指令列表</span></a></h2>
+<h3 id="基础操作" tabindex="-1"><a class="header-anchor" href="#基础操作"><span>基础操作</span></a></h3>
 <table>
 <thead>
 <tr>
@@ -20,33 +13,380 @@
 </thead>
 <tbody>
 <tr>
-<td>wordleGame</td>
+<td><code v-pre>wordleGame</code></td>
 <td>查看游戏帮助</td>
 </tr>
 <tr>
-<td>wordleGame.加入 [金额]</td>
-<td>加入游戏</td>
+<td><code v-pre>wordleGame.加入 [金额]</code></td>
+<td>加入游戏，可选下注金额（若启用积分系统）</td>
 </tr>
 <tr>
-<td>wordleGame.开始.经典</td>
-<td>开始经典猜单词游戏</td>
+<td><code v-pre>wordleGame.改名 &lt;新名字&gt;</code></td>
+<td>修改游戏内显示名称</td>
 </tr>
 <tr>
-<td>wordleGame.猜 <code v-pre>&lt;单词&gt;</code></td>
-<td>做出一次猜测</td>
+<td><code v-pre>wordleGame.退出</code></td>
+<td>退出当前游戏</td>
 </tr>
 <tr>
-<td>wordleGame.查单词 <code v-pre>&lt;单词&gt;</code></td>
-<td>查询单词释义</td>
+<td><code v-pre>wordleGame.结束</code></td>
+<td>强制结束当前对局</td>
 </tr>
 <tr>
-<td>wordleGame.玩法介绍</td>
-<td>游戏玩法介绍</td>
+<td><code v-pre>wordleGame.玩法介绍</code></td>
+<td>查看详细玩法说明</td>
 </tr>
 </tbody>
 </table>
-<h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
-<p>（示例待补充）</p>
+<h3 id="开始游戏" tabindex="-1"><a class="header-anchor" href="#开始游戏"><span>开始游戏</span></a></h3>
+<table>
+<thead>
+<tr>
+<th>指令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>wordleGame.开始.经典</code></td>
+<td>开始经典模式（5字母英文单词）</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.开始.汉兜</code></td>
+<td>开始汉兜模式（中文成语/词语）</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.开始.词影</code></td>
+<td>开始词影模式（根据释义猜词）</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.开始.lewdle</code></td>
+<td>开始 Lewdle 模式（不雅/俚语单词）</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.开始.numberle</code></td>
+<td>开始 Numberle 模式（猜数字）</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.开始.math</code></td>
+<td>开始 Math 模式（猜数学表达式）</td>
+</tr>
+</tbody>
+</table>
+<p><strong>词库选择</strong>（仅限经典模式及部分模式）：</p>
+<table>
+<thead>
+<tr>
+<th>指令</th>
+<th>词库范围</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>wordleGame.开始.all</code></td>
+<td>全部词库混合</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.开始.cet4</code></td>
+<td>大学英语四级词汇</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.开始.cet6</code></td>
+<td>大学英语六级词汇</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.开始.考研</code></td>
+<td>考研英语词汇</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.开始.专四</code></td>
+<td>英语专业四级词汇</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.开始.专八</code></td>
+<td>英语专业八级词汇</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.开始.ielts</code></td>
+<td>雅思词汇</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.开始.toefl</code></td>
+<td>托福词汇</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.开始.gre</code></td>
+<td>GRE 词汇</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.开始.gmat</code></td>
+<td>GMAT 词汇</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.开始.sat</code></td>
+<td>SAT 词汇</td>
+</tr>
+</tbody>
+</table>
+<h3 id="游戏进行" tabindex="-1"><a class="header-anchor" href="#游戏进行"><span>游戏进行</span></a></h3>
+<table>
+<thead>
+<tr>
+<th>指令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>wordleGame.猜 &lt;内容&gt;</code></td>
+<td>做出一次猜测（单词/成语/数字等）</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.查成语 &lt;成语&gt;</code></td>
+<td>查询成语释义（支持百度汉语、汉典源）</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.查单词 &lt;单词&gt;</code></td>
+<td>查询英文单词释义</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.查单词.all &lt;单词&gt;</code></td>
+<td>查询单词所有释义（详细版）</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.查单词.wordword &lt;单词&gt;</code></td>
+<td>查询单词的单词书信息</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.单词查找器 &lt;关键词&gt;</code></td>
+<td>模糊查找匹配的单词</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.拼音速查表</code></td>
+<td>查看拼音速查表（汉兜模式辅助）</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.查询进度</code></td>
+<td>查看当前对局进度</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.查询玩家记录</code></td>
+<td>查看个人历史战绩</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="排行榜" tabindex="-1"><a class="header-anchor" href="#排行榜"><span>排行榜</span></a></h2>
+<h3 id="总榜" tabindex="-1"><a class="header-anchor" href="#总榜"><span>总榜</span></a></h3>
+<table>
+<thead>
+<tr>
+<th>指令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>wordleGame.排行榜</code></td>
+<td>查看综合排行榜</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.总</code></td>
+<td>查看总榜</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.总.胜场</code></td>
+<td>总胜场排行</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.总.输场</code></td>
+<td>总输场排行</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.总.最快用时</code></td>
+<td>总最快用时排行</td>
+</tr>
+</tbody>
+</table>
+<h3 id="模式排行" tabindex="-1"><a class="header-anchor" href="#模式排行"><span>模式排行</span></a></h3>
+<table>
+<thead>
+<tr>
+<th>指令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>wordleGame.排行榜.经典</code></td>
+<td>经典模式排行</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.经典.胜场</code></td>
+<td>经典模式胜场排行</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.经典.输场</code></td>
+<td>经典模式输场排行</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.经典.最快用时</code></td>
+<td>经典模式最快用时排行</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.汉兜</code></td>
+<td>汉兜模式排行（同上子项）</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.词影</code></td>
+<td>词影模式排行（同上子项）</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.lewdle</code></td>
+<td>Lewdle 模式排行（同上子项）</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.numberle</code></td>
+<td>Numberle 模式排行（同上子项）</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.math</code></td>
+<td>Math 模式排行（同上子项）</td>
+</tr>
+</tbody>
+</table>
+<h3 id="词库排行-经典模式词库" tabindex="-1"><a class="header-anchor" href="#词库排行-经典模式词库"><span>词库排行（经典模式词库）</span></a></h3>
+<table>
+<thead>
+<tr>
+<th>指令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>wordleGame.排行榜.all</code></td>
+<td>All 词库排行（支持胜场/输场/最快用时）</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.cet4</code></td>
+<td>CET-4 词库排行</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.cet6</code></td>
+<td>CET-6 词库排行</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.考研</code></td>
+<td>考研词库排行</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.专四</code></td>
+<td>专四词库排行</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.专八</code></td>
+<td>专八词库排行</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.ielts</code></td>
+<td>雅思词库排行</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.toefl</code></td>
+<td>托福词库排行</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.gre</code></td>
+<td>GRE 词库排行</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.gmat</code></td>
+<td>GMAT 词库排行</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.sat</code></td>
+<td>SAT 词库排行</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>每个词库排行均支持 <code v-pre>.胜场</code>、<code v-pre>.输场</code>、<code v-pre>.最快用时</code> 子项。</p>
+</blockquote>
+<h3 id="特殊排行" tabindex="-1"><a class="header-anchor" href="#特殊排行"><span>特殊排行</span></a></h3>
+<table>
+<thead>
+<tr>
+<th>指令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>wordleGame.排行榜.损益</code></td>
+<td>积分损益排行</td>
+</tr>
+<tr>
+<td><code v-pre>wordleGame.排行榜.猜出次数</code></td>
+<td>总猜出次数排行</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="快捷输入" tabindex="-1"><a class="header-anchor" href="#快捷输入"><span>快捷输入</span></a></h2>
+<p>所有指令前缀 <code v-pre>wordleGame</code> 可缩写为 <code v-pre>wordlegame</code>（不区分大小写），例如：</p>
+<ul>
+<li><code v-pre>wordlegame.开始.经典</code></li>
+<li><code v-pre>wordlegame.猜 hello</code></li>
+<li><code v-pre>wordlegame.排行榜.总.胜场</code></li>
+</ul>
+<hr>
+<h2 id="参数说明" tabindex="-1"><a class="header-anchor" href="#参数说明"><span>参数说明</span></a></h2>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>类型</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>[金额]</code></td>
+<td>整数（可选）</td>
+<td>加入游戏时的初始下注积分，不填则使用默认值</td>
+</tr>
+<tr>
+<td><code v-pre>&lt;内容&gt;</code></td>
+<td>字符串（必填）</td>
+<td>猜测的内容，如单词 <code v-pre>hello</code> 或成语 <code v-pre>一心一意</code></td>
+</tr>
+<tr>
+<td><code v-pre>&lt;新名字&gt;</code></td>
+<td>字符串（必填）</td>
+<td>修改后的显示名称</td>
+</tr>
+<tr>
+<td><code v-pre>&lt;关键词&gt;</code></td>
+<td>字符串（必填）</td>
+<td>单词查找器的搜索关键词</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="常见问题" tabindex="-1"><a class="header-anchor" href="#常见问题"><span>常见问题</span></a></h2>
+<p><strong>Q: 如何开始一局游戏？</strong><br>
+A: 先使用 <code v-pre>wordleGame.加入 [金额]</code> 加入游戏，然后使用 <code v-pre>wordleGame.开始.经典</code> 等命令选择模式。</p>
+<p><strong>Q: 猜词有什么反馈？</strong><br>
+A: 每次猜测后，游戏会以颜色或符号提示字母/字符的位置是否正确（类似 Wordle 规则）。</p>
+<p><strong>Q: 汉兜模式怎么玩？</strong><br>
+A: 汉兜模式为中文成语/词语猜谜，可使用 <code v-pre>wordleGame.拼音速查表</code> 辅助判断拼音匹配情况。</p>
+<p><strong>Q: 如何退出游戏？</strong><br>
+A: 使用 <code v-pre>wordleGame.退出</code> 即可退出当前对局。</p>
+<p><strong>Q: 排行榜数据多久更新？</strong><br>
+A: 每局游戏结束后实时更新。</p>
+<hr>
+<p><em>更多玩法细节请使用 <code v-pre>wordleGame.玩法介绍</code> 查看。</em></p>
 </div></template>
 
 

@@ -1,8 +1,6 @@
 <template><div><h1 id="邦多利猜猜歌" tabindex="-1"><a class="header-anchor" href="#邦多利猜猜歌"><span>邦多利猜猜歌</span></a></h1>
-<h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<p><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/koishi-plugin-bangdream-ccg" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/v/koishi-plugin-bangdream-ccg" alt="" loading="lazy"></a></p>
-<p><strong>指令名称</strong>: ccg</p>
-<p><strong>功能描述</strong>: 邦多利（BanG Dream!）猜猜歌小游戏，支持缓存和别名机制</p>
+<h2 id="功能描述" tabindex="-1"><a class="header-anchor" href="#功能描述"><span>功能描述</span></a></h2>
+<p>邦多利（BanG Dream!）猜猜歌小游戏，支持缓存和别名机制</p>
 <h2 id="使用方法" tabindex="-1"><a class="header-anchor" href="#使用方法"><span>使用方法</span></a></h2>
 <h3 id="指令名称" tabindex="-1"><a class="header-anchor" href="#指令名称"><span>指令名称</span></a></h3>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>ccg</span></span>
@@ -37,7 +35,26 @@
 </tbody>
 </table>
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
-<p>（示例待补充）</p>
+<chat-panel>
+<chat-message nickname="麦麦" type="user">ccg</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">语音发送中...</chat-message>
+<chat-message nickname="麦麦" type="user">ccg.answer 我不知道</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">那么答案是：</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">
+<img src="@source/使用指南/娱乐功能/08f99c16de6123a367a7553750f0baaa.png" />
+歌曲id：767
+乐队：Afterglow
+歌曲名：Choco Typhooooon!!
+关键词：Choco Typhooooon!!，767
+截取时间点：43s
+</chat-message>
+<chat-message nickname="麦麦" type="user">ccg</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">语音发送中...</chat-message>
+<chat-message nickname="麦麦" type="user">ccg.tips</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">提示：乐队：Poppin'Party×友希那</chat-message>
+<chat-message nickname="麦麦" type="user">ccg.stop</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">游戏已停止</chat-message>
+</chat-panel>
 </div></template>
 
 

@@ -1,6 +1,6 @@
-import { CodeTabs } from "D:/my-docs-main/node_modules/.pnpm/@vuepress+plugin-markdown-t_4b89531936795501e214ede5fb24db69/node_modules/@vuepress/plugin-markdown-tab/lib/client/components/CodeTabs.js";
-import { Tabs } from "D:/my-docs-main/node_modules/.pnpm/@vuepress+plugin-markdown-t_4b89531936795501e214ede5fb24db69/node_modules/@vuepress/plugin-markdown-tab/lib/client/components/Tabs.js";
-import "D:/my-docs-main/node_modules/.pnpm/@vuepress+plugin-markdown-t_4b89531936795501e214ede5fb24db69/node_modules/@vuepress/plugin-markdown-tab/lib/client/styles/vars.css";
+import { CodeTabs } from "D:/bot-docs/node_modules/.pnpm/@vuepress+plugin-markdown-t_4b89531936795501e214ede5fb24db69/node_modules/@vuepress/plugin-markdown-tab/lib/client/components/CodeTabs.js";
+import { Tabs } from "D:/bot-docs/node_modules/.pnpm/@vuepress+plugin-markdown-t_4b89531936795501e214ede5fb24db69/node_modules/@vuepress/plugin-markdown-tab/lib/client/components/Tabs.js";
+import "D:/bot-docs/node_modules/.pnpm/@vuepress+plugin-markdown-t_4b89531936795501e214ede5fb24db69/node_modules/@vuepress/plugin-markdown-tab/lib/client/styles/vars.css";
 
 export default {
   enhance: ({ app }) => {

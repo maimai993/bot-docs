@@ -1,4 +1,4 @@
-import comp from "D:/my-docs-main/src/.vuepress/.temp/pages/404.html.vue"
+import comp from "D:/bot-docs/src/.vuepress/.temp/pages/404.html.vue"
 const data = JSON.parse("{\"path\":\"/404.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{\"layout\":\"NotFound\",\"description\":\"404 Not Found\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"WebPage\\\",\\\"name\\\":\\\"\\\",\\\"description\\\":\\\"404 Not Found\\\"}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://maltose-bot.com/404.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"麦芽糖\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"404 Not Found\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}]]},\"readingTime\":{\"minutes\":0.01,\"words\":3},\"filePathRelative\":null,\"autoDesc\":true}")
 export { comp, data }
 

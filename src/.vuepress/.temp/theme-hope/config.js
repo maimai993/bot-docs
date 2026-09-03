@@ -1,15 +1,15 @@
-import { Layout, NotFound, injectDarkMode, setupDarkMode, setupSidebarItems, scrollPromise } from "D:/my-docs-main/node_modules/.pnpm/vuepress-theme-hope@2.0.0-r_31226c9b5695aaf3537c930a2aad7e1c/node_modules/vuepress-theme-hope/lib/bundle/exports/base.js";
+import { Layout, NotFound, injectDarkMode, setupDarkMode, setupSidebarItems, scrollPromise } from "D:/bot-docs/node_modules/.pnpm/vuepress-theme-hope@2.0.0-r_31226c9b5695aaf3537c930a2aad7e1c/node_modules/vuepress-theme-hope/lib/bundle/exports/base.js";
 
-import { defineCatalogInfoGetter } from "D:/my-docs-main/node_modules/.pnpm/@vuepress+plugin-catalog@2._f2e90827e0245cd6a7237838a8c351d8/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
+import { defineCatalogInfoGetter } from "D:/bot-docs/node_modules/.pnpm/@vuepress+plugin-catalog@2._f2e90827e0245cd6a7237838a8c351d8/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
 import { h } from "vue"
 import { resolveComponent } from "vue"
-import { GlobalEncrypt, LocalEncrypt } from "D:/my-docs-main/node_modules/.pnpm/vuepress-theme-hope@2.0.0-r_31226c9b5695aaf3537c930a2aad7e1c/node_modules/vuepress-theme-hope/lib/bundle/exports/encrypt.js";
-import "D:/my-docs-main/node_modules/.pnpm/vuepress-theme-hope@2.0.0-r_31226c9b5695aaf3537c930a2aad7e1c/node_modules/vuepress-theme-hope/lib/bundle/styles/encrypt/bundle.scss"
+import { GlobalEncrypt, LocalEncrypt } from "D:/bot-docs/node_modules/.pnpm/vuepress-theme-hope@2.0.0-r_31226c9b5695aaf3537c930a2aad7e1c/node_modules/vuepress-theme-hope/lib/bundle/exports/encrypt.js";
+import "D:/bot-docs/node_modules/.pnpm/vuepress-theme-hope@2.0.0-r_31226c9b5695aaf3537c930a2aad7e1c/node_modules/vuepress-theme-hope/lib/bundle/styles/encrypt/bundle.scss"
 
-import "D:/my-docs-main/node_modules/.pnpm/@vuepress+helper@2.0.0-rc.1_dbd85768717be86c42cc765ce09aa19d/node_modules/@vuepress/helper/lib/client/styles/colors.css";
-import "D:/my-docs-main/node_modules/.pnpm/@vuepress+helper@2.0.0-rc.1_dbd85768717be86c42cc765ce09aa19d/node_modules/@vuepress/helper/lib/client/styles/normalize.css";
-import "D:/my-docs-main/node_modules/.pnpm/@vuepress+helper@2.0.0-rc.1_dbd85768717be86c42cc765ce09aa19d/node_modules/@vuepress/helper/lib/client/styles/sr-only.css";
-import "D:/my-docs-main/node_modules/.pnpm/vuepress-theme-hope@2.0.0-r_31226c9b5695aaf3537c930a2aad7e1c/node_modules/vuepress-theme-hope/lib/bundle/styles/bundle.scss";
+import "D:/bot-docs/node_modules/.pnpm/@vuepress+helper@2.0.0-rc.1_dbd85768717be86c42cc765ce09aa19d/node_modules/@vuepress/helper/lib/client/styles/colors.css";
+import "D:/bot-docs/node_modules/.pnpm/@vuepress+helper@2.0.0-rc.1_dbd85768717be86c42cc765ce09aa19d/node_modules/@vuepress/helper/lib/client/styles/normalize.css";
+import "D:/bot-docs/node_modules/.pnpm/@vuepress+helper@2.0.0-rc.1_dbd85768717be86c42cc765ce09aa19d/node_modules/@vuepress/helper/lib/client/styles/sr-only.css";
+import "D:/bot-docs/node_modules/.pnpm/vuepress-theme-hope@2.0.0-r_31226c9b5695aaf3537c930a2aad7e1c/node_modules/vuepress-theme-hope/lib/bundle/styles/bundle.scss";
 
 defineCatalogInfoGetter((meta) => {
   const title = meta.title;
