@@ -1,0 +1,45 @@
+name: Build and Deploy to Web Branch
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v7
+      with:
+        fetch-depth: 0
+        persist-credentials: false
+
+    - name: Install pnpm
+      uses: pnpm/action-setup@v6
+      with:
+        version: 8
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v7
+      with:
+        node-version: 24
+        cache: pnpm
+
+    - name: Install deps
+      run: pnpm install
+
+    - name: Docs build
+      env:
+        NODE_OPTIONS: --max_old_space_size=8192
+      run: pnpm run docs:build
+
+    - name: Deploy to web branch
+      if: github.event_name == 'push'
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./src/.vuepress/dist
+        publish_branch: web
+        cname: docs.tangbot.xyz
+        force_orphan: true
