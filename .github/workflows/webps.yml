@@ -51,7 +51,6 @@ jobs:
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         
-        # 设置远程地址（使用 GITHUB_TOKEN）
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
         
         # 确保 dist 存在
@@ -64,12 +63,11 @@ jobs:
         git fetch origin web || true
         git checkout web || git checkout --orphan web
         
-        # 清空并复制新内容
+        # 清空并复制新内容（从上级目录复制，因为 dist 在切换分支前的目录中）
         rm -rf ./*
-        cp -r dist/* ./
+        cp -r ../dist/* ./
         touch .nojekyll
         
-        # 提交并推送
         git add .
         git commit -m "Deploy from main branch - ${{ github.sha }}"
         git push origin web --force
