@@ -53,9 +53,12 @@ jobs:
         
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
         
-        # 确保 dist 存在
-        if [ ! -d "dist" ]; then
-          echo "ERROR: dist directory not found!"
+        # 保存 dist 路径（在切换分支之前）
+        DIST_PATH=$(pwd)/dist
+        echo "Dist path: $DIST_PATH"
+        
+        if [ ! -d "$DIST_PATH" ]; then
+          echo "ERROR: dist directory not found at $DIST_PATH!"
           exit 1
         fi
         
@@ -63,9 +66,9 @@ jobs:
         git fetch origin web || true
         git checkout web || git checkout --orphan web
         
-        # 清空并复制新内容（从上级目录复制，因为 dist 在切换分支前的目录中）
+        # 清空并复制新内容
         rm -rf ./*
-        cp -r ../dist/* ./
+        cp -r "$DIST_PATH"/* ./
         touch .nojekyll
         
         git add .
