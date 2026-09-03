@@ -12,14 +12,17 @@
       <span class="pause-icon" v-else>⏸</span>
     </button>
     
-    <!-- 语音波形（模拟） -->
+    <!-- 语音波形（所有柱子动态跳动） -->
     <div class="voice-waveform">
       <div 
         v-for="(bar, index) in waveformBars" 
         :key="index" 
         class="wave-bar"
-        :class="{ 'active': isPlaying && index === currentBar }"
-        :style="{ height: bar.height + 'px' }"
+        :class="{ 'active': isPlaying }"
+        :style="{ 
+          height: isPlaying ? bar.playingHeight + 'px' : bar.height + 'px',
+          animationDelay: isPlaying ? `${index * 0.06}s` : '0s'
+        }"
       ></div>
     </div>
     
@@ -42,15 +45,15 @@ export default {
   props: {
     duration: {
       type: Number,
-      default: 0 // 语音时长，单位：秒
+      default: 0
     },
     isListened: {
       type: Boolean,
-      default: false // 是否已收听
+      default: false
     },
     audioUrl: {
       type: String,
-      default: '' // 音频URL（可选）
+      default: ''
     }
   },
   data() {
@@ -62,9 +65,9 @@ export default {
       currentBar: 0,
       barInterval: null,
       playTimer: null,
-      audio: null, // Audio实例
-      isLoading: false, // 音频加载状态
-      error: null // 错误信息
+      audio: null,
+      isLoading: false,
+      error: null
     }
   },
   computed: {
@@ -74,9 +77,7 @@ export default {
     }
   },
   methods: {
-    // 处理容器点击事件
     handleContainerClick(event) {
-      // 如果点击的是播放按钮，不处理（因为按钮有自己的点击事件）
       if (event.target.closest('.play-btn')) {
         return
       }
@@ -92,7 +93,6 @@ export default {
     },
     
     playAudio() {
-      // 如果没有音频URL，使用模拟播放
       if (!this.audioUrl) {
         this.simulatePlay()
         return
@@ -101,14 +101,11 @@ export default {
       this.isLoading = true
       this.error = null
       
-      // 如果音频实例不存在，创建新的
       if (!this.audio) {
         this.audio = new Audio(this.audioUrl)
         
-        // 设置音频事件监听器
         this.audio.addEventListener('loadedmetadata', () => {
           this.isLoading = false
-          // 如果组件有duration prop，使用它；否则使用音频的实际时长
           if (!this.duration && this.audio.duration) {
             this.$emit('duration-update', Math.round(this.audio.duration))
           }
@@ -122,13 +119,11 @@ export default {
           this.isLoading = false
           this.error = '音频加载失败'
           console.error('音频播放错误:', e)
-          // 回退到模拟播放
           this.simulatePlay()
         })
         
         this.audio.addEventListener('ended', () => {
           this.pauseAudio()
-          // 标记为已收听
           if (!this.isListened) {
             this.$emit('listened')
           }
@@ -141,13 +136,11 @@ export default {
         })
       }
       
-      // 播放音频
       this.audio.play().then(() => {
         this.isPlaying = true
         this.isLoading = false
         this.startWaveformAnimation()
         
-        // 更新播放进度定时器
         this.playTimer = setInterval(() => {
           if (this.audio && !this.audio.paused) {
             this.currentTime = this.audio.currentTime
@@ -157,24 +150,20 @@ export default {
         this.isLoading = false
         this.error = '播放失败: ' + error.message
         console.error('播放失败:', error)
-        // 回退到模拟播放
         this.simulatePlay()
       })
     },
     
-    // 模拟播放（当没有音频URL或音频加载失败时使用）
     simulatePlay() {
       this.isPlaying = true
       this.startWaveformAnimation()
       
-      // 模拟播放进度
       this.currentTime = 0
       this.playTimer = setInterval(() => {
         if (this.currentTime < this.duration) {
           this.currentTime += 0.1
         } else {
           this.pauseAudio()
-          // 标记为已收听
           if (!this.isListened) {
             this.$emit('listened')
           }
@@ -188,12 +177,10 @@ export default {
       this.isPlaying = false
       this.stopWaveformAnimation()
       
-      // 停止真实音频
       if (this.audio && !this.audio.paused) {
         this.audio.pause()
       }
       
-      // 清除定时器
       if (this.playTimer) {
         clearInterval(this.playTimer)
         this.playTimer = null
@@ -201,15 +188,15 @@ export default {
     },
     
     startWaveformAnimation() {
-      // 生成随机波形条
+      // 确保波形存在
       if (this.waveformBars.length === 0) {
         this.generateWaveform()
       }
       
-      // 开始波形动画
+      // 播放时不断更新柱子高度，实现动态跳动
       this.barInterval = setInterval(() => {
-        this.currentBar = (this.currentBar + 1) % this.waveformBars.length
-      }, 150)
+        this.updateWaveformBars()
+      }, 100)
     },
     
     stopWaveformAnimation() {
@@ -217,22 +204,35 @@ export default {
         clearInterval(this.barInterval)
         this.barInterval = null
       }
+      // 重置为初始状态
+      this.waveformBars.forEach(bar => {
+        bar.playingHeight = 6 + Math.random() * 16
+      })
+    },
+    
+    // 更新波形条高度（随机跳动）
+    updateWaveformBars() {
+      this.waveformBars.forEach(bar => {
+        // 在基础高度附近随机变化，模拟真实波形
+        const baseHeight = 10
+        const variation = Math.random() * 14
+        bar.playingHeight = Math.max(4, Math.min(24, baseHeight + variation))
+      })
     },
     
     generateWaveform() {
-      // 生成随机高度的波形条
-      const barCount = 12
+      const barCount = 14
       this.waveformBars = []
       
       for (let i = 0; i < barCount; i++) {
-        // 随机高度，但中间的高一些，两边的低一些（模拟真实波形）
-        const baseHeight = 8
-        const variation = Math.sin((i / barCount) * Math.PI) * 6
-        const randomVariation = Math.random() * 3
-        const height = baseHeight + variation + randomVariation
+        // 中间高两边低的初始波形
+        const center = (i - barCount / 2) / (barCount / 2)
+        const baseHeight = 8 + (1 - Math.abs(center)) * 10
+        const randomVariation = Math.random() * 4
         
         this.waveformBars.push({
-          height: Math.max(4, Math.min(20, height))
+          height: Math.max(4, Math.min(20, baseHeight + randomVariation)),
+          playingHeight: Math.max(4, Math.min(24, baseHeight + randomVariation + 4))
         })
       }
     }
@@ -240,7 +240,6 @@ export default {
   mounted() {
     this.generateWaveform()
     
-    // 滚动动画（可选）
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -261,14 +260,12 @@ export default {
   beforeUnmount() {
     this.pauseAudio()
     
-    // 清理音频资源
     if (this.audio) {
       this.audio.pause()
       this.audio.src = ''
       this.audio = null
     }
     
-    // 清理定时器
     if (this.barInterval) {
       clearInterval(this.barInterval)
       this.barInterval = null
@@ -287,9 +284,8 @@ export default {
   align-items: center;
   gap: 8px;
   padding: 8px 12px;
-  background-color: var(--vp-c-bg);
-  border-radius: 6px;
-  border: 1px solid var(--vp-c-border);
+  background-color: var(--vp-c-bg-soft, #f6f8fa);
+  border-radius: 8px;
   user-select: none;
   transition: all 0.2s ease;
   min-width: 120px;
@@ -298,63 +294,101 @@ export default {
 }
 
 .voice-message:hover {
-  background-color: var(--vp-c-bg-soft);
-  border-color: var(--vp-c-brand);
+  background-color: var(--vp-c-bg-mute, #eaeef2);
+  border-color: var(--vp-c-brand, #409eff);
 }
 
 .voice-message.is-playing {
-  background-color: var(--vp-c-bg-alt);
-  border-color: var(--vp-c-brand);
+  background-color: var(--vp-c-bg-alt, #f0f2f5);
+  border-color: var(--vp-c-brand, #409eff);
 }
 
+/* 播放按钮 - 使用主题变量 */
 .play-btn {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
-  background-color: var(--vp-c-brand);
-  color: white;
+  background-color: var(--vp-c-brand, hsla(211, 19%, 46%, 0));
+  color: #ffffff;
   border: none;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  font-size: 10px;
+  font-size: 11px;
   transition: all 0.2s ease;
   flex-shrink: 0;
+  box-shadow: 0 1px 4px rgba(64, 160, 255, 0);
 }
 
 .play-btn:hover {
-  background-color: var(--vp-c-brand-dark);
-  transform: scale(1.05);
+  background-color: var(--vp-c-brand-dark, #3d7abb);
+  transform: scale(1.08);
+  box-shadow: 0 2px 8px rgba(64, 158, 255, 0.4);
 }
 
+.play-btn:active {
+  transform: scale(0.92);
+}
+
+/* 已收听状态 - 按钮变灰 */
+.voice-message.is-listened .play-btn {
+  background-color: var(--vp-c-text-3, #8b949e);
+  box-shadow: none;
+}
+
+.voice-message.is-listened .play-btn:hover {
+  background-color: var(--vp-c-text-2, #6e7681);
+}
+
+/* 波形区域 */
 .voice-waveform {
   display: flex;
   align-items: center;
-  gap: 2px;
-  height: 24px;
+  gap: 3px;
+  height: 28px;
   flex: 1;
+  padding: 0 2px;
 }
 
 .wave-bar {
-  width: 2px;
-  background-color: var(--vp-c-text-2);
-  border-radius: 1px;
-  transition: all 0.3s ease;
+  width: 3px;
+  border-radius: 2px;
+  background-color: var(--vp-c-text-3, #8b949e);
+  transition: height 0.15s ease, background-color 0.3s ease;
+  transform-origin: bottom;
+  will-change: height;
 }
 
+/* 播放时所有柱子跳动 */
 .wave-bar.active {
-  background-color: var(--vp-c-brand);
-  transform: scaleY(1.2);
+  background-color: var(--vp-c-brand, #71a2d3);
+  animation: waveJump 0.3s ease-in-out infinite alternate;
 }
 
+@keyframes waveJump {
+  0% { transform: scaleY(0.6); }
+  100% { transform: scaleY(1); }
+}
+
+/* 已收听状态波形变灰 */
+.voice-message.is-listened .wave-bar {
+  background-color: var(--vp-c-text-3, #8b949e);
+}
+
+.voice-message.is-listened .wave-bar.active {
+  background-color: var(--vp-c-text-3, #8b949e);
+}
+
+/* 时长 */
 .voice-duration {
   display: flex;
   align-items: baseline;
-  font-size: 12px;
-  color: var(--vp-c-text-2);
+  font-size: 13px;
+  color: var(--vp-c-text-2, #57606a);
   flex-shrink: 0;
   margin-left: 4px;
+  font-variant-numeric: tabular-nums;
 }
 
 .duration-text {
@@ -364,69 +398,89 @@ export default {
 .duration-unit {
   font-size: 10px;
   margin-left: 1px;
+  opacity: 0.6;
 }
 
-.voice-status {
-  margin-left: 4px;
+/* 已收听状态时长变灰 */
+.voice-message.is-listened .voice-duration {
+  color: var(--vp-c-text-3, #8b949e);
 }
 
-.status-dot {
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: var(--vp-c-red);
-  animation: pulse 1.5s infinite;
-}
+
+
 
 @keyframes pulse {
-  0% {
+  0%, 100% {
     opacity: 0.6;
     transform: scale(0.9);
   }
   50% {
     opacity: 1;
-    transform: scale(1.1);
-  }
-  100% {
-    opacity: 0.6;
-    transform: scale(0.9);
+    transform: scale(1.15);
   }
 }
 
-/* 已收听状态 */
-.voice-message.is-listened .wave-bar {
-  background-color: var(--vp-c-text-3);
-}
-
-.voice-message.is-listened .play-btn {
-  background-color: var(--vp-c-text-3);
-}
-
-.voice-message.is-listened .voice-duration {
-  color: var(--vp-c-text-3);
-}
-
-/* 响应式设计 */
+/* 响应式 */
 @media (max-width: 768px) {
   .voice-message {
     padding: 6px 10px;
     min-width: 100px;
     max-width: 160px;
+    gap: 6px;
   }
   
   .play-btn {
-    width: 20px;
-    height: 20px;
-    font-size: 8px;
+    width: 24px;
+    height: 24px;
+    font-size: 9px;
   }
   
   .voice-waveform {
-    height: 20px;
+    height: 22px;
+    gap: 2px;
+  }
+  
+  .wave-bar {
+    width: 2.5px;
   }
   
   .voice-duration {
     font-size: 11px;
   }
+  
+  .status-dot {
+    width: 6px;
+    height: 6px;
+  }
+}
+
+/* 暗色模式适配 */
+@media (prefers-color-scheme: dark) {
+  .voice-message {
+    background-color: var(--vp-c-bg-soft, #2d333b);
+    border-color: var(--vp-c-border, #3d444d);
+  }
+  
+  .voice-message:hover {
+    background-color: var(--vp-c-bg-mute, #3d444d);
+  }
+  
+  .voice-message.is-playing {
+    background-color: var(--vp-c-bg-alt, #22272e);
+  }
+}
+
+/* VuePress 暗色类 */
+.dark .voice-message {
+  background-color: var(--vp-c-bg-soft, #2d333b);
+  border-color: var(--vp-c-border, #3d444d);
+}
+
+.dark .voice-message:hover {
+  background-color: var(--vp-c-bg-mute, #3d444d);
+}
+
+.dark .voice-message.is-playing {
+  background-color: var(--vp-c-bg-alt, #22272e);
 }
 </style>
