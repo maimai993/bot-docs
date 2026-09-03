@@ -1,4 +1,4 @@
-- name: Deploy to web branch
+ name: Deploy to web branch
   if: github.event_name == 'push'
   run: |
     # 配置 git
