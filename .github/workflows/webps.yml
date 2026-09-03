@@ -9,39 +9,56 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [22.x]
-
     steps:
-    - uses: actions/checkout@v4
-
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
+    - uses: actions/checkout@v7
       with:
-        node-version: ${{ matrix.node-version }}
+        fetch-depth: 0
+        persist-credentials: false
 
     - name: Install pnpm
-      uses: pnpm/action-setup@v4
-      with:
-        version: 8
+      uses: pnpm/action-setup@v6
 
-    - name: Install dependencies and build
+    - name: Setup Node.js
+      uses: actions/setup-node@v7
+      with:
+        node-version: 24
+        cache: pnpm
+
+    - name: Install deps
+      run: pnpm ci
+
+    - name: Docs build
+      env:
+        NODE_OPTIONS: --max_old_space_size=8192
+      run: pnpm run docs:vite-build
+
+    - name: Combine output
       run: |
-        pnpm install
-        pnpm docs:build
+        mkdir -p dist/components
+        mkdir -p dist/lightgallery
+        mkdir -p dist/md-enhance
+        cp -r docs/components/dist/* dist/components/ 2>/dev/null || true
+        cp -r docs/lightgallery/dist/* dist/lightgallery/ 2>/dev/null || true
+        cp -r docs/md-enhance/dist/* dist/md-enhance/ 2>/dev/null || true
+        cp -r docs/theme/dist/* dist/ 2>/dev/null || true
 
     - name: Deploy to web branch
       if: github.event_name == 'push'
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
-        BUILD_DIR=".vuepress/dist"
+        
+        # 切换或创建 web 分支
         git fetch origin web || true
         git checkout web || git checkout --orphan web
+        
+        # 删除旧内容，复制新构建产物
         rm -rf ./*
-        cp -r ../$BUILD_DIR/* ./
+        cp -r ../dist/* ./
+        
+        # 添加 .nojekyll 文件（GitHub Pages 需要）
+        touch .nojekyll
+        
         git add .
         git commit -m "Deploy from main branch - ${{ github.sha }}"
         git push origin web
