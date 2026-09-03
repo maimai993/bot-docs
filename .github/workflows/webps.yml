@@ -1,59 +1,23 @@
-name: Build and Deploy to Web Branch
-
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [22.x]
-
-    steps:
-    - uses: actions/checkout@v4
-
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
-      with:
-        node-version: ${{ matrix.node-version }}
-
-    # 安装 pnpm
-    - name: Install pnpm
-      uses: pnpm/action-setup@v4
-      with:
-        version: 8  # 或者你项目用的版本
-
-    - name: Install dependencies and build
-      run: |
-        pnpm install
-        pnpm docs:build
-
-    # 将构建产物推送到 web 分支
-    - name: Deploy to web branch
-      # 只在 push 到 main 时执行，PR 不执行部署
-      if: github.event_name == 'push'
-      run: |
-        # 配置 git
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-        
-        # 获取构建产物目录（请根据实际情况修改）
-        BUILD_DIR="dist"  # 或 "build" 或 "docs/.vitepress/dist" 等
-        
-        # 切换到 web 分支（如果不存在则创建）
-        git fetch origin web || true
-        git checkout web || git checkout --orphan web
-        
-        # 删除旧内容，复制新构建产物
-        rm -rf ./*
-        cp -r ../$BUILD_DIR/* ./
-        
-        # 提交并推送
-        git add .
-        git commit -m "Deploy from main branch - ${{ github.sha }}"
-        git push origin web
+# 将构建产物推送到 web 分支
+- name: Deploy to web branch
+  if: github.event_name == 'push'
+  run: |
+    # 配置 git
+    git config user.name "github-actions[bot]"
+    git config user.email "github-actions[bot]@users.noreply.github.com"
+    
+    # 构建产物目录（修正为实际路径）
+    BUILD_DIR=".vuepress/dist"
+    
+    # 切换到 web 分支（如果不存在则创建）
+    git fetch origin web || true
+    git checkout web || git checkout --orphan web
+    
+    # 删除旧内容，复制新构建产物
+    rm -rf ./*
+    cp -r ../$BUILD_DIR/* ./
+    
+    # 提交并推送
+    git add .
+    git commit -m "Deploy from main branch - ${{ github.sha }}"
+    git push origin web
