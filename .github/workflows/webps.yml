@@ -1,22 +1,47 @@
- name: Deploy to web branch
-  if: github.event_name == 'push'
-  run: |
-    # 配置 git
-    git config user.name "github-actions[bot]"
-    git config user.email "github-actions[bot]@users.noreply.github.com"
-    
-    # 构建产物目录（修正为实际路径）
-    BUILD_DIR=".vuepress/dist"
-    
-    # 切换到 web 分支（如果不存在则创建）
-    git fetch origin web || true
-    git checkout web || git checkout --orphan web
-    
-    # 删除旧内容，复制新构建产物
-    rm -rf ./*
-    cp -r ../$BUILD_DIR/* ./
-    
-    # 提交并推送
-    git add .
-    git commit -m "Deploy from main branch - ${{ github.sha }}"
-    git push origin web
+name: Build and Deploy to Web Branch
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [22.x]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install pnpm
+      uses: pnpm/action-setup@v4
+      with:
+        version: 8
+
+    - name: Install dependencies and build
+      run: |
+        pnpm install
+        pnpm docs:build
+
+    - name: Deploy to web branch
+      if: github.event_name == 'push'
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        BUILD_DIR=".vuepress/dist"
+        git fetch origin web || true
+        git checkout web || git checkout --orphan web
+        rm -rf ./*
+        cp -r ../$BUILD_DIR/* ./
+        git add .
+        git commit -m "Deploy from main branch - ${{ github.sha }}"
+        git push origin web
