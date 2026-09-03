@@ -53,24 +53,23 @@ jobs:
         
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
         
-        # ✅ 关键：在切换分支之前保存 dist 的绝对路径
-        DIST_PATH=$(pwd)/dist
-        echo "Dist path: $DIST_PATH"
-        
-        if [ ! -d "$DIST_PATH" ]; then
-          echo "ERROR: dist directory not found at $DIST_PATH!"
-          exit 1
-        fi
+        # 保存 dist 到临时目录（在切换分支之前）
+        TEMP_DIR=$(mktemp -d)
+        cp -r dist/* "$TEMP_DIR/"
+        echo "Dist copied to temp: $TEMP_DIR"
         
         # 切换或创建 web 分支
         git fetch origin web || true
         git checkout web || git checkout --orphan web
         
-        # 清空并复制新内容（使用保存的路径）
+        # 清空并复制新内容（从临时目录）
         rm -rf ./*
-        cp -r "$DIST_PATH"/* ./
+        cp -r "$TEMP_DIR"/* ./
         touch .nojekyll
         
         git add .
         git commit -m "Deploy from main branch - ${{ github.sha }}"
         git push origin web --force
+        
+        # 清理临时目录
+        rm -rf "$TEMP_DIR"
