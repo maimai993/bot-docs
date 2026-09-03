@@ -1,0 +1,16 @@
+import comp from "D:/my-docs-main/src/.vuepress/.temp/pages/使用指南/实用工具/火星文转换.html.vue"
+const data = JSON.parse("{\"path\":\"/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/%E7%81%AB%E6%98%9F%E6%96%87%E8%BD%AC%E6%8D%A2.html\",\"title\":\"火星文转换\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"火星文转换\",\"icon\":null,\"order\":1,\"description\":\"火星文转换 功能描述 将简体中文和火星文互相转换 使用方法 指令名称 参数说明 使用示例 简体中文转火星文 转换\\\"你好啊\\\"为火星文 转换\\\"今天天气不错\\\"为火星文 火星文转简体中文 转换\\\"沵恏娿\\\"为简体中文 转换\\\"妗兲兲気芣諎\\\"为简体中文\"},\"readingTime\":{\"minutes\":0.97,\"words\":290},\"filePathRelative\":\"使用指南/实用工具/火星文转换.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

@@ -1,0 +1,16 @@
+import comp from "D:/my-docs-main/src/.vuepress/.temp/pages/使用指南/图像处理/啤酒烧烤表情包生成.html.vue"
+const data = JSON.parse("{\"path\":\"/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/%E5%95%A4%E9%85%92%E7%83%A7%E7%83%A4%E8%A1%A8%E6%83%85%E5%8C%85%E7%94%9F%E6%88%90.html\",\"title\":\"啤酒烧烤表情包生成\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"啤酒烧烤表情包生成\",\"icon\":null,\"order\":3,\"description\":\"啤酒烧烤表情包生成 功能描述 基于初音未来Project Sekai角色的表情包生成器，支持自定义文字和多种调整选项 使用方法 指令名称 高级选项 参数说明 使用示例 基本绘制 随机表情包绘制 指定表情包绘制 表情包id列表 多行文本绘制 使用换行符 高级效果绘制 启用文本曲线 自定义位置和大小 角色列表管理 查看全部表情包列表 查看角色分类列表 查看...\"},\"readingTime\":{\"minutes\":3.77,\"words\":1131},\"filePathRelative\":\"使用指南/图像处理/啤酒烧烤表情包生成.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

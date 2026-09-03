@@ -1,0 +1,16 @@
+import comp from "D:/my-docs-main/src/.vuepress/.temp/pages/使用指南/图像处理/光棱生成.html.vue"
+const data = JSON.parse("{\"path\":\"/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/%E5%85%89%E6%A3%B1%E7%94%9F%E6%88%90.html\",\"title\":\"光棱坦克\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"光棱坦克\",\"icon\":null,\"order\":5,\"description\":\"光棱坦克 功能描述 制作光棱坦克图片（高级图片隐写技术）和从光棱坦克图片中取出隐藏的里图 使用方法 指令名称 制作光棱坦克 从光棱坦克取图 参数说明 选项说明 光棱制作选项 光棱取图选项 使用示例 制作光棱坦克 使用自定义参数制作光棱坦克 从光棱坦克取图 使用QQ头像制作光棱坦克\"},\"readingTime\":{\"minutes\":2.3,\"words\":689},\"filePathRelative\":\"使用指南/图像处理/光棱生成.md\",\"autoDesc\":true}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

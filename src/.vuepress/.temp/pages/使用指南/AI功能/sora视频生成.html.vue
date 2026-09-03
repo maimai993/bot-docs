@@ -1,0 +1,112 @@
+<template><div><h1 id="sora视频生成" tabindex="-1"><a class="header-anchor" href="#sora视频生成"><span>Sora视频生成</span></a></h1>
+<h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
+<p><a href="https://github.com/AstrBotDevs/AstrBot" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-AstrBot-75B9D8?style=flat" alt="" loading="lazy"></a> <a href="https://www.python.org" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg" alt="" loading="lazy"></a> <a href="https://github.com/maimai993/astrbot_plugin_video_sora2" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/-github-202020?style=flat&amp;logo=github" alt="" loading="lazy"></a><br>
+<strong>指令名称</strong>: sora, 生成视频, 视频生成</p>
+<p><strong>功能描述</strong>: 通过调用 OpenAI Sora 的视频生成接口，实现机器人免费生成高质量视频并在聊天平台中发送的功能</p>
+<p><strong>插件名称</strong>: astrbot_plugin_video_sora2</p>
+<h2 id="架构图" tabindex="-1"><a class="header-anchor" href="#架构图"><span>架构图</span></a></h2>
+<Mermaid code="eJx1kstu2kAUhvd5iqOs2gWqou4rmbJoRQQ4XDZWFw64hTa1qW162YVeEKICk4RUaVUl4VZo0xhUqSSCtg9TecbOW8SeMRDHzixGM3O++WfO+c/jLelVNs/LKqxvrIA90pzZGuLq2SOyI5NS2nwi88U8rBfE0mty5DlmgGNZpHfsW+bJiF6cD5a1Y8sjQcyt+AViUk54qgCXeKPmJRE2SqJaeC54hRZwGLgYX8zyKv5aR7W2l3JGzI17I56XPYL3gWMUVQ5LKm5X8OHErxidA/4QE+f4HF9UBTkkicJmEJLMcElJ5q1B5aKzY7aOcLWJtV1jFvDQg1QqwTkTzQ19HvqZSJi7lXyxVVCFu3h/jOs6mu7d9ud6fb3IPw2h0D3bF7JhWXsHq/93jgFPqrg8umNMP9pfWyVQjDAxF2lDXBTsIsDLtTVU1yxdp1R02SlRF+0ABaxBFx82KcbECcLEXaYL9Cnjz/HF9u5VqblKD6zxO6cbSbUokcwQJJlxmT5YjTOkfWKyWUFRUtIzQaSgU0WCOgsX/ga40cetCf6tWYOqXV3CG+c1XOsHyw/cLzgGApN4GPTNIRjnXxy3eu/NZiU42e+A9upo2kLjstX9EKTy44bqUg88Rpy4YtQxil338yfgg39mb0q7jjLppdQiwVNApwfo7dCYzewUzNoEb5cpHQkTMhJ2SR3wUd8adVCjgrRflj5Gf/cXRbsEa9B2qA=="></Mermaid><h2 id="使用方法" tabindex="-1"><a class="header-anchor" href="#使用方法"><span>使用方法</span></a></h2>
+<h3 id="指令名称" tabindex="-1"><a class="header-anchor" href="#指令名称"><span>指令名称</span></a></h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>sora [横屏|竖屏] &#x3C;提示词></span></span>
+<span class="line"><span>生成视频 [横屏|竖屏] &#x3C;提示词></span></span>
+<span class="line"><span>视频生成 [横屏|竖屏] &#x3C;提示词></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="参数说明" tabindex="-1"><a class="header-anchor" href="#参数说明"><span>参数说明</span></a></h3>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>类型</th>
+<th>必填</th>
+<th>说明</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>横屏|竖屏</td>
+<td>文本</td>
+<td>否</td>
+<td>视频方向，可选&quot;横屏&quot;或&quot;竖屏&quot;</td>
+<td>横屏</td>
+</tr>
+<tr>
+<td>提示词</td>
+<td>文本</td>
+<td>是</td>
+<td>视频生成的描述文本</td>
+<td>一只小猫在草地上玩耍</td>
+</tr>
+</tbody>
+</table>
+<h3 id="其他命令" tabindex="-1"><a class="header-anchor" href="#其他命令"><span>其他命令</span></a></h3>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>说明</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sora查询 &lt;task_id&gt;</td>
+<td>查询视频生成状态或重放已生成的视频</td>
+<td>sora查询 task_123</td>
+</tr>
+<tr>
+<td>sora强制查询 &lt;task_id&gt;</td>
+<td>强制从官方接口重新查询任务状态</td>
+<td>sora强制查询 task_123</td>
+</tr>
+<tr>
+<td>sora鉴权检测</td>
+<td>检测所有Token的有效性（仅管理员）</td>
+<td>sora鉴权检测</td>
+</tr>
+<tr>
+<td>sora自动token状态</td>
+<td>查看自动获取的Token状态</td>
+<td>sora自动token状态</td>
+</tr>
+<tr>
+<td>sora自动token刷新</td>
+<td>手动刷新自动获取的Token列表</td>
+<td>sora自动token刷新</td>
+</tr>
+</tbody>
+</table>
+<h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
+<h3 id="基本视频生成" tabindex="-1"><a class="header-anchor" href="#基本视频生成"><span>基本视频生成</span></a></h3>
+<h4 id="生成竖屏视频" tabindex="-1"><a class="header-anchor" href="#生成竖屏视频"><span>生成竖屏视频</span></a></h4>
+<chat-panel>
+<chat-message nickname="麦麦" type="user">/sora 一只可爱的小猫在草地上追逐蝴蝶</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">
+<p>正在生成视频，请稍候~<br>
+ID: task_abc123</p>
+</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">
+<p><video src="https://cdn.tangbot.xyz/AstrBot/sora2.mp4" controls width="25%"></video></p>
+</chat-message>
+</chat-panel>
+<h4 id="生成横屏视频" tabindex="-1"><a class="header-anchor" href="#生成横屏视频"><span>生成横屏视频</span></a></h4>
+<chat-panel>
+<chat-message nickname="麦麦" type="user">/sora 横屏 壮丽的日落时分，金色的阳光洒在海面上，海浪轻轻拍打着沙滩</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">
+<p>正在生成视频，请稍候~<br>
+ID: task_def456</p>
+</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">
+<video src="https://cdn.tangbot.xyz/AstrBot/sora.mp4" controls width="45%"></video>
+</chat-message>
+</chat-panel>
+<h3 id="查询视频状态" tabindex="-1"><a class="header-anchor" href="#查询视频状态"><span>查询视频状态</span></a></h3>
+<chat-panel>
+<chat-message nickname="麦麦" type="user">sora查询 task_abc123</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">
+<p>任务还在队列中，请稍后再看~<br>
+状态：queued 进度: 0.00%</p>
+</chat-message>
+</chat-panel>
+</div></template>
+
+

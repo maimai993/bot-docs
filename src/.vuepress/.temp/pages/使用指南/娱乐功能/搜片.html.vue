@@ -1,0 +1,38 @@
+<template><div><h1 id="搜片" tabindex="-1"><a class="header-anchor" href="#搜片"><span>搜片</span></a></h1>
+<h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
+<figure><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" tabindex="0" loading="lazy"></a><figcaption></figcaption></figure>
+<p><strong>指令名称</strong>: jav</p>
+<p><strong>功能描述</strong>: 通过番号搜索影片，可获取磁链封面及缩略图，支持关键词搜索与最新影片列表</p>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>本功能仅限私聊使用，且需要配置相应权限。</p>
+</div>
+<h2 id="使用方法" tabindex="-1"><a class="header-anchor" href="#使用方法"><span>使用方法</span></a></h2>
+<h3 id="指令名称" tabindex="-1"><a class="header-anchor" href="#指令名称"><span>指令名称</span></a></h3>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>jav &#x3C;番号></span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h3 id="参数说明" tabindex="-1"><a class="header-anchor" href="#参数说明"><span>参数说明</span></a></h3>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>类型</th>
+<th>必填</th>
+<th>说明</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>番号</td>
+<td>文本</td>
+<td>是</td>
+<td>影片番号</td>
+<td>ABC-123</td>
+</tr>
+</tbody>
+</table>
+<h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
+<p>（示例待补充）</p>
+</div></template>
+
+
