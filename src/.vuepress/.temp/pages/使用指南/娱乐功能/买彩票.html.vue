@@ -1,15 +1,25 @@
 <template><div><h1 id="买彩票" tabindex="-1"><a class="header-anchor" href="#买彩票"><span>买彩票</span></a></h1>
-<h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<p><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/koishi-plugin-caipiao" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/v/koishi-plugin-caipiao" alt="" loading="lazy"></a></p>
-<p><strong>指令名称</strong>: 买彩票</p>
-<p><strong>功能描述</strong>: 买张彩票看看你的运气吧，每次消耗5积分，最高奖励可达4999</p>
+<h2 id="功能描述" tabindex="-1"><a class="header-anchor" href="#功能描述"><span>功能描述</span></a></h2>
+<p>买张彩票看看你的运气吧，每次消耗5积分，最高奖励可达4999</p>
 <h2 id="使用方法" tabindex="-1"><a class="header-anchor" href="#使用方法"><span>使用方法</span></a></h2>
 <h3 id="指令名称" tabindex="-1"><a class="header-anchor" href="#指令名称"><span>指令名称</span></a></h3>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>买彩票</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h3 id="参数说明" tabindex="-1"><a class="header-anchor" href="#参数说明"><span>参数说明</span></a></h3>
-<p>本指令无需任何参数，输入后消耗5积分购买一张彩票。</p>
-<h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
-<p>（示例待补充）</p>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
+<chat-panel>
+<chat-message nickname="麦麦" type="user">买彩票</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">你花费5积分买了一张彩票，满怀期待的刮开它···</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">恭喜你，刮中了快乐奖，获得20积分！</chat-message>
+<chat-message nickname="麦麦" type="user">买彩票</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">恭喜你，刮中了幸运奖，获得30积分！</chat-message>
+<chat-message nickname="麦麦" type="user">买彩票</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">恭喜你，刮中了欧皇奖，获得50积分！</chat-message>
+<chat-message nickname="麦麦" type="user">买彩票</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">恭喜你，刮中大奖了！获得100积分！</chat-message>
+<chat-message nickname="麦麦" type="user">买彩票</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">恭喜你！获得了黄金大奖！获得1000积分！！</chat-message>
+<chat-message nickname="麦麦" type="user">买彩票</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">恭喜你！获得了终极大奖！获得4999积分！！</chat-message>
+</chat-panel>
 </div></template>
 
 

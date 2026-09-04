@@ -9,7 +9,9 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h3 id="参数说明" tabindex="-1"><a class="header-anchor" href="#参数说明"><span>参数说明</span></a></h3>
 <p>本指令无需任何参数，输入后随机输出一条绕口令。</p>
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
-<p>（示例待补充）</p>
-</div></template>
+<chat-panel>
+<chat-message nickname="麦麦" type="user">来个绕口令</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">标题：桥东有一家丁家<br>内容：桥东有一家丁家，桥西也有一家丁家。有一天，桥东丁家说桥西丁家的冬瓜好，桥西丁家说桥东丁家的西瓜好，不知是桥东丁家的西瓜好？还是桥西丁家的东瓜好？</chat-message>
+</chat-panel></div></template>
 
 
