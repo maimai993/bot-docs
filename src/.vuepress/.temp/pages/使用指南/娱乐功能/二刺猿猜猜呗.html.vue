@@ -1,6 +1,7 @@
 <template><div><h1 id="二刺猿猜猜呗" tabindex="-1"><a class="header-anchor" href="#二刺猿猜猜呗"><span>二刺猿猜猜呗</span></a></h1>
-<p>::: 该功能由于服务器网络波动已暂时失效<br>
-:::</p>
+<div class="hint-container caution">
+<p class="hint-container-title">该功能由于服务器网络波动已暂时失效</p>
+</div>
 <h2 id="功能描述" tabindex="-1"><a class="header-anchor" href="#功能描述"><span>功能描述</span></a></h2>
 <p>二次元角色猜猜游戏，根据提示猜测动漫角色</p>
 <h2 id="使用方法" tabindex="-1"><a class="header-anchor" href="#使用方法"><span>使用方法</span></a></h2>

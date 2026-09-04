@@ -1,8 +1,9 @@
 <template><div><h1 id="视频解析" tabindex="-1"><a class="header-anchor" href="#视频解析"><span>视频解析</span></a></h1>
-<h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<p><a href="https://github.com/KarinJS/Karin" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-Karin-0084FF?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/karin-plugin-kkk" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/v/karin-plugin-kkk" alt="" loading="lazy"></a> <a href="https://github.com/ikenxuan/karin-plugin-kkk" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/-github-202020?style=flat&amp;logo=github" alt="" loading="lazy"></a></p>
-<p><strong>指令名称</strong>: #kkk解析</p>
-<p><strong>功能描述</strong>: 解析抖音、B站、快手、小红书等平台的视频/图文分享链接，提取内容并渲染成图片</p>
+<div class="hint-container caution">
+<p class="hint-container-title">该功能由于服务器网络波动已暂时失效</p>
+</div>
+<h2 id="功能描述" tabindex="-1"><a class="header-anchor" href="#功能描述"><span>功能描述</span></a></h2>
+<p>解析抖音、B站、快手、小红书等平台的视频/图文分享链接，提取内容并渲染成图片</p>
 <h2 id="使用方法" tabindex="-1"><a class="header-anchor" href="#使用方法"><span>使用方法</span></a></h2>
 <h3 id="指令名称" tabindex="-1"><a class="header-anchor" href="#指令名称"><span>指令名称</span></a></h3>
 <p>发送平台分享链接后会自动识别解析，也可以引用消息后发送：</p>
