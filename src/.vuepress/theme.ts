@@ -129,8 +129,8 @@ export default hopeTheme({
     docsearch: {
       appId: "MB68YKH672",
       apiKey: "537217be184770ff5361d70703723246",
-      indexName: "搜索", 
-
+      indices: ["搜索"],
+      placeholder: "搜索文档",
     },
 
     components: {
