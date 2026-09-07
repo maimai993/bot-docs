@@ -6,57 +6,8 @@ order: 1
 
 # fish-audio
 
-## 概述
-[![](https://img.shields.io/badge/框架-koishi-5445a2?style=flat)](https://koishi.chat) [![](https://img.shields.io/npm/v/koishi-plugin-fish-audio)](https://www.npmjs.com/package/koishi-plugin-fish-audio) [![](https://img.shields.io/badge/-github-202020?style=flat&logo=github)](https://github.com/idranme/koishi-plugin-fish-audio)
-
-**指令名称**: 根据配置的角色名称
-
-**功能描述**: 通过 Fish Audio API 进行文本转语音，支持多种语音模型
-
-**插件名称**: fish-audio
-
-## 架构图
-
-```mermaid
-flowchart LR
-    U[用户]
-    
-    subgraph Linux
-        subgraph A [QQ客户端]
-            QQ[QQ]
-        end
-
-        subgraph Nodejs [Node.js Runtime]
-            subgraph B [Napcat服务]
-                N[Napcat]
-            end
-
-            subgraph C [Koishi框架]
-                K[Koishi]
-                AO[adapter-onebot]
-                FA[fish-audio]
-                HTTP[http服务]
-            end
-        end
-    end
-
-    U --> QQ
-    QQ -- "① 消息/事件" --> N
-    N -- "② OneBot v11协议" --> K
-    
-    K -- "③ 协议解析" --> AO
-    AO -- "④ 事件传递" --> K
-    K -- "⑤ 调用插件" --> FA
-    FA -- "⑥ 调用API" --> HTTP
-    HTTP -- "⑦ 请求Fish Audio API" --> FA
-    FA -- "⑧ 接收音频数据" --> K
-    K -- "⑨ 业务处理" --> AO
-    AO -- "⑩ 响应封装" --> K
-    K -- "⑪ OneBot v11协议" --> N
-    
-    N -- "⑫ 响应消息" --> QQ
-    QQ -- "⑬ 播放语音" --> U
-```
+## 功能描述
+通过 Fish Audio API 进行文本转语音，支持多种语音模型
 
 ## 使用方法
 

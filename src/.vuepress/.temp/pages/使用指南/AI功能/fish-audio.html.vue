@@ -1,11 +1,7 @@
 <template><div><h1 id="fish-audio" tabindex="-1"><a class="header-anchor" href="#fish-audio"><span>fish-audio</span></a></h1>
-<h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<p><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/koishi-plugin-fish-audio" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/v/koishi-plugin-fish-audio" alt="" loading="lazy"></a> <a href="https://github.com/idranme/koishi-plugin-fish-audio" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/-github-202020?style=flat&amp;logo=github" alt="" loading="lazy"></a></p>
-<p><strong>指令名称</strong>: 根据配置的角色名称</p>
-<p><strong>功能描述</strong>: 通过 Fish Audio API 进行文本转语音，支持多种语音模型</p>
-<p><strong>插件名称</strong>: fish-audio</p>
-<h2 id="架构图" tabindex="-1"><a class="header-anchor" href="#架构图"><span>架构图</span></a></h2>
-<Mermaid code="eJx1kstOwkAUhvc8xYl7NL6AyWhCNBiwRlaNiypVarQlUNSl9xgNchE3xiBXQZGLMQGDxocxdChv4XRmAAt4Fu3MnG/+Oeef2drVDjYDUkiH5VUHkPCJ3VQZX7bW6Yx+wpGN7ZAUDMCyokYO6ZJtGYEoCEYtR3Z1K3W2sR+CQHLDJVn1O8YFPJpf3gmDaP2nyWA1ourKnmxXGtDzBJSCm5KOH6LGVdZOWeHheXvGdrRNcAFEt6aEAwrOXuB0c1zQzfPjGeQVJb8U1OWQU1PlDW3kTCtcSNwim51SxK9o4+nFtbUVMaDrwUndWDWPjgd9+MDpnCMG04kgkBlM/SQygJuX+Lg+02lfdz6bUxTyUMbDkSx4VXle02F/dtaIxsxajVHu4ZW7OZoDBpilPE7HGYa8FEFezuSBHdX5yvSOkn+l+ioFMBun1rOKJQcluRBFXIgzRc6glSUGWMZQxBpw6AnMegu/nbiIoYAsQ2HAjwqWAN8UcarZe3zv5RL4roGjtj77xZWh83FPnDcKZ934xeQWn8G4jRrtlNE4NvPnk1Re/vGUOW+zv8LF2D0xbPQWXwEnqzj1bdarpH7G+By/oSsx+Q=="></Mermaid><h2 id="使用方法" tabindex="-1"><a class="header-anchor" href="#使用方法"><span>使用方法</span></a></h2>
+<h2 id="功能描述" tabindex="-1"><a class="header-anchor" href="#功能描述"><span>功能描述</span></a></h2>
+<p>通过 Fish Audio API 进行文本转语音，支持多种语音模型</p>
+<h2 id="使用方法" tabindex="-1"><a class="header-anchor" href="#使用方法"><span>使用方法</span></a></h2>
 <h3 id="指令名称" tabindex="-1"><a class="header-anchor" href="#指令名称"><span>指令名称</span></a></h3>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>tts &#x3C;角色名称> &#x3C;文本内容></span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h3 id="参数说明" tabindex="-1"><a class="header-anchor" href="#参数说明"><span>参数说明</span></a></h3>
