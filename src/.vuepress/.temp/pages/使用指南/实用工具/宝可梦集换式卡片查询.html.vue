@@ -45,7 +45,7 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">ptcg 大尾立</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>查询到大尾立的全部结果：</p>
+查询到大尾立的全部结果：
 <ol>
 <li>大尾立 [SV9-077]</li>
 <li>大尾立 [SC2b-105]</li>
@@ -113,7 +113,7 @@ ID: SV9-077
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">ptcg 皮卡丘</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>查询到皮卡丘的全部结果：</p>
+查询到皮卡丘的全部结果：
 <ol>
 <li>皮卡丘V [SN-001]</li>
 <li>皮卡丘 [SV-P-001]</li>

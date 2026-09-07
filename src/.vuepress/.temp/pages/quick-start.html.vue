@@ -2,13 +2,13 @@
 <p>欢迎使用麦芽糖bot！这是一个已经部署好的QQ机器人，您可以直接使用。</p>
 <h2 id="机器人信息" tabindex="-1"><a class="header-anchor" href="#机器人信息"><span>机器人信息</span></a></h2>
 <ul>
-<li><strong>机器人QQ号</strong>: <a href="https://qm.qq.com/q/FQP9q1UN2I" target="_blank" rel="noopener noreferrer">2854208746</a></li>
+<li><strong>机器人QQ号</strong>: <a href="https://qun.qq.com/qunpro/robot/jump?qrcode_url=https%3A%2F%2Fq.qq.com%2Fqqbot%2Fprofile%2F%3Frobot_appid%3D102068359%26robot_uin%3D2854208746" target="_blank" rel="noopener noreferrer">2854208746</a></li>
 <li><strong>官方QQ群</strong>: <a href="https://qm.qq.com/q/viymkIPvvq" target="_blank" rel="noopener noreferrer">1050229473</a></li>
 <li><strong>状态</strong>: 24小时在线运行</li>
 </ul>
 <h2 id="如何使用" tabindex="-1"><a class="header-anchor" href="#如何使用"><span>如何使用</span></a></h2>
 <h3 id="_1-添加机器人好友" tabindex="-1"><a class="header-anchor" href="#_1-添加机器人好友"><span>1. 添加机器人好友</span></a></h3>
-<p>在QQ中搜索并添加机器人好友：<strong><a href="https://qm.qq.com/q/FQP9q1UN2I" target="_blank" rel="noopener noreferrer">2854208746</a></strong></p>
+<p>在QQ中搜索并添加机器人好友：<strong><a href="https://qun.qq.com/qunpro/robot/jump?qrcode_url=https%3A%2F%2Fq.qq.com%2Fqqbot%2Fprofile%2F%3Frobot_appid%3D102068359%26robot_uin%3D2854208746" target="_blank" rel="noopener noreferrer">2854208746</a></strong></p>
 <h3 id="_2-加入官方群聊" tabindex="-1"><a class="header-anchor" href="#_2-加入官方群聊"><span>2. 加入官方群聊</span></a></h3>
 <p>加入我们的官方QQ群：<strong><a href="https://qm.qq.com/q/viymkIPvvq" target="_blank" rel="noopener noreferrer">1050229473</a></strong>，在群内可以直接与机器人互动。</p>
 <h3 id="_3-开始使用" tabindex="-1"><a class="header-anchor" href="#_3-开始使用"><span>3. 开始使用</span></a></h3>

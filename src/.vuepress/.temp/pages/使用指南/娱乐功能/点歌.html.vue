@@ -30,7 +30,7 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">@麦芽糖bot 点歌 晴天</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>歌单</p>
+歌单
 <table>
 <thead>
 <tr>

@@ -35,16 +35,16 @@
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>搜图</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">
-<p>搜图<br>
-<img src="@source/img/搜图来源/1.jpg" /></p>
+搜图
+<img src="@source/img/搜图来源/1.jpg" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p><a href="../../img/搜图来源/1.jpg">图片</a><br>
-链接：<a href="https://e621.net/post/show/5609746" target="_blank" rel="noopener noreferrer">https://e621.net/post/show/5609746</a><br>
-作者：未知<br>
-网站：e621<br>
-相似度：88.5%<br>
-索引：29</p>
+<a href="../../img/搜图来源/1.jpg">图片</a>
+链接：https://e621.net/post/show/5609746
+作者：未知
+网站：e621
+相似度：88.5%
+索引：29
 </chat-message>
 </chat-panel>
 <h4 id="你还可以引用图片进行搜索" tabindex="-1"><a class="header-anchor" href="#你还可以引用图片进行搜索"><span>你还可以引用图片进行搜索</span></a></h4>

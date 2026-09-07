@@ -77,7 +77,7 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">2048.排行</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>🏆 2048 综合成就榜</p>
+🏆 2048 综合成就榜
 <ol>
 <li>麦麦｜492 分｜最高 64｜2048 × 0</li>
 <li>骤雨suddrain｜0 分｜最高 0｜2048 × 0</li>

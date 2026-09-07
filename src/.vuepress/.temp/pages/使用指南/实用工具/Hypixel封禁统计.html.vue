@@ -13,18 +13,18 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">hypixel</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>🕒 更新时间: 2025-11-16 23:35:15<br>
-🛡️ Watchdog封禁统计:<br>
-▸ 最近1分钟: 0次<br>
-▸ 最近24小时: 0次<br>
-▸ 总计: 10040701次<br>
-👮 客服封禁统计:<br>
-▸ 最近1分钟: 0次<br>
-▸ 最近24小时: 0次<br>
-▸ 总计: 5272330次<br>
-📜 最近封禁记录:<br>
-[🐕] 23:35:15 封禁 10040701 名玩家<br>
-[👮] 23:35:15 封禁 5272330 名玩家</p>
+🕒 更新时间: 2025-11-16 23:35:15
+🛡️ Watchdog封禁统计:
+▸ 最近1分钟: 0次
+▸ 最近24小时: 0次
+▸ 总计: 10040701次
+👮 客服封禁统计:
+▸ 最近1分钟: 0次
+▸ 最近24小时: 0次
+▸ 总计: 5272330次
+📜 最近封禁记录:
+[🐕] 23:35:15 封禁 10040701 名玩家
+[👮] 23:35:15 封禁 5272330 名玩家
 </chat-message>
 </chat-panel>
 <h3 id="使用别名查询" tabindex="-1"><a class="header-anchor" href="#使用别名查询"><span>使用别名查询</span></a></h3>
@@ -32,18 +32,18 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">hpbans</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>🕒 更新时间: 2025-11-16 23:35:15<br>
-🛡️ Watchdog封禁统计:<br>
-▸ 最近1分钟: 0次<br>
-▸ 最近24小时: 0次<br>
-▸ 总计: 10040701次<br>
-👮 客服封禁统计:<br>
-▸ 最近1分钟: 0次<br>
-▸ 最近24小时: 0次<br>
-▸ 总计: 5272330次<br>
-📜 最近封禁记录:<br>
-[🐕] 23:35:15 封禁 10040701 名玩家<br>
-[👮] 23:35:15 封禁 5272330 名玩家</p>
+🕒 更新时间: 2025-11-16 23:35:15
+🛡️ Watchdog封禁统计:
+▸ 最近1分钟: 0次
+▸ 最近24小时: 0次
+▸ 总计: 10040701次
+👮 客服封禁统计:
+▸ 最近1分钟: 0次
+▸ 最近24小时: 0次
+▸ 总计: 5272330次
+📜 最近封禁记录:
+[🐕] 23:35:15 封禁 10040701 名玩家
+[👮] 23:35:15 封禁 5272330 名玩家
 </chat-message>
 </chat-panel>
 </div></template>

@@ -33,13 +33,8 @@ b站评分 有兽焉
 ```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">b站评分 有兽焉</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">正在搜索番剧信息，本次最大时间限制为 240 秒</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
-正在搜索番剧信息，本次最大时间限制为 240 秒
-
-</chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">
-
 ‬======= 详细统计结果 =======
 当前时间：2026/9/1 18:37:14
 番剧名称：有兽焉
@@ -62,6 +57,5 @@ b站评分 有兽焉
 • 官方评分：9.8
 • 官方样本：10870 条
 ‬==============================
-
 </chat-message>
 </chat-panel>

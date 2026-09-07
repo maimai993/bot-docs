@@ -35,7 +35,7 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">帮助</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p><span style="color: #575c63ff;">图片过长已隐藏</span></p>
+<span style="color: #575c63ff;">图片过长已隐藏</span>
 </chat-message>
 </chat-panel>
 <h4 id="获取指定指令-帮助-信息" tabindex="-1"><a class="header-anchor" href="#获取指定指令-帮助-信息"><span>获取指定指令 <code v-pre>帮助</code> 信息</span></a></h4>

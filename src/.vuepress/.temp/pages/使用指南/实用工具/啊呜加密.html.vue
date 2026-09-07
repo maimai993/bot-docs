@@ -33,7 +33,7 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">兽语加密 你好世界</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>加密成功！</p>
+加密成功！
 <p>呜嗷呜嗷嗷嗷啊嗷嗷<sub>啊呜</sub>啊<sub>呜呜嗷</sub>嗷呜<sub>啊</sub>嗷呜嗷<sub>嗷啊嗷啊啊</sub>啊</p>
 </chat-message>
 </chat-panel>
@@ -43,7 +43,7 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">兽语解密 呜嗷呜嗷嗷嗷啊嗷嗷~啊呜~啊~呜呜嗷~嗷呜~啊~嗷呜嗷~嗷啊嗷啊啊~啊</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>解密成功！</p>
+解密成功！
 <p>你好世界</p>
 </chat-message>
 </chat-panel>

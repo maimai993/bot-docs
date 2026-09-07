@@ -33,12 +33,10 @@ jm.search furry
 <chat-message nickname="麦麦" type="user">本子 1455718</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">已将 1455718 添加到处理队列，即将开始处理</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <FileMessage
   fileName="1455718_密码0721.pdf"
   :fileSize="9248940"
   fileType="pdf"
 />
-
 </chat-message>
 </chat-panel>

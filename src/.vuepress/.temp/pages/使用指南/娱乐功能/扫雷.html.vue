@@ -60,25 +60,19 @@
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>ed</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">ed</chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">
-<p>✨<br>雷数：6<br>剩余BV：5</p>
-</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">✨<br>雷数：6<br>剩余BV：5</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <img src="@source/img/扫雷/1.png" />
 </chat-message>
 <chat-message nickname="麦麦" type="user">ed.l</chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">
-<p>✨<br>雷数：6<br>剩余BV：5</p>
-</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">✨<br>雷数：6<br>剩余BV：5</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <img src="@source/img/扫雷/2.png" />
 </chat-message>
 <chat-message nickname="麦麦" type="user">ed.fight</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">今天已经挑战过了，门票将收取 10 积分</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">请准备！3s 后开始挑战，输入取消可以放弃挑战</chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">
-<p>✨<br>雷数：20<br>剩余BV：44</p>
-</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">✨<br>雷数：20<br>剩余BV：44</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <img src="@source/img/扫雷/3.png" />
 </chat-message>

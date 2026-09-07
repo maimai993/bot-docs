@@ -10,7 +10,7 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">新闻</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p><a href="../../img/新闻/1.jpg">图片</a></p>
+<a href="../../img/新闻/1.jpg">图片</a>
 </chat-message>
 </chat-panel>
 </div></template>

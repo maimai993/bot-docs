@@ -36,9 +36,7 @@ emix 😊😢
 <chat-panel>
 <chat-message nickname="麦麦" type="user">emix 😊😢</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <img src="../../img/Emoji合成/1.png" />
-
 </chat-message>
 </chat-panel>
 

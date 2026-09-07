@@ -95,8 +95,8 @@
 <img src="@source/img/啤酒烧烤表情包生成/1.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>~<br>
-🎉 表情包绘制完成！</p>
+~
+🎉 表情包绘制完成！
 <p>🔍 输入&quot;pjsk.调整&quot;获取调整指令<br>
 或直接输入&quot;pjsk.列表.角色分类&quot;开始新的绘制</p>
 <p>✨ 期待您的下一个创作！</p>
@@ -110,8 +110,8 @@
 <img src="@source/img/啤酒烧烤表情包生成/2.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>~<br>
-🎉 表情包绘制完成！</p>
+~
+🎉 表情包绘制完成！
 <p>🔍 输入&quot;pjsk.调整&quot;获取调整指令<br>
 或直接输入&quot;pjsk.列表.角色分类&quot;开始新的绘制</p>
 <p>✨ 期待您的下一个创作！</p>
@@ -128,8 +128,8 @@
 <img src="@source/img/啤酒烧烤表情包生成/4.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>~<br>
-🎉 表情包绘制完成！</p>
+~
+🎉 表情包绘制完成！
 <p>🔍 输入&quot;pjsk.调整&quot;获取调整指令<br>
 或直接输入&quot;pjsk.列表.角色分类&quot;开始新的绘制</p>
 <p>✨ 期待您的下一个创作！</p>
@@ -144,8 +144,8 @@
 <img src="@source/img/啤酒烧烤表情包生成/5.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>~<br>
-🎉 表情包绘制完成！</p>
+~
+🎉 表情包绘制完成！
 <p>🔍 输入&quot;pjsk.调整&quot;获取调整指令<br>
 或直接输入&quot;pjsk.列表.角色分类&quot;开始新的绘制</p>
 <p>✨ 期待您的下一个创作！</p>
@@ -159,8 +159,8 @@
 <img src="@source/img/啤酒烧烤表情包生成/6.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>~<br>
-🎉 表情包绘制完成！</p>
+~
+🎉 表情包绘制完成！
 <p>🔍 输入&quot;pjsk.调整&quot;获取调整指令<br>
 或直接输入&quot;pjsk.列表.角色分类&quot;开始新的绘制</p>
 <p>✨ 期待您的下一个创作！</p>
@@ -181,8 +181,8 @@
 <img src="@source/img/啤酒烧烤表情包生成/7.jpg" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>~<br>
-查看指定角色的表情，请输入：</p>
+~
+查看指定角色的表情，请输入：
 <blockquote>
 角色序号，例如：10
 角色名，例如：Emu

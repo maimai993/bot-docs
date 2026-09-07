@@ -80,15 +80,11 @@
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>幻影</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">幻影</chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">
-<p>请发送一张图片作为【表图】：</p>
-</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">请发送一张图片作为【表图】：</chat-message>
 <chat-message nickname="麦麦" type="user">
 <img src="@source/img/幻影坦克生成/1.gif" />
 </chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">
-<p>请发送一张图片作为【里图】：</p>
-</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">请发送一张图片作为【里图】：</chat-message>
 <chat-message nickname="麦麦" type="user">
 <img src="@source/img/幻影坦克生成/2.gif" />
 </chat-message>
@@ -119,18 +115,11 @@
 <h4 id="全彩输出" tabindex="-1"><a class="header-anchor" href="#全彩输出"><span>全彩输出</span></a></h4>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>幻影 -f</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
-<chat-message nickname="麦麦" type="user">
-<p>幻影 -f</p>
-</chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">
-<p>请发送一张图片作为【表图】：</p>
-</chat-message>
-<chat-message nickname="麦麦" type="user">
+<chat-message nickname="麦麦" type="user">幻影 -f</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">请发送一张图片作为【表图】：</chat-message><chat-message nickname="麦麦" type="user">
 <img src="@source/img/幻影坦克生成/1.gif" />
 </chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">
-<p>请发送一张图片作为【里图】：</p>
-</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">请发送一张图片作为【里图】：</chat-message>
 <chat-message nickname="麦麦" type="user">
 <img src="@source/img/幻影坦克生成/2.gif" />
 </chat-message>
@@ -141,18 +130,12 @@
 <h4 id="自定义尺寸和权重" tabindex="-1"><a class="header-anchor" href="#自定义尺寸和权重"><span>自定义尺寸和权重</span></a></h4>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>幻影 -s 800 -w 0.5</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
-<chat-message nickname="麦麦" type="user">
-<p>幻影 -s 800 -w 0.5</p>
-</chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">
-<p>请发送一张图片作为【表图】：</p>
-</chat-message>
+<chat-message nickname="麦麦" type="user">幻影 -s 800 -w 0.5</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">请发送一张图片作为【表图】：</chat-message>
 <chat-message nickname="麦麦" type="user">
 <img src="@source/img/幻影坦克生成/6.png" />
 </chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">
-<p>请发送一张图片作为【里图】：</p>
-</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">请发送一张图片作为【里图】：</chat-message>
 <chat-message nickname="麦麦" type="user">
 <img src="@source/img/幻影坦克生成/7.jpg" />
 </chat-message>
@@ -163,18 +146,12 @@
 <h4 id="完整参数示例" tabindex="-1"><a class="header-anchor" href="#完整参数示例"><span>完整参数示例</span></a></h4>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>幻影 -f -s 1000 -w 0.8</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
-<chat-message nickname="麦麦" type="user">
-<p>幻影 -f -s 1000 -w 0.8</p>
-</chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">
-<p>请发送一张图片作为【表图】：</p>
-</chat-message>
+<chat-message nickname="麦麦" type="user">幻影 -f -s 1000 -w 0.8</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">请发送一张图片作为【表图】：</chat-message>
 <chat-message nickname="麦麦" type="user">
 <img src="@source/img/幻影坦克生成/6.png" />
 </chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">
-<p>请发送一张图片作为【里图】：</p>
-</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">请发送一张图片作为【里图】：</chat-message>
 <chat-message nickname="麦麦" type="user">
 <img src="@source/img/幻影坦克生成/7.jpg" />
 </chat-message>

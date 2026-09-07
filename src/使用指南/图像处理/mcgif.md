@@ -47,9 +47,7 @@ chibiko
 <chat-panel>
 <chat-message nickname="麦麦" type="user">chibiko</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <img src="../../img/mcGIF/1.gif" />
-
 </chat-message>
 </chat-panel>
 
@@ -61,9 +59,7 @@ chibiko -a idle
 <chat-panel>
 <chat-message nickname="麦麦" type="user">chibiko -a idle</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <img src="../../img/mcGIF/2.gif" />
-
 </chat-message>
 </chat-panel>
 
@@ -75,9 +71,7 @@ chibiko --action walk Alex
 <chat-panel>
 <chat-message nickname="麦麦" type="user">chibiko --action walk Alex</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <img src="../../img/mcGIF/3.gif" />
-
 </chat-message>
 </chat-panel>
 

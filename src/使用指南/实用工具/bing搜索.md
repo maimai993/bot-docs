@@ -34,7 +34,6 @@ bing 麦芽糖
 <chat-panel>
 <chat-message nickname="麦麦" type="user">bing 麦芽糖</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <ol>
 <li>麦芽糖有什么优点和缺点？吃多了会怎样？ - 知乎
 https://www.zhihu.com/question/38210812</li>
@@ -57,7 +56,6 @@ https://zhidao.baidu.com/question/635674000813349404.html</li>
 <li>麦芽糖的正确吃法大全-百度经验
 https://jingyan.baidu.com/article/86f4a73e44b80d76d65269f8.html</li>
 </ol>
-
 </chat-message>
 </chat-panel>
 
@@ -68,7 +66,6 @@ bing 人工智能
 <chat-panel>
 <chat-message nickname="麦麦" type="user">bing 人工智能</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <ol>
 <li>人工智能（智能科学与技术专业术语）_百度百科
 https://baike.baidu.com/item/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/9180</li>
@@ -91,6 +88,5 @@ https://www.peopleapp.com/column/30048352431-500006111786</li>
 <li>工业和信息化部办公厅关于开展2025年人工智能产业及赋能 ...
 https://www.miit.gov.cn/jgsj/kjs/wjfb/art/2025/art_a8465500de45444dbea19e8064d97ffc.html</li>
 </ol>
-
 </chat-message>
 </chat-panel>

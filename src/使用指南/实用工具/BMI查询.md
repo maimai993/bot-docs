@@ -34,10 +34,8 @@ bmi-calculator 175 130
 <chat-panel>
 <chat-message nickname="麦麦" type="user">bmi-calculator 175 130</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 您的BMI指数为21.2。
 正常体重是身体健康的一项标志，继续保持良好的生活习惯。
-
 </chat-message>
 </chat-panel>
 
@@ -49,10 +47,8 @@ bmi-calculator 170 160
 <chat-panel>
 <chat-message nickname="麦麦" type="user">bmi-calculator 170 160</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 您的BMI指数为27.7。
 注意啦，您的体重是健康的，但身体已经不苗条了唔，适当锻炼很重要哦~
-
 </chat-message>
 </chat-panel>
 
@@ -64,10 +60,8 @@ bmi-calculator 180 120
 <chat-panel>
 <chat-message nickname="麦麦" type="user">bmi-calculator 180 120</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 您的BMI指数为18.5。
 您的体重稍轻，请适度增加营养摄入。
-
 </chat-message>
 </chat-panel>
 

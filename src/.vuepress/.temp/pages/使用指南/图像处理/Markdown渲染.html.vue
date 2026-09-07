@@ -35,8 +35,8 @@
 <span class="line"><span>这是一段引用</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">
-<p>md # 标题<br>
-这是一段<strong>粗体</strong>文字，这是<em>斜体</em>文字。</p>
+md # 标题
+这是一段<strong>粗体</strong>文字，这是<em>斜体</em>文字。
 <ul>
 <li>列表项1</li>
 <li>列表项2</li>
@@ -60,7 +60,7 @@
 <span class="line"><span>$$</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">
-<p>md # 数学公式示例</p>
+md # 数学公式示例
 <p>行内公式：</p>
 <p>$E = mc^2$</p>
 <p>块级公式：</p>

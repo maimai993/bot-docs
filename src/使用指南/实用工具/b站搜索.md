@@ -47,9 +47,7 @@ b站搜索 furry
 <chat-panel>
 <chat-message nickname="麦麦" type="user">b站搜索 furry</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <img src="../../img/b站搜索/1.png" />
-
 </chat-message>
 </chat-panel>
 
@@ -62,9 +60,7 @@ b站搜索 furry 用户
 <chat-panel>
 <chat-message nickname="麦麦" type="user">b站搜索 furry 用户</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <img src="../../img/b站搜索/2.png" />
-
 </chat-message>
 </chat-panel>
 
@@ -77,9 +73,7 @@ b站搜索 furry 用户 粉丝由高到低
 <chat-panel>
 <chat-message nickname="麦麦" type="user">b站搜索 furry 用户 粉丝由高到低</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <img src="../../img/b站搜索/3.png" />
-
 </chat-message>
 </chat-panel>
 
@@ -90,8 +84,6 @@ b站搜索 furry 视频 最多播放
 <chat-panel>
 <chat-message nickname="麦麦" type="user">b站搜索 furry 视频 最多播放</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <img src="../../img/b站搜索/4.png" />
-
 </chat-message>
 </chat-panel>

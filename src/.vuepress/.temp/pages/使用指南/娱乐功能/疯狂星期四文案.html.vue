@@ -9,10 +9,10 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">疯狂星期四</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>分手那么多年了，还是忘不了你。<br>
-前段时间听说你订婚了，感慨良多，相册里还存着我们的合影<br>
-想着不去打扰你，却又每次都在深夜想起你，打开对话框想说些什么，最后只有一声叹气<br>
-但今天我不想再犹豫了，我一定要问你：今天疯狂星期四，能不能请我吃肯德基19.9的四份盐酥鸡</p>
+分手那么多年了，还是忘不了你。
+前段时间听说你订婚了，感慨良多，相册里还存着我们的合影
+想着不去打扰你，却又每次都在深夜想起你，打开对话框想说些什么，最后只有一声叹气
+但今天我不想再犹豫了，我一定要问你：今天疯狂星期四，能不能请我吃肯德基19.9的四份盐酥鸡
 </chat-message>
 </chat-panel>
 </div></template>

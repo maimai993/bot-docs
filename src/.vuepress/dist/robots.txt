@@ -1,4 +1,0 @@
-User-agent:*
-Disallow:
-
-Sitemap: https://maltose-bot.com/sitemap.xml

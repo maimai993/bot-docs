@@ -34,11 +34,11 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">hsy.query 重庆</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>🌄 火烧云预报 - 重庆 🌅<br>
-═════════════════<br>
-今日朝霞<br>
-• GFS: 0.0（不烧）<br>
-• EC: 0.0（不烧）</p>
+🌄 火烧云预报 - 重庆 🌅
+═════════════════
+今日朝霞
+• GFS: 0.0（不烧）
+• EC: 0.0（不烧）
 <p>今日晚霞<br>
 • GFS: 0.0（不烧）<br>
 • EC: 0.0（不烧）</p>

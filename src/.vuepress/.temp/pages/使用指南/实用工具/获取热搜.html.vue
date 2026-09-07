@@ -67,16 +67,16 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">hotof.bili</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>=1= [热]拆解TES外战背后的问题<br>
-=2= [新]海贼王伊姆与戴维一族的约定<br>
-=3= [无]黄金还有投资机会吗<br>
-=4= [新]AI还原福建舰电磁弹射全过程<br>
-=5= [热]解读冯小刚电影芳华<br>
-=6= [无]TES发文告别S赛<br>
-=7= [无]马思纯 重获新生<br>
-=8= [新]2025年金摇杆大奖投票开启<br>
-=9= [无]片仔癀业绩爆雷意味着什么<br>
-=10= [无]第三人称逃离鸭科夫</p>
+=1= [热]拆解TES外战背后的问题
+=2= [新]海贼王伊姆与戴维一族的约定
+=3= [无]黄金还有投资机会吗
+=4= [新]AI还原福建舰电磁弹射全过程
+=5= [热]解读冯小刚电影芳华
+=6= [无]TES发文告别S赛
+=7= [无]马思纯 重获新生
+=8= [新]2025年金摇杆大奖投票开启
+=9= [无]片仔癀业绩爆雷意味着什么
+=10= [无]第三人称逃离鸭科夫
 </chat-message>
 </chat-panel>
 <h3 id="获取-抖音-热搜" tabindex="-1"><a class="header-anchor" href="#获取-抖音-热搜"><span>获取 <code v-pre>抖音</code> 热搜</span></a></h3>
@@ -84,18 +84,18 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">hotof.douyin</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>■热点榜■<br>
-=1= 金永南逝世(1205.10w, 视频3)<br>
-=2= 馆长帮赖清德寻根(1157.78w, 视频3)<br>
-=3= APEC中国年即将开启(1146.51w, 视频5)<br>
-=4= 中国空间站可以吃烧烤了(1141.55w, 视频6)<br>
-=5= 队友炸鱼全红婵表情亮了(1064.20w, 视频3)<br>
-=6= 鬼灭之刃无限城篇定档(1036.27w, 视频3)<br>
-=7= 把装修的坑全踩了一遍(908.49w, 视频2)<br>
-=8= 月亮月亮你别笑我(898.53w, 视频10)<br>
-=9= 儿时的公益广告照进现实(897.14w, 视频1)<br>
-=10= 沉浸式感受永子制作过程(878.68w, 视频1)<br>
-■实时上升热点■</p>
+■热点榜■
+=1= 金永南逝世(1205.10w, 视频3)
+=2= 馆长帮赖清德寻根(1157.78w, 视频3)
+=3= APEC中国年即将开启(1146.51w, 视频5)
+=4= 中国空间站可以吃烧烤了(1141.55w, 视频6)
+=5= 队友炸鱼全红婵表情亮了(1064.20w, 视频3)
+=6= 鬼灭之刃无限城篇定档(1036.27w, 视频3)
+=7= 把装修的坑全踩了一遍(908.49w, 视频2)
+=8= 月亮月亮你别笑我(898.53w, 视频10)
+=9= 儿时的公益广告照进现实(897.14w, 视频1)
+=10= 沉浸式感受永子制作过程(878.68w, 视频1)
+■实时上升热点■
 <ul>
 <li>长春亚泰降级后致歉(视频1)</li>
 <li>山河枕这一幕梦回杨门女将(视频3)</li>
@@ -110,7 +110,7 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">hotof.zhihu</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>知乎热搜🔥</p>
+知乎热搜🔥
 <ul>
 <li>湖人vs热火</li>
 <li>哪句话让你突然沉默了很久</li>
@@ -130,11 +130,11 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">hotof.bili -n 5</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>=1= [热]拆解TES外战背后的问题<br>
-=2= [新]海贼王伊姆与戴维一族的约定<br>
-=3= [无]黄金还有投资机会吗<br>
-=4= [新]AI还原福建舰电磁弹射全过程<br>
-=5= [热]解读冯小刚电影芳华</p>
+=1= [热]拆解TES外战背后的问题
+=2= [新]海贼王伊姆与戴维一族的约定
+=3= [无]黄金还有投资机会吗
+=4= [新]AI还原福建舰电磁弹射全过程
+=5= [热]解读冯小刚电影芳华
 </chat-message>
 </chat-panel>
 <h2 id="技术特性" tabindex="-1"><a class="header-anchor" href="#技术特性"><span>技术特性</span></a></h2>

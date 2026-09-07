@@ -38,8 +38,8 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">bmi-calculator 175 130</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>您的BMI指数为21.2。<br>
-正常体重是身体健康的一项标志，继续保持良好的生活习惯。</p>
+您的BMI指数为21.2。
+正常体重是身体健康的一项标志，继续保持良好的生活习惯。
 </chat-message>
 </chat-panel>
 <h3 id="超重计算" tabindex="-1"><a class="header-anchor" href="#超重计算"><span>超重计算</span></a></h3>
@@ -47,8 +47,8 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">bmi-calculator 170 160</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>您的BMI指数为27.7。<br>
-注意啦，您的体重是健康的，但身体已经不苗条了唔，适当锻炼很重要哦~</p>
+您的BMI指数为27.7。
+注意啦，您的体重是健康的，但身体已经不苗条了唔，适当锻炼很重要哦~
 </chat-message>
 </chat-panel>
 <h3 id="低体重计算" tabindex="-1"><a class="header-anchor" href="#低体重计算"><span>低体重计算</span></a></h3>
@@ -56,8 +56,8 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">bmi-calculator 180 120</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>您的BMI指数为18.5。<br>
-您的体重稍轻，请适度增加营养摄入。</p>
+您的BMI指数为18.5。
+您的体重稍轻，请适度增加营养摄入。
 </chat-message>
 </chat-panel>
 <h2 id="bmi标准范围" tabindex="-1"><a class="header-anchor" href="#bmi标准范围"><span>BMI标准范围</span></a></h2>

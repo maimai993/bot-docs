@@ -31,7 +31,7 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">翻译 麦芽糖</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>翻译的结果：</p>
+翻译的结果：
 <p>maltose</p>
 <p>[中文] =&gt; [英语]</p>
 </chat-message>
@@ -41,7 +41,7 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">翻译 maltose</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>翻译的结果：</p>
+翻译的结果：
 <p>麦芽糖</p>
 <p>[英语] =&gt; [中文]</p>
 </chat-message>
@@ -51,7 +51,7 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">翻译 Artificial intelligence is transforming the way we live and work, bringing unprecedented opportunities and challenges to our society.</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>翻译的结果：</p>
+翻译的结果：
 <p>人工智能正在改变我们的生活和工作方式，给我们的社会带来了前所未有的机遇和挑战。</p>
 <p>[英语] =&gt; [中文]</p>
 </chat-message>
@@ -61,7 +61,7 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">翻译 こんにちは、世界</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>翻译的结果：</p>
+翻译的结果：
 <p>你好，世界</p>
 <p>[日语] =&gt; [中文]</p>
 </chat-message>
@@ -71,7 +71,7 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">翻译 学而时习之，不亦说乎</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>翻译的结果：</p>
+翻译的结果：
 <p>Learn and practice from time to time, isn't it pleasant?</p>
 <p>[文言文] =&gt; [英语]</p>
 </chat-message>

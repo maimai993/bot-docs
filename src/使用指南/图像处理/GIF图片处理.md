@@ -40,12 +40,9 @@ gif -b
 <chat-message nickname="麦麦" type="user">gif -b</chat-message>
 <recall-message nickname="麦芽糖bot" type="bot">在 50 秒内发送想要处理的图片</recall-message>
 <chat-message nickname="麦麦" type="user">
-
 <img src="../../img/GIF图片处理/1.gif" />
-
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <img src="../../img/GIF图片处理/2.gif" />
 图片信息：
 文件大小：4636.02 KB
@@ -54,7 +51,6 @@ gif -b
 帧间隔：66.72 毫秒
 帧率：14.99 FPS
 总时长：3.87 秒
-
 </chat-message>
 </chat-panel>
 
@@ -66,12 +62,9 @@ gif -r
 <chat-message nickname="麦麦" type="user">gif -r</chat-message>
 <recall-message nickname="麦芽糖bot" type="bot">在 50 秒内发送想要处理的图片</recall-message>
 <chat-message nickname="麦麦" type="user">
-
 <img src="../../img/GIF图片处理/3.gif" />
-
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <img src="../../img/GIF图片处理/4.gif" />
 图片信息：
 文件大小：1892.95 KB
@@ -80,7 +73,6 @@ gif -r
 帧间隔：30.00 毫秒
 帧率：33.33 FPS
 总时长：6.00 秒
-
 </chat-message>
 </chat-panel>
 
@@ -92,12 +84,9 @@ gif -l 右
 <chat-message nickname="麦麦" type="user">gif -l 右</chat-message>
 <recall-message nickname="麦芽糖bot" type="bot">在 50 秒内发送想要处理的图片</recall-message>
 <chat-message nickname="麦麦" type="user">
-
 <img src="../../img/GIF图片处理/5.gif" />
-
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <img src="../../img/GIF图片处理/6.gif" />
 图片信息：
 文件大小：1732.19 KB
@@ -106,7 +95,6 @@ gif -l 右
 帧间隔：50.00 毫秒
 帧率：20.00 FPS
 总时长：0.85 秒
-
 </chat-message>
 </chat-panel>
 
@@ -118,12 +106,9 @@ gif -o 顺
 <chat-message nickname="麦麦" type="user">gif -o 顺</chat-message>
 <recall-message nickname="麦芽糖bot" type="bot">在 50 秒内发送想要处理的图片</recall-message>
 <chat-message nickname="麦麦" type="user">
-
 <img src="../../img/GIF图片处理/5.gif" />
-
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <img src="../../img/GIF图片处理/7.gif" />
 图片信息：
 文件大小：1667.81 KB
@@ -132,7 +117,6 @@ gif -o 顺
 帧间隔：50.00 毫秒
 帧率：20.00 FPS
 总时长：0.85 秒
-
 </chat-message>
 </chat-panel>
 
@@ -144,14 +128,10 @@ gif -t 30
 <chat-message nickname="麦麦" type="user">gif -t 30</chat-message>
 <recall-message nickname="麦芽糖bot" type="bot">在 50 秒内发送想要处理的图片</recall-message>
 <chat-message nickname="麦麦" type="user">
-
 <img src="../../img/GIF图片处理/5.gif" />
-
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <img src="../../img/GIF图片处理/8.gif" />
-
 </chat-message>
 </chat-panel>
 
@@ -163,13 +143,9 @@ gif -f 20
 <chat-message nickname="麦麦" type="user">gif -f 20</chat-message>
 <recall-message nickname="麦芽糖bot" type="bot">在 50 秒内发送想要处理的图片</recall-message>
 <chat-message nickname="麦麦" type="user">
-
 <img src="../../img/GIF图片处理/5.gif" />
-
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <img src="../../img/GIF图片处理/9.gif" />
-
 </chat-message>
 </chat-panel>

@@ -33,26 +33,26 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">天气 北京</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>地区：北京市<br>
-(更新时间：13:55)<br>
-☁️==================<br>
-日期：2026-09-01 (周二)<br>
-天气：晴<br>
-温度：20℃ - 29℃<br>
-风向：东北风<br>
-风力：1级<br>
-☁️==================<br>
-日期：2026-09-02 (周三)<br>
-天气：晴<br>
-温度：19℃ - 30℃<br>
-风向：南风<br>
-风力：1级<br>
-☁️==================<br>
-日期：2026-09-03 (周四)<br>
-天气：晴<br>
-温度：20℃ - 31℃<br>
-风向：南风<br>
-风力：1级</p>
+地区：北京市
+(更新时间：13:55)
+☁️==================
+日期：2026-09-01 (周二)
+天气：晴
+温度：20℃ - 29℃
+风向：东北风
+风力：1级
+☁️==================
+日期：2026-09-02 (周三)
+天气：晴
+温度：19℃ - 30℃
+风向：南风
+风力：1级
+☁️==================
+日期：2026-09-03 (周四)
+天气：晴
+温度：20℃ - 31℃
+风向：南风
+风力：1级
 </chat-message>
 </chat-panel>
 <h4 id="查询-北京-未来-天气" tabindex="-1"><a class="header-anchor" href="#查询-北京-未来-天气"><span>查询 <code v-pre>北京</code> <code v-pre>未来</code> 天气</span></a></h4>
@@ -60,26 +60,26 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">天气 北京 5</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>地区：北京市<br>
-(更新时间：13:55)<br>
-☁️==================<br>
-日期：2026-09-01 (周二)<br>
-天气：晴<br>
-温度：20℃ - 29℃<br>
-风向：东北风<br>
-风力：1级<br>
-☁️==================<br>
-日期：2026-09-02 (周三)<br>
-天气：晴<br>
-温度：19℃ - 30℃<br>
-风向：南风<br>
-风力：1级<br>
-☁️==================<br>
-日期：2026-09-03 (周四)<br>
-天气：晴<br>
-温度：20℃ - 31℃<br>
-风向：南风<br>
-风力：1级</p>
+地区：北京市
+(更新时间：13:55)
+☁️==================
+日期：2026-09-01 (周二)
+天气：晴
+温度：20℃ - 29℃
+风向：东北风
+风力：1级
+☁️==================
+日期：2026-09-02 (周三)
+天气：晴
+温度：19℃ - 30℃
+风向：南风
+风力：1级
+☁️==================
+日期：2026-09-03 (周四)
+天气：晴
+温度：20℃ - 31℃
+风向：南风
+风力：1级
 </chat-message>
 </chat-panel>
 <h3 id="查询区级天气" tabindex="-1"><a class="header-anchor" href="#查询区级天气"><span>查询区级天气</span></a></h3>
@@ -88,15 +88,15 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">天气 湘潭</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>地区：湖南湘潭县<br>
-报告时间：<br>
-2026-09-01 17:34:12<br>
-☁️==================<br>
-天气：多云<br>
-温度：23℃<br>
-风向：北风<br>
-风力：5级<br>
-湿度：82%</p>
+地区：湖南湘潭县
+报告时间：
+2026-09-01 17:34:12
+☁️==================
+天气：多云
+温度：23℃
+风向：北风
+风力：5级
+湿度：82%
 </chat-message>
 </chat-panel>
 </div></template>

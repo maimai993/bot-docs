@@ -32,12 +32,12 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">学校查询 清华大学</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>找到如下学校信息：<br>
-【清华大学】<br>
-[成立时间] 1911年<br>
-[占地面积] 6632亩<br>
-[学校地址] 北京市海淀区清华园1号<br>
-[学校信息] 清华大学建校时间为1911年，占地面积6632亩，隶属于教育部，地址为北京市海淀区清华园1号，学校有44个国家重点学科，13个重点实验室，60个博士学科，65个硕士专业学科，属于985,211,双一流,强基计划学校。</p>
+找到如下学校信息：
+【清华大学】
+[成立时间] 1911年
+[占地面积] 6632亩
+[学校地址] 北京市海淀区清华园1号
+[学校信息] 清华大学建校时间为1911年，占地面积6632亩，隶属于教育部，地址为北京市海淀区清华园1号，学校有44个国家重点学科，13个重点实验室，60个博士学科，65个硕士专业学科，属于985,211,双一流,强基计划学校。
 </chat-message>
 </chat-panel>
 <h4 id="查询-北京大学-信息" tabindex="-1"><a class="header-anchor" href="#查询-北京大学-信息"><span>查询 <code v-pre>北京大学</code> 信息</span></a></h4>
@@ -45,12 +45,12 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">学校查询 北京大学</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>找到如下学校信息：<br>
-【北京大学】<br>
-[成立时间] 1898年<br>
-[占地面积] 7000亩<br>
-[学校地址] 北京市海淀区颐和园路5号<br>
-[学校信息] 北京大学建校时间为1898年，占地面积7000亩，隶属于教育部，地址为北京市海淀区颐和园路5号，学校有54个国家重点学科，47个重点实验室，49个博士学科，50个硕士专业学科，属于985,211,双一流,强基计划学校。</p>
+找到如下学校信息：
+【北京大学】
+[成立时间] 1898年
+[占地面积] 7000亩
+[学校地址] 北京市海淀区颐和园路5号
+[学校信息] 北京大学建校时间为1898年，占地面积7000亩，隶属于教育部，地址为北京市海淀区颐和园路5号，学校有54个国家重点学科，47个重点实验室，49个博士学科，50个硕士专业学科，属于985,211,双一流,强基计划学校。
 </chat-message>
 </chat-panel></div></template>
 

@@ -250,14 +250,14 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">添加自选 中证白酒</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>是否确认将下列股票添加自选?<br>
-中证白酒(512690)<br>
-请输入是或否。</p>
+是否确认将下列股票添加自选?
+中证白酒(512690)
+请输入是或否。
 </chat-message>
 <chat-message nickname="麦麦" type="user">是</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>✅[SayuStock] 添加自选成功!<br>
-可发送[我的自选]查看或发送[删除自选]清除！</p>
+✅[SayuStock] 添加自选成功!
+可发送[我的自选]查看或发送[删除自选]清除！
 </chat-message>
 </chat-panel>
 <h4 id="查看我的自选" tabindex="-1"><a class="header-anchor" href="#查看我的自选"><span>查看我的自选</span></a></h4>

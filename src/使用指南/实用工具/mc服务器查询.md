@@ -78,9 +78,7 @@ MBS mc233.cn
 <chat-panel>
 <chat-message nickname="麦麦" type="user">MBS mc233.cn</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <img src="../../img/MC服务器查询/1.png" />
-
 </chat-message>
 </chat-panel>
 
@@ -91,9 +89,7 @@ MBS mc233.cn
 <chat-panel>
 <chat-message nickname="麦麦" type="user">MBS mc233.cn</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <img src="../../img/MC服务器查询/1.png" />
-
 </chat-message>
 </chat-panel>
 
@@ -106,9 +102,7 @@ MJS mc233.cn
 <chat-panel>
 <chat-message nickname="麦麦" type="user">MJS mc233.cn</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <img src="../../img/MC服务器查询/2.png" />
-
 </chat-message>
 </chat-panel>
 
@@ -119,8 +113,6 @@ MJS play.simpfun.cn 36877
 <chat-panel>
 <chat-message nickname="麦麦" type="user">MJS play.simpfun.cn 36877</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <img src="../../img/MC服务器查询/3.png" />
-
 </chat-message>
 </chat-panel>

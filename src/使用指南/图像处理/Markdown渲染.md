@@ -38,7 +38,6 @@ md # 标题
 ```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">
-
 md # 标题
 这是一段<strong>粗体</strong>文字，这是<em>斜体</em>文字。
 <ul>
@@ -48,12 +47,9 @@ md # 标题
 <blockquote>
 这是一段引用
 </blockquote>
-
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <img src="../../img/Markdown渲染/1.jpg" />
-
 </chat-message>
 </chat-panel>
 
@@ -71,7 +67,6 @@ $$
 ```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">
-
 md # 数学公式示例
 
 行内公式：
@@ -83,11 +78,8 @@ $E = mc^2$
 $$
 \int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
 $$
-
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 <img src="../../img/Markdown渲染/2.jpg" />
-
 </chat-message>
 </chat-panel>

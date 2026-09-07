@@ -31,32 +31,30 @@
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>b站评分 有兽焉</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">b站评分 有兽焉</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">正在搜索番剧信息，本次最大时间限制为 240 秒</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p>正在搜索番剧信息，本次最大时间限制为 240 秒</p>
-</chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">
-<p>‬======= 详细统计结果 =======<br>
-当前时间：2026/9/1 18:37:14<br>
-番剧名称：有兽焉<br>
-‬----------------------------<br>
-短评统计：<br>
-• 平均分：10.0<br>
-• 已收集样本：780 条<br>
-• 官方标称总数：2902 条<br>
-‬----------------------------<br>
-长评统计：<br>
-• 平均分：9.4<br>
-• 已收集样本：40 条<br>
-• 官方标称总数：40 条<br>
-‬----------------------------<br>
-综合统计：<br>
-• 总平均分：9.9<br>
-• 总已收集样本：820 条<br>
-‬----------------------------<br>
-官方数据：<br>
-• 官方评分：9.8<br>
-• 官方样本：10870 条<br>
-‬==============================</p>
+‬======= 详细统计结果 =======
+当前时间：2026/9/1 18:37:14
+番剧名称：有兽焉
+‬----------------------------
+短评统计：
+• 平均分：10.0
+• 已收集样本：780 条
+• 官方标称总数：2902 条
+‬----------------------------
+长评统计：
+• 平均分：9.4
+• 已收集样本：40 条
+• 官方标称总数：40 条
+‬----------------------------
+综合统计：
+• 总平均分：9.9
+• 总已收集样本：820 条
+‬----------------------------
+官方数据：
+• 官方评分：9.8
+• 官方样本：10870 条
+‬==============================
 </chat-message>
 </chat-panel>
 </div></template>

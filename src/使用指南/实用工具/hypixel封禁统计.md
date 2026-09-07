@@ -32,7 +32,6 @@ hypixel
 <chat-panel>
 <chat-message nickname="麦麦" type="user">hypixel</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 🕒 更新时间: 2025-11-16 23:35:15
 🛡️ Watchdog封禁统计:
 ▸ 最近1分钟: 0次
@@ -45,7 +44,6 @@ hypixel
 📜 最近封禁记录:
 [🐕] 23:35:15 封禁 10040701 名玩家
 [👮] 23:35:15 封禁 5272330 名玩家
-
 </chat-message>
 </chat-panel>
 
@@ -57,7 +55,6 @@ hpbans
 <chat-panel>
 <chat-message nickname="麦麦" type="user">hpbans</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-
 🕒 更新时间: 2025-11-16 23:35:15
 🛡️ Watchdog封禁统计:
 ▸ 最近1分钟: 0次
@@ -70,6 +67,5 @@ hpbans
 📜 最近封禁记录:
 [🐕] 23:35:15 封禁 10040701 名玩家
 [👮] 23:35:15 封禁 5272330 名玩家
-
 </chat-message>
 </chat-panel>

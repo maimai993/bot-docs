@@ -10,11 +10,11 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">吃什么</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p><img src="@source/img/今天吃什么/1.jpeg" />建议水饺</p>
+<img src="@source/img/今天吃什么/1.jpeg" />建议水饺
 </chat-message>
 <chat-message nickname="麦麦" type="user">那喝什么</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p><img src="@source/img/今天吃什么/2.jpeg" />建议吃土摇摇奶昔</p>
+<img src="@source/img/今天吃什么/2.jpeg" />建议吃土摇摇奶昔
 </chat-message>
 </chat-panel></div></template>
 

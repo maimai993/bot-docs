@@ -49,9 +49,7 @@ fe16314b-b740-410e-bc0f-eec53dc250e5 已渲染成功，结果如上
 <h3 id="渲染网络投影文件" tabindex="-1"><a class="header-anchor" href="#渲染网络投影文件"><span>渲染网络投影文件</span></a></h3>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>litematic.render https://www.mcschematic.top/api/schematicFile?uuid=3366cd90-5ba0-4d86-9a69-494a13626ee6</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
-<chat-message nickname="麦麦" type="user">
-<p>litematic.render <a href="https://www.mcschematic.top/api/schematicFile?uuid=3366cd90-5ba0-4d86-9a69-494a13626ee6" target="_blank" rel="noopener noreferrer">https://www.mcschematic.top/api/schematicFile?uuid=3366cd90-5ba0-4d86-9a69-494a13626ee6</a></p>
-</chat-message>
+<chat-message nickname="麦麦" type="user">litematic.render https://www.mcschematic.top/api/schematicFile?uuid=3366cd90-5ba0-4d86-9a69-494a13626ee6</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <img src="@source/img/渲染投影/2.png" />
 投影名称：schematic

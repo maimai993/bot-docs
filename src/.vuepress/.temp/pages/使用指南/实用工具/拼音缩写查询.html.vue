@@ -31,34 +31,26 @@
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>abbr myt</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">abbr myt</chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">
-<p>myt：没有头, 麦芽糖, 米羽糖</p>
-</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">myt：没有头, 麦芽糖, 米羽糖</chat-message>
 </chat-panel>
 <h4 id="查询-yyds-拼音缩写" tabindex="-1"><a class="header-anchor" href="#查询-yyds-拼音缩写"><span>查询 <code v-pre>yyds</code> 拼音缩写</span></a></h4>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>abbr yyds</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">abbr yyds</chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">
-<p>yyds：永远滴神, 永远的神, 永远单身</p>
-</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">yyds：永远滴神, 永远的神, 永远单身</chat-message>
 </chat-panel>
 <h4 id="查询-xswl-拼音缩写" tabindex="-1"><a class="header-anchor" href="#查询-xswl-拼音缩写"><span>查询 <code v-pre>xswl</code> 拼音缩写</span></a></h4>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>abbr xswl</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">abbr xswl</chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">
-<p>xswl：笑死我了, 想死我了, 想死我了</p>
-</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">xswl：笑死我了, 想死我了, 想死我了</chat-message>
 </chat-panel>
 <h3 id="查询不存在的缩写" tabindex="-1"><a class="header-anchor" href="#查询不存在的缩写"><span>查询不存在的缩写</span></a></h3>
 <h4 id="查询不存在的缩写-1" tabindex="-1"><a class="header-anchor" href="#查询不存在的缩写-1"><span>查询不存在的缩写</span></a></h4>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>abbr abcdefg</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">abbr abcdefg</chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">
-<p>未找到对应的缩写。</p>
-</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">未找到对应的缩写。</chat-message>
 </chat-panel>
 </div></template>
 

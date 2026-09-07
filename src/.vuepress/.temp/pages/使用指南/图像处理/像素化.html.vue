@@ -50,12 +50,8 @@
 <h3 id="基本像素化" tabindex="-1"><a class="header-anchor" href="#基本像素化"><span>基本像素化</span></a></h3>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>像素化</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
-<chat-message nickname="麦麦" type="user">
-<p>像素化</p>
-</chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">
-<p>请发送一张图片：</p>
-</chat-message>
+<chat-message nickname="麦麦" type="user">像素化</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">请发送一张图片：</chat-message>
 <chat-message nickname="麦麦" type="user">
 <img src="@source/img/像素化/1.png" />
 </chat-message>
@@ -66,12 +62,8 @@
 <h3 id="指定像素化百分比" tabindex="-1"><a class="header-anchor" href="#指定像素化百分比"><span>指定像素化百分比</span></a></h3>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>像素化 -p 50</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
-<chat-message nickname="麦麦" type="user">
-<p>像素化 -p 50</p>
-</chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">
-<p>请发送一张图片：</p>
-</chat-message>
+<chat-message nickname="麦麦" type="user">像素化 -p 50</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">请发送一张图片：</chat-message>
 <chat-message nickname="麦麦" type="user">
 <img src="@source/img/像素化/1.png" />
 </chat-message>
