@@ -10,7 +10,7 @@ order: 1
 
 ## 机器人信息
 
-- **机器人QQ号**: [2854208746](https://qun.qq.com/qunpro/robot/jump?qrcode_url=https%3A%2F%2Fq.qq.com%2Fqqbot%2Fprofile%2F%3Frobot_appid%3D102068359%26robot_uin%3D2854208746)
+- **机器人QQ号**: [2854208746](https://q.qq.com/qqbot/profile/?robot_appid=102068359&robot_uin=2854208746)
 - **官方QQ群**: [1050229473](https://qm.qq.com/q/viymkIPvvq)
 - **状态**: 24小时在线运行
 
@@ -18,7 +18,7 @@ order: 1
 
 ### 1. 添加机器人好友
 
-在QQ中搜索并添加机器人好友：**[2854208746](https://qun.qq.com/qunpro/robot/jump?qrcode_url=https%3A%2F%2Fq.qq.com%2Fqqbot%2Fprofile%2F%3Frobot_appid%3D102068359%26robot_uin%3D2854208746)**
+在QQ中搜索并添加机器人好友：**[2854208746](https://q.qq.com/qqbot/profile/?robot_appid=102068359&robot_uin=2854208746)**
 
 ### 2. 加入官方群聊
 

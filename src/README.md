@@ -52,3 +52,4 @@ actions:
 ::: warning 🚧 文档正在建设中
 本文档目前仍在完善中，部分功能说明可能不够详细或存在遗漏。如果您在使用过程中遇到问题，欢迎在[官方QQ群](https://qm.qq.com/q/viymkIPvvq)中反馈！
 :::
+<meta name="algolia-site-verification"  content="824737B77FCAC32F" />

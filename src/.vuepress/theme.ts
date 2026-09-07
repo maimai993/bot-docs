@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://maltose-bot.com",
+  hostname: "https://docs.tangbot.xyz",
 
   author: {
     name: "麦麦",
@@ -123,6 +123,14 @@ export default hopeTheme({
       repoId: "R_kgDOG_Pt2A",
       category: "Announcements",
       categoryId: "DIC_kwDOG_Pt2M4COD69",
+      
+    },
+
+    docsearch: {
+      appId: "MB68YKH672",
+      apiKey: "537217be184770ff5361d70703723246",
+      indexName: "搜索", 
+
     },
 
     components: {

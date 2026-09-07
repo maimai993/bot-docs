@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "@vuepress/plugin-docsearch": "2.0.0-rc.134",
     "chart.js": "^4.5.1",
     "flowchart.ts": "^3.0.1",
     "mermaid": "^11.12.0",
