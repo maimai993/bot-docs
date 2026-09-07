@@ -1,16 +1,3 @@
 import comp from "D:/bot-docs/src/.vuepress/.temp/pages/使用指南/娱乐功能/今天吃什么.html.vue"
-const data = JSON.parse("{\"path\":\"/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%A8%B1%E4%B9%90%E5%8A%9F%E8%83%BD/%E4%BB%8A%E5%A4%A9%E5%90%83%E4%BB%80%E4%B9%88.html\",\"title\":\"今天吃什么\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"今天吃什么\",\"icon\":\"utensils\",\"order\":8,\"description\":\"今天吃什么 功能描述 随机推荐今天吃什么、喝什么 使用方法 指令名称 使用示例\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"今天吃什么\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"麦麦\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://maltose-bot.com/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%A8%B1%E4%B9%90%E5%8A%9F%E8%83%BD/%E4%BB%8A%E5%A4%A9%E5%90%83%E4%BB%80%E4%B9%88.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"麦芽糖\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"今天吃什么\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"今天吃什么 功能描述 随机推荐今天吃什么、喝什么 使用方法 指令名称 使用示例\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}]]},\"readingTime\":{\"minutes\":0.4,\"words\":120},\"filePathRelative\":\"使用指南/娱乐功能/今天吃什么.md\",\"autoDesc\":true}")
+const data = JSON.parse("{\"path\":\"/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%A8%B1%E4%B9%90%E5%8A%9F%E8%83%BD/%E4%BB%8A%E5%A4%A9%E5%90%83%E4%BB%80%E4%B9%88.html\",\"title\":\"今天吃什么\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"今天吃什么\",\"icon\":\"utensils\",\"order\":8,\"description\":\"今天吃什么 功能描述 随机推荐今天吃什么、喝什么 使用方法 指令名称 使用示例\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"今天吃什么\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":\\\"2026-09-04T11:24:35.000Z\\\",\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"麦麦\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://maltose-bot.com/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%A8%B1%E4%B9%90%E5%8A%9F%E8%83%BD/%E4%BB%8A%E5%A4%A9%E5%90%83%E4%BB%80%E4%B9%88.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"麦芽糖\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"今天吃什么\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"今天吃什么 功能描述 随机推荐今天吃什么、喝什么 使用方法 指令名称 使用示例\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2026-09-04T11:24:35.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2026-09-04T11:24:35.000Z\"}]]},\"git\":{\"createdTime\":1788403841000,\"updatedTime\":1788521075000,\"contributors\":[{\"name\":\"maimai993\",\"username\":\"maimai993\",\"email\":\"hjm184563@gmail.com\",\"commits\":2,\"url\":\"https://github.com/maimai993\"}]},\"readingTime\":{\"minutes\":0.45,\"words\":135},\"filePathRelative\":\"使用指南/娱乐功能/今天吃什么.md\",\"autoDesc\":true}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

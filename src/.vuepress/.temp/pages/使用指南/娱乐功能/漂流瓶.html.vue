@@ -50,7 +50,8 @@
 </tbody>
 </table>
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>@麦芽糖bot /漂流瓶.扔漂流瓶 测试</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">@麦芽糖bot /漂流瓶.扔漂流瓶 测试</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">你的1号漂流瓶扔出去了！<br>发送“漂流瓶.命名瓶子 编号 名字”可以命名瓶子！（可以重名哦）<br>命名后可以发送“漂流瓶.捞漂流瓶 名字”来捞漂流瓶，只要名字包含就能被捞到！<br><br>漂流瓶预览：<br>测试</chat-message>
 <chat-message nickname="麦麦" type="user">@麦芽糖bot /漂流瓶.捞漂流瓶</chat-message>

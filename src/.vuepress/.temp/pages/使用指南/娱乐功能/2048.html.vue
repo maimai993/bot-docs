@@ -41,37 +41,40 @@
 </table>
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="进行游戏" tabindex="-1"><a class="header-anchor" href="#进行游戏"><span>进行游戏</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>2048</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">2048</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">🎮 2048 开始。</chat-message><chat-message nickname="麦芽糖bot" type="bot">
-    <img src="@source/使用指南/娱乐功能/117ee9238097f9d714a172023d7a23db.png" />
-    直接发送方向：上 / 下 / 左 / 右（也支持 WASD、箭头和连续输入）
+<img src="@source/img/2048/1.png" />
+直接发送方向：上 / 下 / 左 / 右（也支持 WASD、箭头和连续输入）
 </chat-message>
 <chat-message nickname="麦麦" type="user">w</chat-message><chat-message nickname="麦芽糖bot" type="bot">
-    <img src="@source/使用指南/娱乐功能/6e748599cde7c8faf56d6843aefb1399.png" />
+<img src="@source/img/2048/2.png" />
 </chat-message>
 <chat-message nickname="麦麦" type="user">a</chat-message><chat-message nickname="麦芽糖bot" type="bot">
-    <img src="@source/使用指南/娱乐功能/59567f4cfd4d3addf4ae2758f773f892.png" />
+<img src="@source/img/2048/3.png" />
 </chat-message>
 <chat-message nickname="麦麦" type="user">wawsdasdawsd</chat-message><chat-message nickname="麦芽糖bot" type="bot">
-    <img src="@source/使用指南/娱乐功能/4ea9ce8cf790207d9026bef24d044c28.png" />
+<img src="@source/img/2048/4.png" />
 </chat-message>
 <chat-message nickname="麦麦" type="user">上上下下左左右右</chat-message><chat-message nickname="麦芽糖bot" type="bot">
-    <img src="@source/使用指南/娱乐功能/668bff98841f809d28eddcddb4e3c17c.png" />
+<img src="@source/img/2048/5.png" />
 </chat-message>
 <chat-message nickname="麦麦" type="user">↑↑↓↓</chat-message><chat-message nickname="麦芽糖bot" type="bot">
-    <img src="@source/使用指南/娱乐功能/7c6cc3c425e3cb0b7342bf0a2cb08452.png" />
+<img src="@source/img/2048/6.png" />
 </chat-message>
 <chat-message nickname="麦麦" type="user">wasdwasdwasdwasdwasdwasdwasd</chat-message><chat-message nickname="麦芽糖bot" type="bot">
-    <img src="@source/使用指南/娱乐功能/17040101e1c42789abbcde15d298a092.png" />
+<img src="@source/img/2048/7.png" />
 </chat-message>
 </chat-panel>
 <h3 id="结束游戏" tabindex="-1"><a class="header-anchor" href="#结束游戏"><span>结束游戏</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>2048.结束</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">2048.结束</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">✅ 本局已结束。发送「2048」可开始新游戏。</chat-message></chat-panel>
 <h3 id="查看排行榜" tabindex="-1"><a class="header-anchor" href="#查看排行榜"><span>查看排行榜</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>2048.排行</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">2048.排行</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>🏆 2048 综合成就榜</p>
@@ -83,7 +86,8 @@
 </chat-message>
 </chat-panel>
 <h3 id="查看生涯成就" tabindex="-1"><a class="header-anchor" href="#查看生涯成就"><span>查看生涯成就</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>2048.记录</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">2048.记录</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">🏅 麦麦 的 2048 生涯<br>最高数字：64<br>最高分数：492<br>达成 2048：0 次</chat-message></chat-panel></div></template>
 

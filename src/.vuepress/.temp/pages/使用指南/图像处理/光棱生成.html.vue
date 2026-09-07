@@ -157,67 +157,71 @@
 </table>
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="制作光棱坦克-1" tabindex="-1"><a class="header-anchor" href="#制作光棱坦克-1"><span>制作光棱坦克</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>光棱</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">
-光棱
+<p>光棱</p>
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-请发送一张图片作为【里图】：
+<p>请发送一张图片作为【里图】：</p>
 </chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/光棱1.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/光棱坦克/1.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-请发送一张图片作为【表图】：
+<p>请发送一张图片作为【表图】：</p>
 </chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/光棱2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/光棱坦克/2.jpg" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/光棱3.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/光棱坦克/3.png" />
 </chat-message>
 </chat-panel>
 <h3 id="使用自定义参数制作光棱坦克" tabindex="-1"><a class="header-anchor" href="#使用自定义参数制作光棱坦克"><span>使用自定义参数制作光棱坦克</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>光棱 -it 20 -ct 100 -s 800</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">
-光棱 -it 20 -ct 100 -s 800
+<p>光棱 -it 20 -ct 100 -s 800</p>
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-请发送一张图片作为【里图】：
+<p>请发送一张图片作为【里图】：</p>
 </chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/光棱2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/光棱坦克/2.jpg" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-请发送一张图片作为【表图】：
+<p>请发送一张图片作为【表图】：</p>
 </chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/光棱1.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/光棱坦克/1.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/光棱4.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/光棱坦克/4.png" />
 </chat-message>
 </chat-panel>
 <h3 id="从光棱坦克取图-1" tabindex="-1"><a class="header-anchor" href="#从光棱坦克取图-1"><span>从光棱坦克取图</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>光棱取图</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">
-光棱取图
+<p>光棱取图</p>
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-请发送一张光棱坦克图片：
+<p>请发送一张光棱坦克图片：</p>
 </chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/光棱3.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/光棱坦克/3.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/光棱5.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/光棱坦克/5.png" />
 </chat-message>
 </chat-panel>
 <h3 id="使用qq头像制作光棱坦克" tabindex="-1"><a class="header-anchor" href="#使用qq头像制作光棱坦克"><span>使用QQ头像制作光棱坦克</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>光棱 2237886846 1660394708</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">光棱 2237886846 1660394708</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/光棱6.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/光棱坦克/6.png" />
 </chat-message>
 </chat-panel>
 </div></template>

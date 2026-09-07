@@ -41,41 +41,57 @@ b站搜索 <内容> [类型] [排序]
 ### 基本搜索
 
 #### 搜索 `furry` 相关内容
+```
+b站搜索 furry
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">b站搜索 furry</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 
-![](./b站搜索1.png)
+<img src="../../img/b站搜索/1.png" />
+
 </chat-message>
 </chat-panel>
 
 ### 指定类型搜索
 
 #### 搜索 `furry` 用户
+```
+b站搜索 furry 用户
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">b站搜索 furry 用户</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 
-![](./b站搜索2.png)
+<img src="../../img/b站搜索/2.png" />
+
 </chat-message>
 </chat-panel>
 
 ### 指定排序方式
 
 #### 搜索 `furry` 用户并按粉丝数排序
+```
+b站搜索 furry 用户 粉丝由高到低
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">b站搜索 furry 用户 粉丝由高到低</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 
-![](./b站搜索3.png)
+<img src="../../img/b站搜索/3.png" />
+
 </chat-message>
 </chat-panel>
 
 #### 搜索 `furry` 视频并按播放量排序
+```
+b站搜索 furry 视频 最多播放
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">b站搜索 furry 视频 最多播放</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 
-![](./b站搜索4.png)
+<img src="../../img/b站搜索/4.png" />
+
 </chat-message>
 </chat-panel>

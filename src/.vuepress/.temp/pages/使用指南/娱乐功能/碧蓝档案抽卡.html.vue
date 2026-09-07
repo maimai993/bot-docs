@@ -40,25 +40,26 @@
 </tbody>
 </table>
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>蔚蓝抽卡.单抽</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">蔚蓝抽卡.单抽</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<img src="@source/使用指南/娱乐功能/ce02d9ead8bd75f3f9dd390e1a29bccf.png" />
+<img src="@source/img/碧蓝档案抽卡/1.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">这是您的招募结果【璀璨彩色】，请在5秒内做任意回复处理结果。否则5秒后开始公布</chat-message>
 <chat-message nickname="麦麦" type="user">1</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">请稍等，正在下载结果</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<img src="@source/使用指南/娱乐功能/e64cb1531238b0eb6e5300edaadc95f1.png" />
+<img src="@source/img/碧蓝档案抽卡/2.png" />
 </chat-message>
 <chat-message nickname="麦麦" type="user">蔚蓝抽卡.十连</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<img src="@source/使用指南/娱乐功能/f4e7205bcf4ab0321f1135d6cd7524a6.png" />
+<img src="@source/img/碧蓝档案抽卡/3.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">这是您的招募结果【暗淡蓝光】，请在5秒内做任意回复处理结果。否则5秒后开始公布</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">请稍等，正在下载结果</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<img src="@source/使用指南/娱乐功能/a2d334b97d5c36fe81ba370b3a25ef0b.png" />
+<img src="@source/img/碧蓝档案抽卡/4.png" />
 </chat-message>
 <chat-message nickname="麦麦" type="user">蔚蓝抽卡.统计</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">截至当期记录，全体用户总计抽卡：11次。其中：<br>1 星角色：9 (81%)<br>2 星角色：1 (9%)<br>3 星角色：1 (9%)</chat-message>
@@ -67,7 +68,7 @@
 <chat-message nickname="麦麦" type="user">蔚蓝抽卡.信息</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">🎕 当期是 fes卡池！出彩概率提高至 6%噢~ 🎕<br>当期卡池UP的角色是：<br>花江（圣诞节）、芹娜（圣诞节）</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<img src="@source/使用指南/娱乐功能/6c9addde91659f348c1659e5367552ae.png" />
+<img src="@source/img/碧蓝档案抽卡/5.png" />
 </chat-message>
 </chat-panel></div></template>
 

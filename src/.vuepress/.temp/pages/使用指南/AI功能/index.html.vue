@@ -7,17 +7,12 @@
 </ul>
 <h3 id="🎨-图像创作" tabindex="-1"><a class="header-anchor" href="#🎨-图像创作"><span>🎨 图像创作</span></a></h3>
 <ul>
-<li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/AI%E5%8A%9F%E8%83%BD/AI%E7%94%BB%E5%9B%BE.html">AI画图</RouteLink></strong> - 人工智能绘画功能</li>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/AI%E5%8A%9F%E8%83%BD/AI%E5%8F%8D%E6%8E%A8tag.html">AI 反推tag</RouteLink></strong> - 图片标签反推分析</li>
 </ul>
 <h3 id="💬-智能对话" tabindex="-1"><a class="header-anchor" href="#💬-智能对话"><span>💬 智能对话</span></a></h3>
 <ul>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/AI%E5%8A%9F%E8%83%BD/deepseek.html">deepseek</RouteLink></strong> - DeepSeek智能对话模型</li>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/AI%E5%8A%9F%E8%83%BD/mc%E9%97%AE%E7%AD%94.html">mc问答</RouteLink></strong> - 我的世界相关问答</li>
-</ul>
-<h3 id="🎬-视频生成" tabindex="-1"><a class="header-anchor" href="#🎬-视频生成"><span>🎬 视频生成</span></a></h3>
-<ul>
-<li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/AI%E5%8A%9F%E8%83%BD/sora%E8%A7%86%E9%A2%91%E7%94%9F%E6%88%90.html">sora视频生成</RouteLink></strong> - Sora视频生成功能</li>
 </ul>
 <h2 id="使用说明" tabindex="-1"><a class="header-anchor" href="#使用说明"><span>使用说明</span></a></h2>
 <ol>

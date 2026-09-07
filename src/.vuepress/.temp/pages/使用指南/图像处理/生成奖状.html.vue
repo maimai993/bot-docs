@@ -74,17 +74,19 @@
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="基本奖状生成" tabindex="-1"><a class="header-anchor" href="#基本奖状生成"><span>基本奖状生成</span></a></h3>
 <h4 id="生成简单奖状" tabindex="-1"><a class="header-anchor" href="#生成简单奖状"><span>生成简单奖状</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>生成奖状 张三 galgame糕手</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">生成奖状 张三 galgame糕手</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/奖状.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/生成奖状/1.png" />
 </chat-message>
 </chat-panel>
 <h4 id="指定授奖单位" tabindex="-1"><a class="header-anchor" href="#指定授奖单位"><span>指定授奖单位</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>生成奖状 李四 游戏苦手 原神</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">生成奖状 李四 游戏苦手 原神</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/奖状2.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/生成奖状/2.png" />
 </chat-message>
 </chat-panel>
 </div></template>

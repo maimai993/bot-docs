@@ -26,6 +26,9 @@ hpbans
 
 ### 查询封禁统计
 
+```
+hypixel
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">hypixel</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
@@ -42,11 +45,15 @@ hpbans
 📜 最近封禁记录:
 [🐕] 23:35:15 封禁 10040701 名玩家
 [👮] 23:35:15 封禁 5272330 名玩家
+
 </chat-message>
 </chat-panel>
 
 ### 使用别名查询
 
+```
+hpbans
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">hpbans</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
@@ -63,5 +70,6 @@ hpbans
 📜 最近封禁记录:
 [🐕] 23:35:15 封禁 10040701 名玩家
 [👮] 23:35:15 封禁 5272330 名玩家
+
 </chat-message>
 </chat-panel>

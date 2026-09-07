@@ -53,30 +53,31 @@
 <span class="line"><span>高清修复</span></span>
 <span class="line"><span>鬼图</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>手办化</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">手办化</chat-message>
 <chat-message nickname="麦麦" type="user">
-<img src="@source/使用指南/图像处理/284ae042a1d5d32aac8617f088a3a60d.png" />
+<img src="@source/img/手办化/1.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">正在处理图片，请稍候...</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<img src="@source/使用指南/图像处理/09a6842123a0f5b43782d0f6fdf23b8d.png" />
+<img src="@source/img/手办化/2.png" />
 </chat-message>
 <chat-message nickname="麦麦" type="user">玩偶化</chat-message>
 <chat-message nickname="麦麦" type="user">
-<img src="@source/使用指南/图像处理/4a2bac3f476c712cc152fb7e46ef9cb6.png" />
+<img src="@source/img/手办化/3.png" />
 </chat-message>
 <chat-message nickname="麦芽糖-dev" type="bot">正在处理图片，请稍候...</chat-message>
 <chat-message nickname="麦芽糖-dev" type="bot">
-<img src="@source/使用指南/图像处理/467e7b544ca2791bf4595cacafae5c29.png" />
+<img src="@source/img/手办化/4.png" />
 </chat-message>
 <chat-message nickname="麦麦" type="user">3d打印</chat-message>
 <chat-message nickname="麦麦" type="user">
-<img src="@source/使用指南/图像处理/4a2bac3f476c712cc152fb7e46ef9cb6.png" />
+<img src="@source/img/手办化/3.png" />
 </chat-message>
 <chat-message nickname="麦芽糖-dev" type="bot">正在处理图片，请稍候...</chat-message>
 <chat-message nickname="麦芽糖-dev" type="bot">
-<img src="@source/使用指南/图像处理/23a37d04f040f7fd43ec521f3f6f3e7c.png" />
+<img src="@source/img/手办化/5.png" />
 </chat-message>
 </chat-panel></div></template>
 

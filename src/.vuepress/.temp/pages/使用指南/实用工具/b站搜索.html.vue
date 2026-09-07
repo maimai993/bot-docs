@@ -89,33 +89,37 @@
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="基本搜索" tabindex="-1"><a class="header-anchor" href="#基本搜索"><span>基本搜索</span></a></h3>
 <h4 id="搜索-furry-相关内容" tabindex="-1"><a class="header-anchor" href="#搜索-furry-相关内容"><span>搜索 <code v-pre>furry</code> 相关内容</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>b站搜索 furry</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">b站搜索 furry</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/实用工具/b站搜索1.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/b站搜索/1.png" />
 </chat-message>
 </chat-panel>
 <h3 id="指定类型搜索" tabindex="-1"><a class="header-anchor" href="#指定类型搜索"><span>指定类型搜索</span></a></h3>
 <h4 id="搜索-furry-用户" tabindex="-1"><a class="header-anchor" href="#搜索-furry-用户"><span>搜索 <code v-pre>furry</code> 用户</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>b站搜索 furry 用户</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">b站搜索 furry 用户</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/实用工具/b站搜索2.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/b站搜索/2.png" />
 </chat-message>
 </chat-panel>
 <h3 id="指定排序方式" tabindex="-1"><a class="header-anchor" href="#指定排序方式"><span>指定排序方式</span></a></h3>
 <h4 id="搜索-furry-用户并按粉丝数排序" tabindex="-1"><a class="header-anchor" href="#搜索-furry-用户并按粉丝数排序"><span>搜索 <code v-pre>furry</code> 用户并按粉丝数排序</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>b站搜索 furry 用户 粉丝由高到低</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">b站搜索 furry 用户 粉丝由高到低</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/实用工具/b站搜索3.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/b站搜索/3.png" />
 </chat-message>
 </chat-panel>
 <h4 id="搜索-furry-视频并按播放量排序" tabindex="-1"><a class="header-anchor" href="#搜索-furry-视频并按播放量排序"><span>搜索 <code v-pre>furry</code> 视频并按播放量排序</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>b站搜索 furry 视频 最多播放</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">b站搜索 furry 视频 最多播放</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/实用工具/b站搜索4.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/b站搜索/4.png" />
 </chat-message>
 </chat-panel>
 </div></template>

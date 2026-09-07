@@ -35,10 +35,11 @@
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="基本合成" tabindex="-1"><a class="header-anchor" href="#基本合成"><span>基本合成</span></a></h3>
 <h4 id="合成笑脸和哭脸" tabindex="-1"><a class="header-anchor" href="#合成笑脸和哭脸"><span>合成笑脸和哭脸</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>emix 😊😢</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">emix 😊😢</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/emoji合成.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/Emoji合成/1.png" />
 </chat-message>
 </chat-panel>
 </div></template>

@@ -26,7 +26,8 @@
 </tbody>
 </table>
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>发病 麦麦</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">发病 麦麦</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">雨水从叶子上滑落，只有我明白那是我思念麦麦的泪水，风悄悄的吹过，只有我明白那是我思念麦麦的叹息，喔！我的麦麦</chat-message>
 </chat-panel>

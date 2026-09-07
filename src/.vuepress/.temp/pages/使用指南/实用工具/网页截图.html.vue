@@ -61,25 +61,28 @@
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="基本截图" tabindex="-1"><a class="header-anchor" href="#基本截图"><span>基本截图</span></a></h3>
 <h4 id="截图-百度-首页" tabindex="-1"><a class="header-anchor" href="#截图-百度-首页"><span>截图 <a href="https://www.baidu.com" target="_blank" rel="noopener noreferrer"><code v-pre>百度</code></a> 首页</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>shot https://www.baidu.com</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">shot https://www.baidu.com</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/实用工具/网页截图.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/网页截图/1.png" />
 </chat-message>
 </chat-panel>
 <h3 id="使用选项" tabindex="-1"><a class="header-anchor" href="#使用选项"><span>使用选项</span></a></h3>
 <h4 id="全页面截图" tabindex="-1"><a class="header-anchor" href="#全页面截图"><span>全页面截图</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>shot https://www.bilibili.com -f</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">shot https://www.bilibili.com -f</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/实用工具/网页截图3.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/网页截图/2.png" />
 </chat-message>
 </chat-panel>
 <h4 id="指定视口大小" tabindex="-1"><a class="header-anchor" href="#指定视口大小"><span>指定视口大小</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>shot https://www.taobao.com -v 1280x720</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">shot https://www.taobao.com -v 1280x720</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/实用工具/网页截图4.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/网页截图/3.png" />
 </chat-message>
 </chat-panel>
 </div></template>

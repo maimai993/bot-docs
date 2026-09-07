@@ -1,8 +1,6 @@
 <template><div><h1 id="禁言" tabindex="-1"><a class="header-anchor" href="#禁言"><span>禁言</span></a></h1>
-<h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<figure><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" tabindex="0" loading="lazy"></a><figcaption></figcaption></figure>
-<p><strong>指令名称</strong>: 禁言</p>
-<p><strong>功能描述</strong>: 群成员禁言管理</p>
+<h2 id="功能描述" tabindex="-1"><a class="header-anchor" href="#功能描述"><span>功能描述</span></a></h2>
+<p>群成员禁言管理</p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>本功能需要管理员或群主权限，请谨慎使用。</p>

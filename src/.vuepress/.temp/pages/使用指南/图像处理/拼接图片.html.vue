@@ -33,77 +33,79 @@
 </ol>
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="横向拼接图片" tabindex="-1"><a class="header-anchor" href="#横向拼接图片"><span>横向拼接图片</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>拼图 横向</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">拼图 横向</chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">请发送图片，输入 "完成" 开始拼接。</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">请发送图片，输入 &quot;完成&quot; 开始拼接。</chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/1-1.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/拼接图片/1.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">已获取 1 张图片。</chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/1-2.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/拼接图片/2.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">已获取 2 张图片。</chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/1-3.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/拼接图片/3.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">已获取 3 张图片。</chat-message>
 <chat-message nickname="麦麦" type="user">完成</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/result1.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/拼接图片/4.png" />
 </chat-message>
-<chat-message nickname="麦麦" type="user">拼图 横向</chat-message><chat-message nickname="麦芽糖bot" type="bot">请发送图片，输入 "完成" 开始拼接。</chat-message><chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/2-1.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<chat-message nickname="麦麦" type="user">拼图 横向</chat-message><chat-message nickname="麦芽糖bot" type="bot">请发送图片，输入 &quot;完成&quot; 开始拼接。</chat-message><chat-message nickname="麦麦" type="user">
+<img src="@source/img/拼接图片/5.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">已获取 1 张图片。</chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/2-2.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/拼接图片/6.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">已获取 2 张图片。</chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/2-3.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/拼接图片/7.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">已获取 3 张图片。</chat-message>
 <chat-message nickname="麦麦" type="user">完成</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/result2.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/拼接图片/8.png" />
 </chat-message>
-<chat-message nickname="麦麦" type="user">拼图 横向</chat-message><chat-message nickname="麦芽糖bot" type="bot">请发送图片，输入 "完成" 开始拼接。</chat-message><chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/3-1.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<chat-message nickname="麦麦" type="user">拼图 横向</chat-message><chat-message nickname="麦芽糖bot" type="bot">请发送图片，输入 &quot;完成&quot; 开始拼接。</chat-message><chat-message nickname="麦麦" type="user">
+<img src="@source/img/拼接图片/9.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">已获取 1 张图片。</chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/3-2.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/拼接图片/10.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">已获取 2 张图片。</chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/3-3.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/拼接图片/11.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">已获取 3 张图片。</chat-message>
 <chat-message nickname="麦麦" type="user">完成</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/result3.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/拼接图片/12.png" />
 </chat-message>
 </chat-panel>
 <h3 id="纵向拼接图片" tabindex="-1"><a class="header-anchor" href="#纵向拼接图片"><span>纵向拼接图片</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>拼图 纵向</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">拼图 纵向</chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">请发送图片，输入 "完成" 开始拼接。</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">请发送图片，输入 &quot;完成&quot; 开始拼接。</chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/result1.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/拼接图片/4.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">已获取 1 张图片。</chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/result2.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/拼接图片/8.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">已获取 2 张图片。</chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/result3.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/拼接图片/12.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">已获取 3 张图片。</chat-message>
 <chat-message nickname="麦麦" type="user">完成</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/result.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/拼接图片/13.png" />
 </chat-message>
 </chat-panel>
 </div></template>

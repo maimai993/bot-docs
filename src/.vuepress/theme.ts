@@ -12,7 +12,11 @@ export default hopeTheme({
 
   logo: "/logod.png",
 
+  // Git 编辑此页链接
+  docsRepo: "https://github.com/maimai993/bot-docs",
+  docsBranch: "main",
   docsDir: "src",
+  editLink: true,
 
   // 导航栏
   navbar,

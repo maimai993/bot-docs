@@ -28,10 +28,11 @@
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="基本查询" tabindex="-1"><a class="header-anchor" href="#基本查询"><span>基本查询</span></a></h3>
 <h4 id="查询-有兽焉-评分" tabindex="-1"><a class="header-anchor" href="#查询-有兽焉-评分"><span>查询 <code v-pre>有兽焉</code> 评分</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>b站评分 有兽焉</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">b站评分 有兽焉</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-正在搜索番剧信息，本次最大时间限制为 240 秒
+<p>正在搜索番剧信息，本次最大时间限制为 240 秒</p>
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>‬======= 详细统计结果 =======<br>

@@ -41,72 +41,76 @@
 </table>
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="名称查询" tabindex="-1"><a class="header-anchor" href="#名称查询"><span>名称查询</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>ptcg 大尾立</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">ptcg 大尾立</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>查询到大尾立的全部结果：</p>
 <ol>
 <li>大尾立 [SV9-077]</li>
 <li>大尾立 [SC2b-105]</li>
-<li>大尾立 [SC2D-118]<br>
-第 1 页 / 共 1 页<br>
+<li>大尾立 [SC2D-118]
+第 1 页 / 共 1 页
 请at并发送数字选择卡片, 或at并发送&quot;跳页 页码&quot;切换页面</li>
 </ol>
 </chat-message>
 <chat-message nickname="麦麦" type="user">1</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p><img src="@source/使用指南/实用工具/宝可梦.webp" alt="" loading="lazy"><br>
-大尾立<br>
-HP：120  屬性：[無]<br>
-階段：Stage1<br>
-•抓  [無]<br>
+<img src="@source/img/宝可梦集换式卡片查询/1.webp" />
+大尾立
+HP：120  屬性：[無]
+階段：Stage1
+•抓  [無]
 40<br>
-•噴射頭擊  [無][無]<br>
+•噴射頭擊  [無][無]
 70<br>
-弱點：[鬥] ×2   撤退：1<br>
-卡標: I  稀有度: Common<br>
-所屬系列: 對戰搭檔 (SV9)<br>
-ID: SV9-077</p>
+弱點：[鬥] ×2   撤退：1
+卡標: I  稀有度: Common
+所屬系列: 對戰搭檔 (SV9)
+ID: SV9-077
 </chat-message>
 </chat-panel>
 <h3 id="id精确查询" tabindex="-1"><a class="header-anchor" href="#id精确查询"><span>ID精确查询</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>ptcg SV9-077</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">ptcg SV9-077</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p><img src="@source/使用指南/实用工具/宝可梦.webp" alt="" loading="lazy"><br>
-大尾立<br>
-HP：120  屬性：[無]<br>
-階段：Stage1<br>
-•抓  [無]<br>
+<img src="@source/img/宝可梦集换式卡片查询/1.webp" />
+大尾立
+HP：120  屬性：[無]
+階段：Stage1
+•抓  [無]
 40<br>
-•噴射頭擊  [無][無]<br>
+•噴射頭擊  [無][無]
 70<br>
-弱點：[鬥] ×2   撤退：1<br>
-卡標: I  稀有度: Common<br>
-所屬系列: 對戰搭檔 (SV9)<br>
-ID: SV9-077</p>
+弱點：[鬥] ×2   撤退：1
+卡標: I  稀有度: Common
+所屬系列: 對戰搭檔 (SV9)
+ID: SV9-077
 </chat-message>
 </chat-panel>
 <h3 id="指定系列查询" tabindex="-1"><a class="header-anchor" href="#指定系列查询"><span>指定系列查询</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>ptcg -s SV9 大尾立</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">ptcg -s SV9 大尾立</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p><img src="@source/使用指南/实用工具/宝可梦.webp" alt="" loading="lazy"><br>
-大尾立<br>
-HP：120  屬性：[無]<br>
-階段：Stage1<br>
-•抓  [無]<br>
+<img src="@source/img/宝可梦集换式卡片查询/1.webp" />
+大尾立
+HP：120  屬性：[無]
+階段：Stage1
+•抓  [無]
 40<br>
-•噴射頭擊  [無][無]<br>
+•噴射頭擊  [無][無]
 70<br>
-弱點：[鬥] ×2   撤退：1<br>
-卡標: I  稀有度: Common<br>
-所屬系列: 對戰搭檔 (SV9)<br>
-ID: SV9-077</p>
+弱點：[鬥] ×2   撤退：1
+卡標: I  稀有度: Common
+所屬系列: 對戰搭檔 (SV9)
+ID: SV9-077
 </chat-message>
 </chat-panel>
 <h3 id="多结果分页查询" tabindex="-1"><a class="header-anchor" href="#多结果分页查询"><span>多结果分页查询</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>ptcg 皮卡丘</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">ptcg 皮卡丘</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>查询到皮卡丘的全部结果：</p>
@@ -122,8 +126,8 @@ ID: SV9-077</p>
 <li>皮卡丘V [S8a-020]</li>
 <li>衝浪皮卡丘V [S8a-021]</li>
 </ol>
-<p>第 1 页 / 共 5 页<br>
-请at并发送数字选择卡片, 或at并发送&quot;跳页 页码&quot;切换页面</p>
+第 1 页 / 共 5 页
+请at并发送数字选择卡片, 或at并发送&quot;跳页 页码&quot;切换页面
 </chat-message>
 </chat-panel>
 <h2 id="卡片类型说明" tabindex="-1"><a class="header-anchor" href="#卡片类型说明"><span>卡片类型说明</span></a></h2>

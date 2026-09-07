@@ -34,7 +34,8 @@
 </table>
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="正常体重计算" tabindex="-1"><a class="header-anchor" href="#正常体重计算"><span>正常体重计算</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>bmi-calculator 175 130</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">bmi-calculator 175 130</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>您的BMI指数为21.2。<br>
@@ -42,7 +43,8 @@
 </chat-message>
 </chat-panel>
 <h3 id="超重计算" tabindex="-1"><a class="header-anchor" href="#超重计算"><span>超重计算</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>bmi-calculator 170 160</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">bmi-calculator 170 160</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>您的BMI指数为27.7。<br>
@@ -50,7 +52,8 @@
 </chat-message>
 </chat-panel>
 <h3 id="低体重计算" tabindex="-1"><a class="header-anchor" href="#低体重计算"><span>低体重计算</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>bmi-calculator 180 120</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">bmi-calculator 180 120</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>您的BMI指数为18.5。<br>

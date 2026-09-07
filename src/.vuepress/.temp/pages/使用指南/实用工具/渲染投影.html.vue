@@ -35,32 +35,33 @@
     file-type="unknown" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p><img src="@source/使用指南/实用工具/渲染投影.png" alt="" loading="lazy"><br>
-投影名称：fe16314b-b740-410e-bc0f-eec53dc250e5<br>
-保存者游戏 ID：Xiaolongjun<br>
-创建时间：2025-04-28 11:47:31<br>
-方块数/体积：84781/2255616<br>
-尺寸：176 × 89 × 144<br>
-Litematic 版本：7<br>
-游戏版本：1.21（数据版本：3953）<br>
-fe16314b-b740-410e-bc0f-eec53dc250e5 已渲染成功，结果如上</p>
+<img src="@source/img/渲染投影/1.png" />
+投影名称：fe16314b-b740-410e-bc0f-eec53dc250e5
+保存者游戏 ID：Xiaolongjun
+创建时间：2025-04-28 11:47:31
+方块数/体积：84781/2255616
+尺寸：176 × 89 × 144
+Litematic 版本：7
+游戏版本：1.21（数据版本：3953）
+fe16314b-b740-410e-bc0f-eec53dc250e5 已渲染成功，结果如上
 </chat-message>
 </chat-panel>
 <h3 id="渲染网络投影文件" tabindex="-1"><a class="header-anchor" href="#渲染网络投影文件"><span>渲染网络投影文件</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>litematic.render https://www.mcschematic.top/api/schematicFile?uuid=3366cd90-5ba0-4d86-9a69-494a13626ee6</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">
 <p>litematic.render <a href="https://www.mcschematic.top/api/schematicFile?uuid=3366cd90-5ba0-4d86-9a69-494a13626ee6" target="_blank" rel="noopener noreferrer">https://www.mcschematic.top/api/schematicFile?uuid=3366cd90-5ba0-4d86-9a69-494a13626ee6</a></p>
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p><img src="@source/使用指南/实用工具/渲染投影2.png" alt="" loading="lazy"><br>
-投影名称：schematic<br>
-保存者游戏 ID：HakariYR<br>
-创建时间：2026-04-01 09:23:51<br>
-方块数/体积：30810/6793659<br>
-尺寸：123 × 323 × 171<br>
-Litematic 版本：6<br>
-游戏版本：1.20.4（数据版本：3700）<br>
-schematic 已渲染成功，结果如上</p>
+<img src="@source/img/渲染投影/2.png" />
+投影名称：schematic
+保存者游戏 ID：HakariYR
+创建时间：2026-04-01 09:23:51
+方块数/体积：30810/6793659
+尺寸：123 × 323 × 171
+Litematic 版本：6
+游戏版本：1.20.4（数据版本：3700）
+schematic 已渲染成功，结果如上
 </chat-message>
 </chat-panel>
 </div></template>

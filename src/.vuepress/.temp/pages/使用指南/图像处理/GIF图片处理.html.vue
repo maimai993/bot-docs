@@ -67,97 +67,103 @@
 </table>
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="回弹效果" tabindex="-1"><a class="header-anchor" href="#回弹效果"><span>回弹效果</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>gif -b</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">gif -b</chat-message>
 <recall-message nickname="麦芽糖bot" type="bot">在 50 秒内发送想要处理的图片</recall-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/gif.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/GIF图片处理/1.gif" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p><img src="@source/使用指南/图像处理/gif2.gif" alt="" loading="lazy"><br>
-图片信息：<br>
-文件大小：4636.02 KB<br>
-图片尺寸：400x679<br>
-帧数：58<br>
-帧间隔：66.72 毫秒<br>
-帧率：14.99 FPS<br>
-总时长：3.87 秒</p>
+<img src="@source/img/GIF图片处理/2.gif" />
+图片信息：
+文件大小：4636.02 KB
+图片尺寸：400x679
+帧数：58
+帧间隔：66.72 毫秒
+帧率：14.99 FPS
+总时长：3.87 秒
 </chat-message>
 </chat-panel>
 <h3 id="倒放gif" tabindex="-1"><a class="header-anchor" href="#倒放gif"><span>倒放GIF</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>gif -r</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">gif -r</chat-message>
 <recall-message nickname="麦芽糖bot" type="bot">在 50 秒内发送想要处理的图片</recall-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/gif3.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/GIF图片处理/3.gif" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p><img src="@source/使用指南/图像处理/gif4.gif" alt="" loading="lazy"><br>
-图片信息：<br>
-文件大小：1892.95 KB<br>
-图片尺寸：240x240<br>
-帧数：200<br>
-帧间隔：30.00 毫秒<br>
-帧率：33.33 FPS<br>
-总时长：6.00 秒</p>
+<img src="@source/img/GIF图片处理/4.gif" />
+图片信息：
+文件大小：1892.95 KB
+图片尺寸：240x240
+帧数：200
+帧间隔：30.00 毫秒
+帧率：33.33 FPS
+总时长：6.00 秒
 </chat-message>
 </chat-panel>
 <h3 id="右滑效果" tabindex="-1"><a class="header-anchor" href="#右滑效果"><span>右滑效果</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>gif -l 右</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">gif -l 右</chat-message>
 <recall-message nickname="麦芽糖bot" type="bot">在 50 秒内发送想要处理的图片</recall-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/gif5.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/GIF图片处理/5.gif" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p><img src="@source/使用指南/图像处理/gif6.gif" alt="" loading="lazy"><br>
-图片信息：<br>
-文件大小：1732.19 KB<br>
-图片尺寸：400x400<br>
-帧数：17<br>
-帧间隔：50.00 毫秒<br>
-帧率：20.00 FPS<br>
-总时长：0.85 秒</p>
+<img src="@source/img/GIF图片处理/6.gif" />
+图片信息：
+文件大小：1732.19 KB
+图片尺寸：400x400
+帧数：17
+帧间隔：50.00 毫秒
+帧率：20.00 FPS
+总时长：0.85 秒
 </chat-message>
 </chat-panel>
 <h3 id="顺时针旋转" tabindex="-1"><a class="header-anchor" href="#顺时针旋转"><span>顺时针旋转</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>gif -o 顺</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">gif -o 顺</chat-message>
 <recall-message nickname="麦芽糖bot" type="bot">在 50 秒内发送想要处理的图片</recall-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/gif5.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/GIF图片处理/5.gif" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p><img src="@source/使用指南/图像处理/gif7.gif" alt="" loading="lazy"><br>
-图片信息：<br>
-文件大小：1667.81 KB<br>
-图片尺寸：400x400<br>
-帧数：17<br>
-帧间隔：50.00 毫秒<br>
-帧率：20.00 FPS<br>
-总时长：0.85 秒</p>
+<img src="@source/img/GIF图片处理/7.gif" />
+图片信息：
+文件大小：1667.81 KB
+图片尺寸：400x400
+帧数：17
+帧间隔：50.00 毫秒
+帧率：20.00 FPS
+总时长：0.85 秒
 </chat-message>
 </chat-panel>
 <h3 id="转向30度" tabindex="-1"><a class="header-anchor" href="#转向30度"><span>转向30度</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>gif -t 30</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">gif -t 30</chat-message>
 <recall-message nickname="麦芽糖bot" type="bot">在 50 秒内发送想要处理的图片</recall-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/gif5.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/GIF图片处理/5.gif" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/gif8.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/GIF图片处理/8.gif" />
 </chat-message>
 </chat-panel>
 <h3 id="加速gif" tabindex="-1"><a class="header-anchor" href="#加速gif"><span>加速gif</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>gif -f 20</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">gif -f 20</chat-message>
 <recall-message nickname="麦芽糖bot" type="bot">在 50 秒内发送想要处理的图片</recall-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/gif5.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/GIF图片处理/5.gif" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/gif9.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/GIF图片处理/9.gif" />
 </chat-message>
 </chat-panel>
 </div></template>

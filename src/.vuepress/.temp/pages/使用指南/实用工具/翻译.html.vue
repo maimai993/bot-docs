@@ -27,46 +27,51 @@
 </table>
 <h3 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h3>
 <h4 id="翻译-麦芽糖" tabindex="-1"><a class="header-anchor" href="#翻译-麦芽糖"><span>翻译 <code v-pre>麦芽糖</code></span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>翻译 麦芽糖</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">翻译 麦芽糖</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-翻译的结果：
+<p>翻译的结果：</p>
 <p>maltose</p>
 <p>[中文] =&gt; [英语]</p>
 </chat-message>
 </chat-panel>
 <h4 id="翻译-maltose" tabindex="-1"><a class="header-anchor" href="#翻译-maltose"><span>翻译 <code v-pre>maltose</code></span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>翻译 maltose</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">翻译 maltose</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-翻译的结果：
+<p>翻译的结果：</p>
 <p>麦芽糖</p>
 <p>[英语] =&gt; [中文]</p>
 </chat-message>
 </chat-panel>
 <h4 id="翻译长文本" tabindex="-1"><a class="header-anchor" href="#翻译长文本"><span>翻译长文本</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>翻译 Artificial intelligence is transforming the way we live and work, bringing unprecedented opportunities and challenges to our society.</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">翻译 Artificial intelligence is transforming the way we live and work, bringing unprecedented opportunities and challenges to our society.</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-翻译的结果：
+<p>翻译的结果：</p>
 <p>人工智能正在改变我们的生活和工作方式，给我们的社会带来了前所未有的机遇和挑战。</p>
 <p>[英语] =&gt; [中文]</p>
 </chat-message>
 </chat-panel>
 <h4 id="翻译日语文本" tabindex="-1"><a class="header-anchor" href="#翻译日语文本"><span>翻译日语文本</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>翻译 こんにちは、世界</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">翻译 こんにちは、世界</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-翻译的结果：
+<p>翻译的结果：</p>
 <p>你好，世界</p>
 <p>[日语] =&gt; [中文]</p>
 </chat-message>
 </chat-panel>
 <h4 id="翻译文言文" tabindex="-1"><a class="header-anchor" href="#翻译文言文"><span>翻译文言文</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>翻译 学而时习之，不亦说乎</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">翻译 学而时习之，不亦说乎</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-翻译的结果：
+<p>翻译的结果：</p>
 <p>Learn and practice from time to time, isn't it pleasant?</p>
 <p>[文言文] =&gt; [英语]</p>
 </chat-message>

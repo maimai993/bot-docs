@@ -11,7 +11,6 @@
 <h3 id="🖼️-图片处理" tabindex="-1"><a class="header-anchor" href="#🖼️-图片处理"><span>🖼️ 图片处理</span></a></h3>
 <ul>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/GIF%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86.html">GIF 图片处理</RouteLink></strong> - GIF动图处理功能</li>
-<li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87.html">随机图片</RouteLink></strong> - 随机获取图片</li>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/%E6%8B%BC%E6%8E%A5%E5%9B%BE%E7%89%87.html">拼接图片</RouteLink></strong> - 多张图片拼接</li>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/%E5%B9%BB%E5%BD%B1%E5%9D%A6%E5%85%8B%E7%94%9F%E6%88%90.html">幻影坦克生成</RouteLink></strong> - 幻影坦克效果生成</li>
 <li><strong><RouteLink to="/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86/%E5%8E%9F%E5%9B%BE%E5%9D%A6%E5%85%8B.html">原图坦克</RouteLink></strong> - 原图坦克效果</li>

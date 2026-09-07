@@ -29,32 +29,35 @@
 <p>此功能目前没有可配置的指令参数，但可以通过插件配置调整图片对齐方式和压缩质量。</p>
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="为图片添加相机镜框" tabindex="-1"><a class="header-anchor" href="#为图片添加相机镜框"><span>为图片添加相机镜框</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>相机镜框</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">
-相机镜框
+<p>相机镜框</p>
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-请发送一张图片：
+<p>请发送一张图片：</p>
 </chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/相机1.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/相机镜框/1.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/相机.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/相机镜框/2.jpg" />
 </chat-message>
 </chat-panel>
 <h3 id="使用qq头像添加相机镜框" tabindex="-1"><a class="header-anchor" href="#使用qq头像添加相机镜框"><span>使用QQ头像添加相机镜框</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>相机镜框 2237886846</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">相机镜框 2237886846</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/相机3.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/相机镜框/3.jpg" />
 </chat-message>
 </chat-panel>
 <h3 id="使用-用户头像添加相机镜框" tabindex="-1"><a class="header-anchor" href="#使用-用户头像添加相机镜框"><span>使用@用户头像添加相机镜框</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>相机镜框 @麦麦</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">相机镜框 <span style="color: #3175de;">@麦麦</span></chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/相机3.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/相机镜框/3.jpg" />
 </chat-message>
 </chat-panel>
 </div></template>

@@ -25,7 +25,8 @@
 </tbody>
 </table>
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>rank</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦芽糖bot" type="bot">恭喜 麦麦 在9月5日赢了一次！<br>麦麦 的赢级是：35%，属于小赢。<br>维为寄语：我们一点都不害怕竞争。</chat-message>
 <chat-message nickname="麦麦" type="user">rank</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">本群今日共有1人赢了，其赢级如下：<br> - 1：麦麦（44A384106A3B4AB5772C1C1B511A4540） 35%<br><br>可使用选项-s或--statistics查看统计信息。</chat-message>

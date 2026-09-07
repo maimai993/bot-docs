@@ -27,6 +27,9 @@ rank
 
 ## 使用示例
 
+```
+rank
+```
 <chat-panel>
 <chat-message nickname="麦芽糖bot" type="bot">恭喜 麦麦 在9月5日赢了一次！<br>麦麦 的赢级是：35%，属于小赢。<br>维为寄语：我们一点都不害怕竞争。</chat-message>
 <chat-message nickname="麦麦" type="user">rank</chat-message>

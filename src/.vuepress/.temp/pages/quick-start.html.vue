@@ -28,8 +28,6 @@
 <li>联系<a href="https://qm.qq.com/q/xudP8MS6zu" target="_blank" rel="noopener noreferrer">管理员</a>获取技术支持</li>
 </ol>
 <p>开始享受麦芽糖bot带来的便利吧！</p>
-<h2 id="想要自己部署" tabindex="-1"><a class="header-anchor" href="#想要自己部署"><span>想要自己部署？</span></a></h2>
-<p>请看<RouteLink to="/%E9%83%A8%E7%BD%B2%E9%85%8D%E7%BD%AE/">部署配置</RouteLink></p>
 </div></template>
 
 

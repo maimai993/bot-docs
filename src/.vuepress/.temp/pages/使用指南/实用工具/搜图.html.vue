@@ -50,18 +50,20 @@
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="百度搜图" tabindex="-1"><a class="header-anchor" href="#百度搜图"><span>百度搜图</span></a></h3>
 <h4 id="百度搜图-麦芽糖" tabindex="-1"><a class="header-anchor" href="#百度搜图-麦芽糖"><span>百度搜图 <code v-pre>麦芽糖</code></span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>百度搜图 麦芽糖</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">百度搜图 麦芽糖</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/实用工具/搜图_百度麦芽糖.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/搜图/1.jpg" />
 </chat-message>
 </chat-panel>
 <h3 id="搜狗搜图" tabindex="-1"><a class="header-anchor" href="#搜狗搜图"><span>搜狗搜图</span></a></h3>
 <h4 id="搜狗搜图-麦芽糖" tabindex="-1"><a class="header-anchor" href="#搜狗搜图-麦芽糖"><span>搜狗搜图 <code v-pre>麦芽糖</code></span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>搜狗搜图 麦芽糖</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">搜狗搜图 麦芽糖</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/实用工具/搜图_搜狗麦芽糖.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/搜图/2.jpg" />
 </chat-message>
 </chat-panel>
 </div></template>

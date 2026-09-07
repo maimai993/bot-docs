@@ -13,15 +13,11 @@ icon: robot
 - **[fish-audio](./fish-audio.md)** `AI语音生成` - 智能语音合成功能
 
 ### 🎨 图像创作
-- **[AI画图](./AI画图.md)** - 人工智能绘画功能
 - **[AI 反推tag](./AI反推tag.md)** - 图片标签反推分析
 
 ### 💬 智能对话
 - **[deepseek](./deepseek.md)** - DeepSeek智能对话模型
 - **[mc问答](./mc问答.md)** - 我的世界相关问答
-
-### 🎬 视频生成
-- **[sora视频生成](./sora视频生成.md)** - Sora视频生成功能
 
 ## 使用说明
 

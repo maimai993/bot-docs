@@ -88,27 +88,37 @@ tts <角色名称> <文本内容>
 
 ### 使用流萤生成语音
 
+```
+tts 流萤 夜色渐深，我的光芒为迷途者指引方向。如同群星闪烁，每个生命都有属于自己的光辉时刻。让我们一同穿越黑暗，寻找黎明的希望。这便是我存在的意义。
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">tts 流萤 夜色渐深，我的光芒为迷途者指引方向。如同群星闪烁，每个生命都有属于自己的光辉时刻。让我们一同穿越黑暗，寻找黎明的希望。这便是我存在的意义。</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-  <voice-message 
-    :duration="13" 
-    :is-listened="true"
-    audio-url="./流萤.mp3"
-  />
+
+<voice-message 
+  :duration="13" 
+  :is-listened="true"
+  audio-url="./流萤.mp3"
+/>
+
 </chat-message>
 </chat-panel>
 
 ### 使用银狼生成语音
 
+```
+tts 银狼 防火墙漏洞已经找到了，给我三分钟就能突破。这种老旧系统的加密方式太好玩了，简直就是在给我送礼物。不过还是要小心行事，毕竟我可不想打草惊蛇。
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">tts 银狼 防火墙漏洞已经找到了，给我三分钟就能突破。这种老旧系统的加密方式太好玩了，简直就是在给我送礼物。不过还是要小心行事，毕竟我可不想打草惊蛇。</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-  <voice-message 
-    :duration="13" 
-    :is-listened="true"
-    audio-url="./银狼.mp3"
-  />
+
+<voice-message 
+  :duration="13" 
+  :is-listened="true"
+  audio-url="./银狼.mp3"
+/>
+
 </chat-message>
 </chat-panel>
 

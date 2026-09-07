@@ -258,25 +258,27 @@
 </table>
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="使用流萤生成语音" tabindex="-1"><a class="header-anchor" href="#使用流萤生成语音"><span>使用流萤生成语音</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>tts 流萤 夜色渐深，我的光芒为迷途者指引方向。如同群星闪烁，每个生命都有属于自己的光辉时刻。让我们一同穿越黑暗，寻找黎明的希望。这便是我存在的意义。</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">tts 流萤 夜色渐深，我的光芒为迷途者指引方向。如同群星闪烁，每个生命都有属于自己的光辉时刻。让我们一同穿越黑暗，寻找黎明的希望。这便是我存在的意义。</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-  <voice-message 
-    :duration="13" 
-    :is-listened="true"
-    audio-url="./流萤.mp3"
-  />
+<voice-message 
+  :duration="13" 
+  :is-listened="true"
+  audio-url="./流萤.mp3"
+/>
 </chat-message>
 </chat-panel>
 <h3 id="使用银狼生成语音" tabindex="-1"><a class="header-anchor" href="#使用银狼生成语音"><span>使用银狼生成语音</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>tts 银狼 防火墙漏洞已经找到了，给我三分钟就能突破。这种老旧系统的加密方式太好玩了，简直就是在给我送礼物。不过还是要小心行事，毕竟我可不想打草惊蛇。</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">tts 银狼 防火墙漏洞已经找到了，给我三分钟就能突破。这种老旧系统的加密方式太好玩了，简直就是在给我送礼物。不过还是要小心行事，毕竟我可不想打草惊蛇。</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-  <voice-message 
-    :duration="13" 
-    :is-listened="true"
-    audio-url="./银狼.mp3"
-  />
+<voice-message 
+  :duration="13" 
+  :is-listened="true"
+  audio-url="./银狼.mp3"
+/>
 </chat-message>
 </chat-panel>
 </div></template>

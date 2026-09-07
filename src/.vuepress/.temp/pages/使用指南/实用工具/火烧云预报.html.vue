@@ -30,7 +30,8 @@
 </table>
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="查询火烧云预报" tabindex="-1"><a class="header-anchor" href="#查询火烧云预报"><span>查询火烧云预报</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>hsy.query 重庆</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">hsy.query 重庆</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>🌄 火烧云预报 - 重庆 🌅<br>
@@ -51,7 +52,8 @@
 </chat-message>
 </chat-panel>
 <h3 id="订阅城市预报" tabindex="-1"><a class="header-anchor" href="#订阅城市预报"><span>订阅城市预报</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>hsy.sub 重庆</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">hsy.sub 重庆</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">已订阅重庆的自动预报，将在当前频道推送。</chat-message>
 </chat-panel>

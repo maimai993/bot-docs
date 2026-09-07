@@ -33,16 +33,20 @@ gif [选项] [图片]
 ## 使用示例
 
 ### 回弹效果
+```
+gif -b
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">gif -b</chat-message>
 <recall-message nickname="麦芽糖bot" type="bot">在 50 秒内发送想要处理的图片</recall-message>
 <chat-message nickname="麦麦" type="user">
 
-![](./gif.gif)
+<img src="../../img/GIF图片处理/1.gif" />
+
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 
-![](./gif2.gif)
+<img src="../../img/GIF图片处理/2.gif" />
 图片信息：
 文件大小：4636.02 KB
 图片尺寸：400x679
@@ -50,20 +54,25 @@ gif [选项] [图片]
 帧间隔：66.72 毫秒
 帧率：14.99 FPS
 总时长：3.87 秒
+
 </chat-message>
 </chat-panel>
 
 ### 倒放GIF
+```
+gif -r
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">gif -r</chat-message>
 <recall-message nickname="麦芽糖bot" type="bot">在 50 秒内发送想要处理的图片</recall-message>
 <chat-message nickname="麦麦" type="user">
 
-![](./gif3.gif)
+<img src="../../img/GIF图片处理/3.gif" />
+
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 
-![](./gif4.gif)
+<img src="../../img/GIF图片处理/4.gif" />
 图片信息：
 文件大小：1892.95 KB
 图片尺寸：240x240
@@ -71,20 +80,25 @@ gif [选项] [图片]
 帧间隔：30.00 毫秒
 帧率：33.33 FPS
 总时长：6.00 秒
+
 </chat-message>
 </chat-panel>
 
 ### 右滑效果
+```
+gif -l 右
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">gif -l 右</chat-message>
 <recall-message nickname="麦芽糖bot" type="bot">在 50 秒内发送想要处理的图片</recall-message>
 <chat-message nickname="麦麦" type="user">
 
-![](./gif5.gif)
+<img src="../../img/GIF图片处理/5.gif" />
+
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 
-![](./gif6.gif)
+<img src="../../img/GIF图片处理/6.gif" />
 图片信息：
 文件大小：1732.19 KB
 图片尺寸：400x400
@@ -92,20 +106,25 @@ gif [选项] [图片]
 帧间隔：50.00 毫秒
 帧率：20.00 FPS
 总时长：0.85 秒
+
 </chat-message>
 </chat-panel>
 
 ### 顺时针旋转
+```
+gif -o 顺
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">gif -o 顺</chat-message>
 <recall-message nickname="麦芽糖bot" type="bot">在 50 秒内发送想要处理的图片</recall-message>
 <chat-message nickname="麦麦" type="user">
 
-![](./gif5.gif)
+<img src="../../img/GIF图片处理/5.gif" />
+
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 
-![](./gif7.gif)
+<img src="../../img/GIF图片处理/7.gif" />
 图片信息：
 文件大小：1667.81 KB
 图片尺寸：400x400
@@ -113,33 +132,44 @@ gif [选项] [图片]
 帧间隔：50.00 毫秒
 帧率：20.00 FPS
 总时长：0.85 秒
+
 </chat-message>
 </chat-panel>
 
 ### 转向30度
+```
+gif -t 30
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">gif -t 30</chat-message>
 <recall-message nickname="麦芽糖bot" type="bot">在 50 秒内发送想要处理的图片</recall-message>
 <chat-message nickname="麦麦" type="user">
 
-![](./gif5.gif)
+<img src="../../img/GIF图片处理/5.gif" />
+
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 
-![](./gif8.gif)
+<img src="../../img/GIF图片处理/8.gif" />
+
 </chat-message>
 </chat-panel>
 
 ### 加速gif
+```
+gif -f 20
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">gif -f 20</chat-message>
 <recall-message nickname="麦芽糖bot" type="bot">在 50 秒内发送想要处理的图片</recall-message>
 <chat-message nickname="麦麦" type="user">
 
-![](./gif5.gif)
+<img src="../../img/GIF图片处理/5.gif" />
+
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 
-![](./gif9.gif)
+<img src="../../img/GIF图片处理/9.gif" />
+
 </chat-message>
 </chat-panel>

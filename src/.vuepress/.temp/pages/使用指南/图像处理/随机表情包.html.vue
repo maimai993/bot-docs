@@ -8,23 +8,26 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="随机表情包-1" tabindex="-1"><a class="header-anchor" href="#随机表情包-1"><span>随机表情包</span></a></h3>
 <h4 id="获取随机表情包" tabindex="-1"><a class="header-anchor" href="#获取随机表情包"><span>获取随机表情包</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>随机表情包</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">随机表情包</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/表情包1.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/随机表情包/1.gif" />
 </chat-message>
 </chat-panel>
 <h3 id="再来一张" tabindex="-1"><a class="header-anchor" href="#再来一张"><span>再来一张</span></a></h3>
 <h4 id="继续获取同类型表情包" tabindex="-1"><a class="header-anchor" href="#继续获取同类型表情包"><span>继续获取同类型表情包</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>再来一张</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">再来一张</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/表情包2.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/随机表情包/2.gif" />
 </chat-message>
 </chat-panel>
 <h3 id="表情包列表" tabindex="-1"><a class="header-anchor" href="#表情包列表"><span>表情包列表</span></a></h3>
 <h4 id="查看可用表情包" tabindex="-1"><a class="header-anchor" href="#查看可用表情包"><span>查看可用表情包</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>emojihub-bili</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">emojihub-bili</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>可用的表情包指令：<br>

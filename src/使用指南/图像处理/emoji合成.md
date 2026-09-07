@@ -30,11 +30,15 @@ emix <emoji1><emoji2>
 ### 基本合成
 
 #### 合成笑脸和哭脸
+```
+emix 😊😢
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">emix 😊😢</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 
-![](./emoji合成.png)
+<img src="../../img/Emoji合成/1.png" />
+
 </chat-message>
 </chat-panel>
 

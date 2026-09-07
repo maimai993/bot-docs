@@ -23,6 +23,9 @@ tagger.rec [图片]
 | tagger.rec [图片] | 反推标签、角色识别与 NSFW 判断 |
 
 ## 使用示例
+```
+tagger.rec
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">tagger.rec <img src="/logod.png" /></chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">正在识别，请稍等...</chat-message>

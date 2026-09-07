@@ -35,31 +35,34 @@
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="搜索单个表情包" tabindex="-1"><a class="header-anchor" href="#搜索单个表情包"><span>搜索单个表情包</span></a></h3>
 <h4 id="搜索-开心-表情包" tabindex="-1"><a class="header-anchor" href="#搜索-开心-表情包"><span>搜索&quot;开心&quot;表情包</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>vv 开心</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">vv 开心</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/vvkx.webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/VV表情包搜索/1.webp" />
 </chat-message>
 </chat-panel>
 <h3 id="搜索多个表情包" tabindex="-1"><a class="header-anchor" href="#搜索多个表情包"><span>搜索多个表情包</span></a></h3>
 <h4 id="搜索3个-惊讶-表情包" tabindex="-1"><a class="header-anchor" href="#搜索3个-惊讶-表情包"><span>搜索3个&quot;惊讶&quot;表情包</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>vv 惊讶 3</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">vv 惊讶 3</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p><img src="@source/使用指南/图像处理/vvjy1.webp" alt="" loading="lazy"><br>
-<img src="@source/使用指南/图像处理/vvjy2.webp" alt="" loading="lazy"><br>
-<img src="@source/使用指南/图像处理/vvjy3.webp" alt="" loading="lazy"></p>
+<img src="@source/img/VV表情包搜索/2.webp" />
+<img src="@source/img/VV表情包搜索/3.webp" />
+<img src="@source/img/VV表情包搜索/4.webp" />
 </chat-message>
 </chat-panel>
 <h4 id="搜索5个-生气-表情包" tabindex="-1"><a class="header-anchor" href="#搜索5个-生气-表情包"><span>搜索5个&quot;生气&quot;表情包</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>vv 生气 5</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">vv 生气 5</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p><img src="@source/使用指南/图像处理/vvsq1.webp" alt="" loading="lazy"><br>
-<img src="@source/使用指南/图像处理/vvsq2.webp" alt="" loading="lazy"><br>
-<img src="@source/使用指南/图像处理/vvsq3.webp" alt="" loading="lazy"><br>
-<img src="@source/使用指南/图像处理/vvsq4.webp" alt="" loading="lazy"><br>
-<img src="@source/使用指南/图像处理/vvsq5.webp" alt="" loading="lazy"></p>
+<img src="@source/img/VV表情包搜索/5.webp" />
+<img src="@source/img/VV表情包搜索/6.webp" />
+<img src="@source/img/VV表情包搜索/7.webp" />
+<img src="@source/img/VV表情包搜索/8.webp" />
+<img src="@source/img/VV表情包搜索/9.webp" />
 </chat-message>
 </chat-panel>
 </div></template>

@@ -35,25 +35,26 @@
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="基本使用" tabindex="-1"><a class="header-anchor" href="#基本使用"><span>基本使用</span></a></h3>
 <h4 id="交互式输入图片" tabindex="-1"><a class="header-anchor" href="#交互式输入图片"><span>交互式输入图片</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>原图坦克</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">原图坦克</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-请发送第一张图片（表图）
+<p>请发送第一张图片（表图）</p>
 </chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/原图坦克1.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/原图坦克/1.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-请发送第二张图片（里图）
+<p>请发送第二张图片（里图）</p>
 </chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/原图坦克2.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/原图坦克/2.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <FileMessage
   fileName="output.gif"
   :fileSize="364183"
-  downloadUrl="./output.gif"
+  downloadUrl="../../img/原图坦克/3.gif"
   fileType="image"
 />
 </chat-message>
@@ -64,30 +65,32 @@
 </chat-panel>
 <h3 id="使用qq头像" tabindex="-1"><a class="header-anchor" href="#使用qq头像"><span>使用QQ头像</span></a></h3>
 <h4 id="使用qq号" tabindex="-1"><a class="header-anchor" href="#使用qq号"><span>使用QQ号</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>原图坦克 2237886846 1660394708</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">
-原图坦克 2237886846 1660394708
+<p>原图坦克 2237886846 1660394708</p>
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <FileMessage
   fileName="output.gif"
   :fileSize="324894"
-  downloadUrl="./output2.gif"
+  downloadUrl="../../img/原图坦克/4.gif"
   fileType="image"
 />
 </chat-message>
 </chat-panel>
 <h4 id="使用-用户" tabindex="-1"><a class="header-anchor" href="#使用-用户"><span>使用@用户</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>大家好，我是芽</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="芽" type="user">
-大家好，我是芽
+<p>大家好，我是芽</p>
 </chat-message>
 <chat-message nickname="麦麦" type="user">原图坦克 <span style="color: #3175de;">@麦麦 @芽</span></chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <FileMessage
   fileName="output.gif"
   :fileSize="324894"
-  downloadUrl="./output2.gif"
+  downloadUrl="../../img/原图坦克/4.gif"
   fileType="image"
 />
 </chat-message>

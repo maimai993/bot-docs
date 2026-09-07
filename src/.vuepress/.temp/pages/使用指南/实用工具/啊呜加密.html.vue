@@ -29,18 +29,21 @@
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="文本加密" tabindex="-1"><a class="header-anchor" href="#文本加密"><span>文本加密</span></a></h3>
 <h4 id="加密普通文本" tabindex="-1"><a class="header-anchor" href="#加密普通文本"><span>加密普通文本</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>兽语加密 你好世界</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">兽语加密 你好世界</chat-message>
-<chat-message nickname="麦芽糖bot" type="bot">加密成功！
-<p>呜嗷呜嗷嗷嗷啊嗷嗷~啊呜~啊~呜呜嗷~嗷呜~啊~嗷呜嗷~嗷啊嗷啊啊~啊</p>
+<chat-message nickname="麦芽糖bot" type="bot">
+<p>加密成功！</p>
+<p>呜嗷呜嗷嗷嗷啊嗷嗷<sub>啊呜</sub>啊<sub>呜呜嗷</sub>嗷呜<sub>啊</sub>嗷呜嗷<sub>嗷啊嗷啊啊</sub>啊</p>
 </chat-message>
 </chat-panel>
 <h3 id="文本解密" tabindex="-1"><a class="header-anchor" href="#文本解密"><span>文本解密</span></a></h3>
 <h4 id="解密兽音文本" tabindex="-1"><a class="header-anchor" href="#解密兽音文本"><span>解密兽音文本</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>兽语解密 呜嗷呜嗷嗷嗷啊嗷嗷~啊呜~啊~呜呜嗷~嗷呜~啊~嗷呜嗷~嗷啊嗷啊啊~啊</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">兽语解密 呜嗷呜嗷嗷嗷啊嗷嗷~啊呜~啊~呜呜嗷~嗷呜~啊~嗷呜嗷~嗷啊嗷啊啊~啊</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-解密成功！
+<p>解密成功！</p>
 <p>你好世界</p>
 </chat-message>
 </chat-panel>

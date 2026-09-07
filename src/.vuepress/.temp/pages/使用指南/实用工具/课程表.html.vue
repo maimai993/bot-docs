@@ -75,74 +75,82 @@
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="手动添加课程" tabindex="-1"><a class="header-anchor" href="#手动添加课程"><span>手动添加课程</span></a></h3>
 <h4 id="添加单节课程" tabindex="-1"><a class="header-anchor" href="#添加单节课程"><span>添加单节课程</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>群友课表.添加 周一周三 高等数学 8:00-9:30</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">群友课表.添加 周一周三 高等数学 8:00-9:30</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-已为 用户 添加课程：高等数学 周一,周三 8:00-9:30
+<p>已为 用户 添加课程：高等数学 周一,周三 8:00-9:30</p>
 </chat-message>
 </chat-panel>
 <h4 id="添加多节课程-指定用户" tabindex="-1"><a class="header-anchor" href="#添加多节课程-指定用户"><span>添加多节课程（指定用户）</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>群友课表.添加 周四周五 9:55-12:15 大学英语 -i 114514 -n 上学大人</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">群友课表.添加 周四周五 9:55-12:15 大学英语 -i 114514 -n 上学大人</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-已为 上学大人 添加课程：大学英语 周四,周五 9:55-12:15
+<p>已为 上学大人 添加课程：大学英语 周四,周五 9:55-12:15</p>
 </chat-message>
 </chat-panel>
 <h3 id="wakeup课程表导入" tabindex="-1"><a class="header-anchor" href="#wakeup课程表导入"><span>WakeUp课程表导入</span></a></h3>
 <h4 id="导入wakeup课程表" tabindex="-1"><a class="header-anchor" href="#导入wakeup课程表"><span>导入WakeUp课程表</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>群友课表.wakeup 这是来自「WakeUp课程表」的课表分享......分享口令为「PaJ_8Kj_zeelspJs2HBL1」</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">群友课表.wakeup 这是来自「WakeUp课程表」的课表分享......分享口令为「PaJ_8Kj_zeelspJs2HBL1」</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-已成功导入来自WakeUp的课程表，共导入 8 门课程：
-课程名称：高等数学， 周一， 8:00-9:30
-课程名称：大学英语， 周二， 10:00-11:30
-...
+<p>已成功导入来自WakeUp的课程表，共导入 8 门课程：<br>
+课程名称：高等数学， 周一， 8:00-9:30<br>
+课程名称：大学英语， 周二， 10:00-11:30<br>
+...</p>
 </chat-message>
 </chat-panel>
 <h3 id="查看课程表" tabindex="-1"><a class="header-anchor" href="#查看课程表"><span>查看课程表</span></a></h3>
 <h4 id="查看今日课程表" tabindex="-1"><a class="header-anchor" href="#查看今日课程表"><span>查看今日课程表</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>群友课表.看看</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">群友课表.看看</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/实用工具/课程表.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/课程表/1.jpg" />
 </chat-message>
 </chat-panel>
 <h4 id="查看明日课程表" tabindex="-1"><a class="header-anchor" href="#查看明日课程表"><span>查看明日课程表</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>群友课表.看看 1</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">群友课表.看看 1</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/实用工具/课程表.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/课程表/1.jpg" />
 </chat-message>
 </chat-panel>
 <h4 id="查看昨天课程表" tabindex="-1"><a class="header-anchor" href="#查看昨天课程表"><span>查看昨天课程表</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>群友课表.看看 -1</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">群友课表.看看 -1</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/实用工具/课程表.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/课程表/1.jpg" />
 </chat-message>
 </chat-panel>
 <h3 id="课程移除" tabindex="-1"><a class="header-anchor" href="#课程移除"><span>课程移除</span></a></h3>
 <h4 id="移除指定课程" tabindex="-1"><a class="header-anchor" href="#移除指定课程"><span>移除指定课程</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>群友课表.移除</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">群友课表.移除</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>你目前在本群的课程有：</p>
 <ol>
-<li>高等数学 周一,周三 8:00-9:30<br>
+<li>高等数学 周一,周三 8:00-9:30
 请选择要移除的课程序号 (输入数字):</li>
 </ol>
 </chat-message>
 <chat-message nickname="麦麦" type="user">1</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-已删除课程：高等数学 周一,周三 8:00-9:30
+<p>已删除课程：高等数学 周一,周三 8:00-9:30</p>
 </chat-message>
 </chat-panel>
 <h3 id="课程去重" tabindex="-1"><a class="header-anchor" href="#课程去重"><span>课程去重</span></a></h3>
 <h4 id="自动移除重复课程" tabindex="-1"><a class="header-anchor" href="#自动移除重复课程"><span>自动移除重复课程</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>群友课表.去重</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">群友课表.去重</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-已成功移除 2 门重复的课程。
+<p>已成功移除 2 门重复的课程。</p>
 </chat-message>
 </chat-panel>
 </div></template>

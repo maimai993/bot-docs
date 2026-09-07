@@ -212,69 +212,77 @@
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="基本查询" tabindex="-1"><a class="header-anchor" href="#基本查询"><span>基本查询</span></a></h3>
 <h4 id="查询大盘概览" tabindex="-1"><a class="header-anchor" href="#查询大盘概览"><span>查询大盘概览</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>大盘概览</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">大盘概览</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="https://s2.loli.net/2025/01/22/GCip3KMlLjASnsV.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="https://s2.loli.net/2025/01/22/GCip3KMlLjASnsV.jpg" />
 </chat-message>
 </chat-panel>
 <h4 id="查询个股信息" tabindex="-1"><a class="header-anchor" href="#查询个股信息"><span>查询个股信息</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>个股 沪深300</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">个股 沪深300</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="https://s2.loli.net/2025/08/04/AQPOKB9T2WwU5sf.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="https://s2.loli.net/2025/08/04/AQPOKB9T2WwU5sf.png" />
 </chat-message>
 </chat-panel>
 <h3 id="云图功能" tabindex="-1"><a class="header-anchor" href="#云图功能"><span>云图功能</span></a></h3>
 <h4 id="查看大盘云图" tabindex="-1"><a class="header-anchor" href="#查看大盘云图"><span>查看大盘云图</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>大盘云图</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">大盘云图</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="https://s2.loli.net/2024/11/26/qvMG1ers7pITSUZ.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="https://s2.loli.net/2024/11/26/qvMG1ers7pITSUZ.jpg" />
 </chat-message>
 </chat-panel>
 <h4 id="查看行业云图" tabindex="-1"><a class="header-anchor" href="#查看行业云图"><span>查看行业云图</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>行业云图 半导体</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">行业云图 半导体</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="https://s2.loli.net/2025/01/22/vsUthKeZk3TEfxR.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="https://s2.loli.net/2025/01/22/vsUthKeZk3TEfxR.png" />
 </chat-message>
 </chat-panel>
 <h3 id="自选管理" tabindex="-1"><a class="header-anchor" href="#自选管理"><span>自选管理</span></a></h3>
 <h4 id="添加自选" tabindex="-1"><a class="header-anchor" href="#添加自选"><span>添加自选</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>添加自选 中证白酒</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">添加自选 中证白酒</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-是否确认将下列股票添加自选?
-中证白酒(512690)
-请输入是或否。
+<p>是否确认将下列股票添加自选?<br>
+中证白酒(512690)<br>
+请输入是或否。</p>
 </chat-message>
 <chat-message nickname="麦麦" type="user">是</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-✅[SayuStock] 添加自选成功!
-可发送[我的自选]查看或发送[删除自选]清除！
+<p>✅[SayuStock] 添加自选成功!<br>
+可发送[我的自选]查看或发送[删除自选]清除！</p>
 </chat-message>
 </chat-panel>
 <h4 id="查看我的自选" tabindex="-1"><a class="header-anchor" href="#查看我的自选"><span>查看我的自选</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>我的自选</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">我的自选</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="https://s2.loli.net/2025/02/23/k1AOeTfxtPZHluo.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="https://s2.loli.net/2025/02/23/k1AOeTfxtPZHluo.jpg" />
 </chat-message>
 </chat-panel>
 <h3 id="高级功能" tabindex="-1"><a class="header-anchor" href="#高级功能"><span>高级功能</span></a></h3>
 <h4 id="对比个股" tabindex="-1"><a class="header-anchor" href="#对比个股"><span>对比个股</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>对比个股 A500 沪深300 上证指数 中证白酒</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">对比个股 A500 沪深300 上证指数 中证白酒</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="https://s2.loli.net/2025/06/02/a41cqb2rGzTvSWy.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="https://s2.loli.net/2025/06/02/a41cqb2rGzTvSWy.png" />
 </chat-message>
 </chat-panel>
 <h4 id="查看k线图" tabindex="-1"><a class="header-anchor" href="#查看k线图"><span>查看K线图</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>个股 东方财富 日k</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">个股 东方财富 日k</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="https://s2.loli.net/2025/05/16/Mlz5qEyKBe16SdR.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="https://s2.loli.net/2025/05/16/Mlz5qEyKBe16SdR.png" />
 </chat-message>
 </chat-panel>
 <h3 id="支持的数据类型" tabindex="-1"><a class="header-anchor" href="#支持的数据类型"><span>支持的数据类型</span></a></h3>

@@ -1,16 +1,3 @@
 import comp from "D:/bot-docs/src/.vuepress/.temp/pages/使用指南/index.html.vue"
-const data = JSON.parse("{\"path\":\"/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/\",\"title\":\"使用指南\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"使用指南\",\"article\":false,\"feed\":false,\"sitemap\":false,\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"WebPage\\\",\\\"name\\\":\\\"使用指南\\\"}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://maltose-bot.com/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"麦芽糖\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"使用指南\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}]]},\"readingTime\":{\"minutes\":0,\"words\":1},\"filePathRelative\":null}")
+const data = JSON.parse("{\"path\":\"/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/\",\"title\":\"使用指南\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"使用指南\",\"icon\":\"book\",\"order\":3,\"description\":\"使用指南 麦芽糖bot 的功能按照用途分为以下分类，点击进入对应分类查看详细说明。 📂 功能分类 🛠️ - 查询、搜索、转换等日常实用功能 🎨 - 表情包、图片美化与创意生成 🤖 - AI 语音、对话与智能问答 🎯 - 热门游戏的辅助与查询功能 🎉 - 群聊互动、小游戏与趣味玩法 ⚙️ - 群聊秩序管理与维护 如果不知道从哪里开始，可以先查...\",\"head\":[[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"使用指南\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"麦麦\\\"}]}\"],[\"meta\",{\"property\":\"og:url\",\"content\":\"https://maltose-bot.com/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"麦芽糖\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"使用指南\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"使用指南 麦芽糖bot 的功能按照用途分为以下分类，点击进入对应分类查看详细说明。 📂 功能分类 🛠️ - 查询、搜索、转换等日常实用功能 🎨 - 表情包、图片美化与创意生成 🤖 - AI 语音、对话与智能问答 🎯 - 热门游戏的辅助与查询功能 🎉 - 群聊互动、小游戏与趣味玩法 ⚙️ - 群聊秩序管理与维护 如果不知道从哪里开始，可以先查...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}]]},\"git\":{},\"readingTime\":{\"minutes\":0.65,\"words\":195},\"filePathRelative\":\"使用指南/README.md\",\"autoDesc\":true}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

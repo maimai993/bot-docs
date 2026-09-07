@@ -29,32 +29,36 @@
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="简体中文转火星文" tabindex="-1"><a class="header-anchor" href="#简体中文转火星文"><span>简体中文转火星文</span></a></h3>
 <h4 id="转换-你好啊-为火星文" tabindex="-1"><a class="header-anchor" href="#转换-你好啊-为火星文"><span>转换&quot;你好啊&quot;为火星文</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>火星文 你好啊</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">火星文 你好啊</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-沵恏娿
+<p>沵恏娿</p>
 </chat-message>
 </chat-panel>
 <h4 id="转换-今天天气不错-为火星文" tabindex="-1"><a class="header-anchor" href="#转换-今天天气不错-为火星文"><span>转换&quot;今天天气不错&quot;为火星文</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>火星文 今天天气不错</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">火星文 今天天气不错</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-妗兲兲気芣諎
+<p>妗兲兲気芣諎</p>
 </chat-message>
 </chat-panel>
 <h3 id="火星文转简体中文" tabindex="-1"><a class="header-anchor" href="#火星文转简体中文"><span>火星文转简体中文</span></a></h3>
 <h4 id="转换-沵恏娿-为简体中文" tabindex="-1"><a class="header-anchor" href="#转换-沵恏娿-为简体中文"><span>转换&quot;沵恏娿&quot;为简体中文</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>反火星文 沵恏娿</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">反火星文 沵恏娿</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-你好啊
+<p>你好啊</p>
 </chat-message>
 </chat-panel>
 <h4 id="转换-妗兲兲気芣諎-为简体中文" tabindex="-1"><a class="header-anchor" href="#转换-妗兲兲気芣諎-为简体中文"><span>转换&quot;妗兲兲気芣諎&quot;为简体中文</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>反火星文 妗兲兲気芣諎</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">反火星文 妗兲兲気芣諎</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-今天天气不错
+<p>今天天气不错</p>
 </chat-message>
 </chat-panel>
 </div></template>

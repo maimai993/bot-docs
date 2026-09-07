@@ -88,10 +88,11 @@
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="基本绘制" tabindex="-1"><a class="header-anchor" href="#基本绘制"><span>基本绘制</span></a></h3>
 <h4 id="随机表情包绘制" tabindex="-1"><a class="header-anchor" href="#随机表情包绘制"><span>随机表情包绘制</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>pjsk.绘制 你好世界</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">pjsk.绘制 你好世界</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/pjsk.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/啤酒烧烤表情包生成/1.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>~<br>
@@ -102,10 +103,11 @@
 </chat-message>
 </chat-panel>
 <h4 id="指定表情包绘制" tabindex="-1"><a class="header-anchor" href="#指定表情包绘制"><span>指定表情包绘制</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>pjsk.绘制 -n 10 今天天气真好</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">pjsk.绘制 -n 10 今天天气真好</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/pjsk2.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/啤酒烧烤表情包生成/2.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>~<br>
@@ -116,13 +118,14 @@
 </chat-message>
 </chat-panel>
 <h5 id="表情包id列表" tabindex="-1"><a class="header-anchor" href="#表情包id列表"><span>表情包id列表</span></a></h5>
-<figure><img src="@source/使用指南/图像处理/pjsk.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="@source/img/啤酒烧烤表情包生成/3.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3 id="多行文本绘制" tabindex="-1"><a class="header-anchor" href="#多行文本绘制"><span>多行文本绘制</span></a></h3>
 <h4 id="使用换行符" tabindex="-1"><a class="header-anchor" href="#使用换行符"><span>使用换行符</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>pjsk.绘制 第一行/第二行/第三行</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">pjsk.绘制 第一行/第二行/第三行</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/pjsk3.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/啤酒烧烤表情包生成/4.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>~<br>
@@ -134,10 +137,11 @@
 </chat-panel>
 <h3 id="高级效果绘制" tabindex="-1"><a class="header-anchor" href="#高级效果绘制"><span>高级效果绘制</span></a></h3>
 <h4 id="启用文本曲线" tabindex="-1"><a class="header-anchor" href="#启用文本曲线"><span>启用文本曲线</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>pjsk.绘制 -c 弧形文字效果</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">pjsk.绘制 -c 弧形文字效果</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/pjsk4.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/啤酒烧烤表情包生成/5.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>~<br>
@@ -148,10 +152,11 @@
 </chat-message>
 </chat-panel>
 <h4 id="自定义位置和大小" tabindex="-1"><a class="header-anchor" href="#自定义位置和大小"><span>自定义位置和大小</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>pjsk.绘制 -x 100 -y 150 -s 25 -r 1 自定义位置</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">pjsk.绘制 -x 100 -y 150 -s 25 -r 1 自定义位置</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/pjsk5.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/啤酒烧烤表情包生成/6.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>~<br>
@@ -169,17 +174,18 @@
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h3 id="查看指定角色列表" tabindex="-1"><a class="header-anchor" href="#查看指定角色列表"><span>查看指定角色列表</span></a></h3>
 <div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>pjsk.列表.展开指定角色 [角色序号或角色名]</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><h3 id="角色列表示例" tabindex="-1"><a class="header-anchor" href="#角色列表示例"><span>角色列表示例</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>pjsk.列表.角色分类</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">pjsk.列表.角色分类</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/pjsk6.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/啤酒烧烤表情包生成/7.jpg" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>~<br>
 查看指定角色的表情，请输入：</p>
 <blockquote>
-<p>角色序号，例如：10<br>
-角色名，例如：Emu</p>
+角色序号，例如：10
+角色名，例如：Emu
 </blockquote>
 </chat-message>
 </chat-panel>

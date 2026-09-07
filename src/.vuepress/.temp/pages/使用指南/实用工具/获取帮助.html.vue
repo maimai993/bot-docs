@@ -31,10 +31,11 @@
 </table>
 <h3 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h3>
 <h4 id="获取指令列表" tabindex="-1"><a class="header-anchor" href="#获取指令列表"><span>获取指令列表</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>帮助</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">帮助</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<span style="color: #575c63ff;">图片过长已隐藏</span>
+<p><span style="color: #575c63ff;">图片过长已隐藏</span></p>
 </chat-message>
 </chat-panel>
 <h4 id="获取指定指令-帮助-信息" tabindex="-1"><a class="header-anchor" href="#获取指定指令-帮助-信息"><span>获取指定指令 <code v-pre>帮助</code> 信息</span></a></h4>
@@ -42,10 +43,11 @@
 <p class="hint-container-title">注意</p>
 <p>部分指令不支持获取帮助，具体的使用方法请查看文档</p>
 </div>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>帮助 帮助</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">帮助 帮助</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/实用工具/获取帮助_帮助的帮助图.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/获取帮助/1.png" />
 </chat-message>
 </chat-panel>
 <div class="hint-container tip">
@@ -53,10 +55,11 @@
 <p>您还可以使用 -h 参数获取该指令的帮助</p>
 </div>
 <h4 id="使用参数-h-获取指定指令-帮助-信息" tabindex="-1"><a class="header-anchor" href="#使用参数-h-获取指定指令-帮助-信息"><span>使用参数 <code v-pre>-h</code> 获取指定指令 <code v-pre>帮助</code> 信息</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>帮助 -h</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">帮助 -h</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/实用工具/获取帮助_帮助的帮助图.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/获取帮助/1.png" />
 </chat-message>
 </chat-panel>
 </div></template>

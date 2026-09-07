@@ -1,9 +1,7 @@
 <template><div><h1 id="获取热搜" tabindex="-1"><a class="header-anchor" href="#获取热搜"><span>获取热搜</span></a></h1>
-<h2 id="概述" tabindex="-1"><a class="header-anchor" href="#概述"><span>概述</span></a></h2>
-<p><a href="https://koishi.chat" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/框架-koishi-5445a2?style=flat" alt="" loading="lazy"></a> <a href="https://www.npmjs.com/package/koishi-plugin-hot-search" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/v/koishi-plugin-hot-search" alt="" loading="lazy"></a> <a href="https://github.com/lisk809/koishi-plugin-hot-search" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/-github-202020?style=flat&amp;logo=github" alt="" loading="lazy"></a><br>
-<strong>指令名称</strong>: hotof.[平台]</p>
-<p><strong>功能描述</strong>: 获取各平台热搜，支持自定义显示数量</p>
-<p><strong>插件名称</strong>: hot-search</p>
+<h2 id="功能描述" tabindex="-1"><a class="header-anchor" href="#功能描述"><span>功能描述</span></a></h2>
+<p>获取各平台热搜，支持自定义显示数量<br>
+<strong>插件名称</strong>: hot-search</p>
 <h2 id="架构图" tabindex="-1"><a class="header-anchor" href="#架构图"><span>架构图</span></a></h2>
 <Mermaid code="eJx1kstOwlAQhvc8xcQ9Gl7ApLjBQMBCWDUuClSL0ZZAUZciSoiGgICJUUK4KSgKuAEDRt/FtKf1LeyNSy/Ooj1n5jv/zJk5e4fsSZQmkxz4gg6QLUyI1R7KT3bVnfpJpSP7STJBgy/OpE9Vl8GNAYHjwqAlnxL7Q+3g3HBcji1dFBNzWAX8bIw6SAGh/NflRTDNcPEjyqi0oN0ySCaiJIdqBeGqaaQU8+txY8SQ2iC4BYSXjafoOGrmUH1sFfTqcWsECxBkjExwVNLJMlSENeVUzBMiaJZzpigyGaWtJZnXizLD4HRuyv1TNzgu72Dt56YBaJxHmeEGP73mZ+M1FfKrjF9HmhBgKDfLwbHLJRSK0mCgUd7lRL062gINkLptVC9pGBZQESygM23QUvGfjd+z8qrUXKUD0iirvJpieVGSJ6QinpDOPAK2sy0NJ+j93B54AnQ7QoWB0LkQSzl7pgvSd1V4qIuzCqrX7ErpAf9xLz+KVRXzhZ5BqBSEaVUYZaT2pZ3Kyz8d1PpsaHZfF9OmomHmmb0CuvsSO1Mx+4ZKetlhxx/VYiJJ"></Mermaid><h2 id="使用方法" tabindex="-1"><a class="header-anchor" href="#使用方法"><span>使用方法</span></a></h2>
 <h3 id="指令名称" tabindex="-1"><a class="header-anchor" href="#指令名称"><span>指令名称</span></a></h3>
@@ -65,7 +63,8 @@
 </table>
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="获取-b站-热搜" tabindex="-1"><a class="header-anchor" href="#获取-b站-热搜"><span>获取 <code v-pre>b站</code> 热搜</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>hotof.bili</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">hotof.bili</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>=1= [热]拆解TES外战背后的问题<br>
@@ -81,7 +80,8 @@
 </chat-message>
 </chat-panel>
 <h3 id="获取-抖音-热搜" tabindex="-1"><a class="header-anchor" href="#获取-抖音-热搜"><span>获取 <code v-pre>抖音</code> 热搜</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>hotof.douyin</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">hotof.douyin</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>■热点榜■<br>
@@ -106,7 +106,8 @@
 </chat-message>
 </chat-panel>
 <h3 id="获取-知乎-热搜" tabindex="-1"><a class="header-anchor" href="#获取-知乎-热搜"><span>获取 <code v-pre>知乎</code> 热搜</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>hotof.zhihu</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">hotof.zhihu</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>知乎热搜🔥</p>
@@ -125,7 +126,8 @@
 </chat-message>
 </chat-panel>
 <h3 id="自定义显示数量" tabindex="-1"><a class="header-anchor" href="#自定义显示数量"><span>自定义显示数量</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>hotof.bili -n 5</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">hotof.bili -n 5</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>=1= [热]拆解TES外战背后的问题<br>

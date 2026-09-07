@@ -29,36 +29,48 @@ vv <搜索关键词> [数量]
 ### 搜索单个表情包
 
 #### 搜索"开心"表情包
+```
+vv 开心
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">vv 开心</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 
-![](./vvkx.webp)
+<img src="../../img/VV表情包搜索/1.webp" />
+
 </chat-message>
 </chat-panel>
 
 ### 搜索多个表情包
 
 #### 搜索3个"惊讶"表情包
+```
+vv 惊讶 3
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">vv 惊讶 3</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 
-![](./vvjy1.webp)
-![](./vvjy2.webp)
-![](./vvjy3.webp)
+<img src="../../img/VV表情包搜索/2.webp" />
+<img src="../../img/VV表情包搜索/3.webp" />
+<img src="../../img/VV表情包搜索/4.webp" />
+
 </chat-message>
 </chat-panel>
 
 #### 搜索5个"生气"表情包
+```
+vv 生气 5
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">vv 生气 5</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 
-![](./vvsq1.webp)
-![](./vvsq2.webp)
-![](./vvsq3.webp)
-![](./vvsq4.webp)
-![](./vvsq5.webp)
+<img src="../../img/VV表情包搜索/5.webp" />
+<img src="../../img/VV表情包搜索/6.webp" />
+<img src="../../img/VV表情包搜索/7.webp" />
+<img src="../../img/VV表情包搜索/8.webp" />
+<img src="../../img/VV表情包搜索/9.webp" />
+
 </chat-message>
 </chat-panel>

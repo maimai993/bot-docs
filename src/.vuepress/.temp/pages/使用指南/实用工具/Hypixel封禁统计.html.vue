@@ -9,7 +9,8 @@
 <p>该指令无需额外参数，直接调用即可获取最新的封禁统计数据。</p>
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="查询封禁统计" tabindex="-1"><a class="header-anchor" href="#查询封禁统计"><span>查询封禁统计</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>hypixel</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">hypixel</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>🕒 更新时间: 2025-11-16 23:35:15<br>
@@ -27,7 +28,8 @@
 </chat-message>
 </chat-panel>
 <h3 id="使用别名查询" tabindex="-1"><a class="header-anchor" href="#使用别名查询"><span>使用别名查询</span></a></h3>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>hpbans</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">hpbans</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 <p>🕒 更新时间: 2025-11-16 23:35:15<br>

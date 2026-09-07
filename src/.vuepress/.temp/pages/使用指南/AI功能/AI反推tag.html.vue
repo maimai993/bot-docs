@@ -20,7 +20,8 @@
 </tbody>
 </table>
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>tagger.rec</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">tagger.rec <img src="/logod.png" /></chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">正在识别，请稍等...</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">标签：<br>blue eyes, no humans, simple background, solo, white background, smile, paw print, closed mouth, :3, looking at viewer, tears, animal ears, virtual youtuber<br><br>角色：未知<br><br>安全程度：general<br>general (97%)<br>sensitive (2%)<br>questionable (0%)<br>explicit (0%)</chat-message>

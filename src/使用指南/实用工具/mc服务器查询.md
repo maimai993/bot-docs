@@ -6,13 +6,8 @@ order: 2
 
 # MC服务器查询
 
-## 概述
-[![](https://img.shields.io/badge/框架-koishi-5445a2?style=flat)](https://koishi.chat) [![](https://img.shields.io/npm/v/koishi-plugin-mcmotd-customserver-canvas)](https://www.npmjs.com/package/koishi-plugin-mcmotd-customserver-canvas)
-
-**指令名称**: MBS/MJS
-
-**功能描述**: 查询Minecraft Java版和基岩版服务器信息
-
+## 功能描述
+查询Minecraft Java版和基岩版服务器信息
 ## 架构图
 
 ```mermaid
@@ -77,39 +72,55 @@ motdje <地址(可带端口)> [端口(选填)]
 
 ### 查询 `基岩版` 服务器
 
+```
+MBS mc233.cn
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">MBS mc233.cn</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 
-![](./mc服务器查询2.png)
+<img src="../../img/MC服务器查询/1.png" />
+
 </chat-message>
 </chat-panel>
 
 #### 查询 `指定端口` 的 `基岩版` 服务器
+```
+MBS mc233.cn
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">MBS mc233.cn</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 
-![](./mc服务器查询2.png)
+<img src="../../img/MC服务器查询/1.png" />
+
 </chat-message>
 </chat-panel>
 
 ### 查询 `Java版` 服务器
 
 #### 查询 `Java版` 服务器
+```
+MJS mc233.cn
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">MJS mc233.cn</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 
-![](./mc服务器查询3.png)
+<img src="../../img/MC服务器查询/2.png" />
+
 </chat-message>
 </chat-panel>
 
 #### 查询 `指定端口` 的 `Java` 版服务器
+```
+MJS play.simpfun.cn 36877
+```
 <chat-panel>
 <chat-message nickname="麦麦" type="user">MJS play.simpfun.cn 36877</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
 
-![](./mc服务器查询4.png)
+<img src="../../img/MC服务器查询/3.png" />
+
 </chat-message>
 </chat-panel>

@@ -77,101 +77,109 @@
 不支持动图生成</p>
 </div>
 <h4 id="交互式输入图片" tabindex="-1"><a class="header-anchor" href="#交互式输入图片"><span>交互式输入图片</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>幻影</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">幻影</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-请发送一张图片作为【表图】：
+<p>请发送一张图片作为【表图】：</p>
 </chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/gif5.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/幻影坦克生成/1.gif" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-请发送一张图片作为【里图】：
+<p>请发送一张图片作为【里图】：</p>
 </chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/gif10.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/幻影坦克生成/2.gif" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/幻影坦克.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/幻影坦克生成/3.png" />
 </chat-message>
 </chat-panel>
 <h3 id="使用qq头像" tabindex="-1"><a class="header-anchor" href="#使用qq头像"><span>使用QQ头像</span></a></h3>
 <h4 id="使用qq号" tabindex="-1"><a class="header-anchor" href="#使用qq号"><span>使用QQ号</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>幻影 123456 654321</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">幻影 123456 654321</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/幻影坦克2.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/幻影坦克生成/4.png" />
 </chat-message>
 </chat-panel>
 <h4 id="使用-用户" tabindex="-1"><a class="header-anchor" href="#使用-用户"><span>使用@用户</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>大家好，我是马化腾</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="马化腾" type="user">大家好，我是马化腾</chat-message>
 <chat-message nickname="腾讯视频" type="user">大家好，我是腾讯视频</chat-message>
 <chat-message nickname="麦麦" type="user">幻影 <span style="color: #3175de;">@腾讯视频 @马化腾</span></chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/幻影坦克2.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/幻影坦克生成/4.png" />
 </chat-message>
 </chat-panel>
 <h3 id="使用选项参数" tabindex="-1"><a class="header-anchor" href="#使用选项参数"><span>使用选项参数</span></a></h3>
 <h4 id="全彩输出" tabindex="-1"><a class="header-anchor" href="#全彩输出"><span>全彩输出</span></a></h4>
-<chat-panel>
-<chat-message nickname="麦麦" type="user">幻影 -f
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>幻影 -f</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
+<chat-message nickname="麦麦" type="user">
+<p>幻影 -f</p>
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-请发送一张图片作为【表图】：
+<p>请发送一张图片作为【表图】：</p>
 </chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/gif5.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/幻影坦克生成/1.gif" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-请发送一张图片作为【里图】：
+<p>请发送一张图片作为【里图】：</p>
 </chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/gif10.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/幻影坦克生成/2.gif" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/幻影坦克3.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/幻影坦克生成/5.png" />
 </chat-message>
 </chat-panel>
 <h4 id="自定义尺寸和权重" tabindex="-1"><a class="header-anchor" href="#自定义尺寸和权重"><span>自定义尺寸和权重</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>幻影 -s 800 -w 0.5</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">
-幻影 -s 800 -w 0.5
+<p>幻影 -s 800 -w 0.5</p>
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-请发送一张图片作为【表图】：
+<p>请发送一张图片作为【表图】：</p>
 </chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/光棱1.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/幻影坦克生成/6.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-请发送一张图片作为【里图】：
+<p>请发送一张图片作为【里图】：</p>
 </chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/光棱2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/幻影坦克生成/7.jpg" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/幻影坦克1.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/幻影坦克生成/8.png" />
 </chat-message>
 </chat-panel>
 <h4 id="完整参数示例" tabindex="-1"><a class="header-anchor" href="#完整参数示例"><span>完整参数示例</span></a></h4>
-<chat-panel>
-<chat-message nickname="麦麦" type="user">幻影 -f -s 1000 -w 0.8
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>幻影 -f -s 1000 -w 0.8</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
+<chat-message nickname="麦麦" type="user">
+<p>幻影 -f -s 1000 -w 0.8</p>
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-请发送一张图片作为【表图】：
+<p>请发送一张图片作为【表图】：</p>
 </chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/光棱1.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/幻影坦克生成/6.png" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-请发送一张图片作为【里图】：
+<p>请发送一张图片作为【里图】：</p>
 </chat-message>
 <chat-message nickname="麦麦" type="user">
-<figure><img src="@source/使用指南/图像处理/光棱2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/幻影坦克生成/7.jpg" />
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/图像处理/幻影坦克4.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/幻影坦克生成/9.png" />
 </chat-message>
 </chat-panel>
 </div></template>

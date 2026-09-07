@@ -21,7 +21,7 @@
 <td>图片</td>
 <td>是</td>
 <td>要搜索来源的图片</td>
-<td><a href="./%E6%90%9C%E5%9B%BE%E6%9D%A5%E6%BA%90_%E7%A4%BA%E8%8C%83.jpg">图片</a></td>
+<td><a href="../../img/%E6%90%9C%E5%9B%BE%E6%9D%A5%E6%BA%90/1.jpg">图片</a></td>
 </tr>
 </tbody>
 </table>
@@ -32,13 +32,14 @@
 <p>指令后面要打空格带上图片哦</p>
 </div>
 <h4 id="搜索图片来源" tabindex="-1"><a class="header-anchor" href="#搜索图片来源"><span>搜索图片来源</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>搜图</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">
-搜图 
-<figure><img src="@source/使用指南/实用工具/搜图来源_示范.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>搜图<br>
+<img src="@source/img/搜图来源/1.jpg" /></p>
 </chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<p><a href="./%E6%90%9C%E5%9B%BE%E6%9D%A5%E6%BA%90_%E7%A4%BA%E8%8C%83.jpg">图片</a><br>
+<p><a href="../../img/搜图来源/1.jpg">图片</a><br>
 链接：<a href="https://e621.net/post/show/5609746" target="_blank" rel="noopener noreferrer">https://e621.net/post/show/5609746</a><br>
 作者：未知<br>
 网站：e621<br>

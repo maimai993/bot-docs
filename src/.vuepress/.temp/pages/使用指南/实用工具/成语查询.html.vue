@@ -37,34 +37,38 @@
 <h2 id="使用示例" tabindex="-1"><a class="header-anchor" href="#使用示例"><span>使用示例</span></a></h2>
 <h3 id="成语精确查询" tabindex="-1"><a class="header-anchor" href="#成语精确查询"><span>成语精确查询</span></a></h3>
 <h4 id="查询成语-一帆风顺" tabindex="-1"><a class="header-anchor" href="#查询成语-一帆风顺"><span>查询成语 <code v-pre>一帆风顺</code></span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>成语查询 一帆风顺</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">成语查询 一帆风顺</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/实用工具/成语查询_一帆风顺.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/成语查询/1.png" />
 </chat-message>
 </chat-panel>
 <h3 id="成语模糊查询" tabindex="-1"><a class="header-anchor" href="#成语模糊查询"><span>成语模糊查询</span></a></h3>
 <h4 id="模糊查询-帆" tabindex="-1"><a class="header-anchor" href="#模糊查询-帆"><span>模糊查询 <code v-pre>?帆??</code></span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>成语查询 ?帆??</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">成语查询 ?帆??</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/实用工具/成语查询_帆.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/成语查询/2.png" />
 </chat-message>
 </chat-panel>
 <h3 id="近义词查询" tabindex="-1"><a class="header-anchor" href="#近义词查询"><span>近义词查询</span></a></h3>
 <h4 id="查询词语-美丽-的近义词" tabindex="-1"><a class="header-anchor" href="#查询词语-美丽-的近义词"><span>查询词语 <code v-pre>美丽</code> 的近义词</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>近义词查询 美丽</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">近义词查询 美丽</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/实用工具/成语查询_美丽.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/成语查询/3.png" />
 </chat-message>
 </chat-panel>
 <h3 id="反义词查询" tabindex="-1"><a class="header-anchor" href="#反义词查询"><span>反义词查询</span></a></h3>
 <h4 id="查询词语-美丽-的反义词" tabindex="-1"><a class="header-anchor" href="#查询词语-美丽-的反义词"><span>查询词语 <code v-pre>美丽</code> 的反义词</span></a></h4>
-<chat-panel>
+<div class="language- line-numbers-mode" data-highlighter="shiki" data-ext="" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code" v-pre=""><code class="language-"><span class="line"><span>反义词查询 美丽</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><chat-panel>
 <chat-message nickname="麦麦" type="user">反义词查询 美丽</chat-message>
 <chat-message nickname="麦芽糖bot" type="bot">
-<figure><img src="@source/使用指南/实用工具/成语查询_美丽2.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<img src="@source/img/成语查询/4.png" />
 </chat-message>
 </chat-panel>
 <h2 id="技术特性" tabindex="-1"><a class="header-anchor" href="#技术特性"><span>技术特性</span></a></h2>
