@@ -45,15 +45,15 @@ mc
 
 | 指令 | 说明 |
 |------|------|
-| `mc.search <keyword>` | 聚合搜索（Modrinth / CurseForge / MCMOD / MCWiki） |
-| `mc.mcwiki <keyword>` | 查询 MCWiki 内容 |
-| `mc.mcmod <keyword>` | 查询 MCMOD 百科 |
+| `mc.search <keyword>` | 聚合搜索（Modrinth / CurseForge / MCMOD / MCWiki，用 `-p` 指定平台） |
+| `mc.wiki <keyword>` | 查询 MCWiki 内容 |
+| `mc.mod <keyword>` | 查询 MCMOD 百科 |
 | `mc.modrinth <keyword>` | 查询 Modrinth 资源 |
-| `mc.curseforge <keyword>` | 查询 CurseForge 资源 |
+| `mc.help` | 查看插件自带的帮助 |
 
 ### 服务器交互
 
-以下命令均支持 `-s, --server <服务器ID>` 指定服务器：
+在插件配置里开启服务器连接功能后，还会注册以下指令（均支持 `-s, --server <服务器ID>` 指定服务器）：
 
 | 指令 | 说明 |
 |------|------|
@@ -63,4 +63,15 @@ mc
 
 ## 使用示例
 
-（示例待补充）
+
+
+<chat-panel>
+<chat-message nickname="麦麦" type="user">mc.ver</chat-message>
+<chat-message nickname="麦芽糖bot" type="bot">Minecraft 最新版本：
+正式版: 26.3(2026/9/15)
+快照版: 26.4-snapshot-1(2026/9/22)</chat-message>
+</chat-panel>
+
+::: tip
+示例图片待补充。
+:::

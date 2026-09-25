@@ -1,0 +1,32 @@
+/* 沙盒「试运行」按钮 —— 由 client/sandbox.ts 注入到代码块里 */
+div[class*="language-"] .kkk-sandbox-run {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 3;
+  padding: 3px 10px;
+  border: 1px solid var(--vp-c-accent, #3eaf7c);
+  border-radius: 999px;
+  background: var(--vp-c-bg, #fff);
+  color: var(--vp-c-accent, #3eaf7c);
+  font-size: 12px;
+  line-height: 1.6;
+  font-weight: 600;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity .15s ease, background .15s ease, color .15s ease;
+}
+
+div[class*="language-"]:hover .kkk-sandbox-run,
+div[class*="language-"] .kkk-sandbox-run:focus-visible {
+  opacity: 1;
+}
+
+div[class*="language-"] .kkk-sandbox-run:hover {
+  background: var(--vp-c-accent, #3eaf7c);
+  color: #fff;
+}
+
+@media (hover: none) {
+  div[class*="language-"] .kkk-sandbox-run { opacity: 1; }
+}
