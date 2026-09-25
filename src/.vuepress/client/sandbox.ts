@@ -19,7 +19,7 @@ export interface SandboxMessage {
   note?: string
 }
 
-// 线上：由 koishi-plugin-kkk-sandbox 提供（挂在 /sandbox）
+// 线上：由 koishi-plugin-docs-sandbox 提供（挂在 /sandbox）
 // 本地开发：scripts/sandbox/server.cjs 提供（端口 3100）
 const DEFAULT_API = 'https://koi.tangbot.xyz/sandbox'
 
@@ -38,7 +38,7 @@ export const sandbox = reactive({
 })
 
 // ------------------------------------------------------------------ 会话与图片
-const SESSION_KEY = 'kkk-sandbox-session'
+const SESSION_KEY = 'docs-sandbox-session'
 
 function newSessionId(): string {
   return 'sbx' + Date.now().toString(36) + Math.random().toString(36).slice(2, 8)
@@ -180,7 +180,7 @@ export function candidateBases(): string[] {
   const w = window as any
   if (w.__SANDBOX_API__) list.push(String(w.__SANDBOX_API__))
   try {
-    const s = localStorage.getItem('kkk-sandbox-api')
+    const s = localStorage.getItem('docs-sandbox-api')
     if (s) list.push(s)
   } catch { /* ignore */ }
   list.push(DEFAULT_API)
@@ -196,7 +196,7 @@ export function resolveApiBase(): string {
 
 export function setApiBase(url: string) {
   sandbox.apiBase = url.replace(/\/+$/, '')
-  try { localStorage.setItem('kkk-sandbox-api', sandbox.apiBase) } catch { /* ignore */ }
+  try { localStorage.setItem('docs-sandbox-api', sandbox.apiBase) } catch { /* ignore */ }
   loadCommands()
 }
 
@@ -385,7 +385,7 @@ export function clearHistory() {
 }
 
 // ---------------------------------------------------------------- 代码块按钮
-const BTN_CLASS = 'kkk-sandbox-run'
+const BTN_CLASS = 'docs-sandbox-run'
 
 function decorate(block: HTMLElement) {
   if (block.querySelector('.' + BTN_CLASS)) return

@@ -23,7 +23,7 @@
 
 | 模式 | 用什么 | 适合 |
 |------|--------|------|
-| **线上（推荐）** | `koishi-plugin-kkk-sandbox` 插件，挂在 bot 上，路径 `/sandbox` | 正式部署。用的是**正在运行的那个 koishi**，插件、数据库、配置全都是真的 |
+| **线上（推荐）** | `koishi-plugin-docs-sandbox` 插件，挂在 bot 上，路径 `/sandbox` | 正式部署。用的是**正在运行的那个 koishi**，插件、数据库、配置全都是真的 |
 | 本地开发 | `scripts/sandbox/server.cjs`，独立进程 | bot 没跑、或者不想动 bot 的时候 |
 
 前端默认连 `https://koi.tangbot.xyz/sandbox`（线上插件）。两种后端接口形状一致，
@@ -31,14 +31,14 @@
 
 ### 线上：装插件
 
-插件源码在 bot 仓库的 `D:\devkoishi\plugins\koishi-plugin-kkk-sandbox`，
-已经复制到 `C:/sj/koishi/node_modules/koishi-plugin-kkk-sandbox`。
+插件源码在 bot 仓库的 `D:\devkoishi\plugins\koishi-plugin-docs-sandbox`，
+已经复制到 `C:/sj/koishi/node_modules/koishi-plugin-docs-sandbox`。
 
 在 `koishi.yml` 里启用：
 
 ```yaml
 plugins:
-  kkk-sandbox:
+  docs-sandbox:
     path: /sandbox
     origins: ['*']        # 建议收窄成 https://docs.tangbot.xyz
     rateLimit: 60
@@ -92,7 +92,7 @@ pnpm docs:dev
 然后在浏览器控制台里把地址指到本地：
 
 ```js
-localStorage.setItem('kkk-sandbox-api', 'http://127.0.0.1:3100')  // 刷新生效
+localStorage.setItem('docs-sandbox-api', 'http://127.0.0.1:3100')  // 刷新生效
 ```
 
 打开文档页面，能连上后端时右下角会出现「在线沙盒」悬浮球，
@@ -121,7 +121,7 @@ localStorage.setItem('kkk-sandbox-api', 'http://127.0.0.1:3100')  // 刷新生�
 或者在浏览器控制台里：
 
 ```js
-localStorage.setItem('kkk-sandbox-api', 'https://sandbox.example.com') // 刷新生效
+localStorage.setItem('docs-sandbox-api', 'https://sandbox.example.com') // 刷新生效
 ```
 
 ## 安全检查清单

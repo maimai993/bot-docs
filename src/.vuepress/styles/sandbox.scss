@@ -1,5 +1,5 @@
 /* 沙盒「试运行」按钮 —— 由 client/sandbox.ts 注入到代码块里 */
-div[class*="language-"] .kkk-sandbox-run {
+div[class*="language-"] .docs-sandbox-run {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -17,16 +17,16 @@ div[class*="language-"] .kkk-sandbox-run {
   transition: opacity .15s ease, background .15s ease, color .15s ease;
 }
 
-div[class*="language-"]:hover .kkk-sandbox-run,
-div[class*="language-"] .kkk-sandbox-run:focus-visible {
+div[class*="language-"]:hover .docs-sandbox-run,
+div[class*="language-"] .docs-sandbox-run:focus-visible {
   opacity: 1;
 }
 
-div[class*="language-"] .kkk-sandbox-run:hover {
+div[class*="language-"] .docs-sandbox-run:hover {
   background: var(--vp-c-accent, #3eaf7c);
   color: #fff;
 }
 
 @media (hover: none) {
-  div[class*="language-"] .kkk-sandbox-run { opacity: 1; }
+  div[class*="language-"] .docs-sandbox-run { opacity: 1; }
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="kkk-sandbox">
+  <div class="docs-sandbox">
     <!-- 悬浮球 -->
     <button v-if="!sandbox.open" class="kkk-fab" type="button" title="打开在线沙盒" @click="open()">
       <span class="kkk-fab-icon">🕹️</span>
@@ -158,7 +158,7 @@ const elapsed = ref(0)
 const pos = reactive({ x: 0, y: 0, dx: 0, dy: 0, moved: false, dragging: false })
 
 // ---- 尺寸 / 全屏 ----
-const SIZE_KEY = 'kkk-sandbox-size'
+const SIZE_KEY = 'docs-sandbox-size'
 const MIN_W = 300
 const MIN_H = 320
 
@@ -369,7 +369,7 @@ onUnmounted(() => {
 </script>
 
 <style scoped>
-.kkk-sandbox { --kkk-primary: var(--vp-c-accent, #3eaf7c); }
+.docs-sandbox { --kkk-primary: var(--vp-c-accent, #3eaf7c); }
 
 /* 悬浮球 */
 .kkk-fab {
