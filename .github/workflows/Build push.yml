@@ -1,0 +1,98 @@
+name: Build and Deploy to Web Branch
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v7
+      with:
+        fetch-depth: 0
+        persist-credentials: false
+
+    - name: Install pnpm
+      uses: pnpm/action-setup@v6
+      with:
+        version: 8
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v7
+      with:
+        node-version: 24
+        cache: pnpm
+
+    - name: Install deps
+      run: pnpm install
+
+    - name: Docs build
+      env:
+        NODE_OPTIONS: --max_old_space_size=8192
+      run: pnpm run docs:build
+
+    - name: Prepare dist for deployment
+      run: |
+        mkdir -p dist
+        if [ -d "src/.vuepress/dist" ]; then
+          echo "Copying from src/.vuepress/dist"
+          cp -r src/.vuepress/dist/* dist/
+          
+          # 检查 CNAME 文件是否存在，如果不存在则创建
+          if [ ! -f "dist/CNAME" ]; then
+            echo "CNAME file not found in dist, creating..."
+            echo "docs.tangbot.xyz" > dist/CNAME
+          else
+            echo "CNAME file found in dist"
+            cat dist/CNAME
+          fi
+        else
+          echo "ERROR: src/.vuepress/dist not found!"
+          exit 1
+        fi
+
+    - name: Deploy to web branch
+      if: github.event_name == 'push'
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+        
+        # 保存 dist 到临时目录
+        TEMP_DIR=$(mktemp -d)
+        cp -r dist/* "$TEMP_DIR/"
+        
+        # 确保 CNAME 文件存在（双重保障）
+        if [ ! -f "$TEMP_DIR/CNAME" ]; then
+          echo "CNAME file missing in temp, creating..."
+          echo "docs.tangbot.xyz" > "$TEMP_DIR/CNAME"
+        fi
+        
+        echo "CNAME content:"
+        cat "$TEMP_DIR/CNAME" || echo "CNAME file not found!"
+        
+        echo "Dist copied to temp: $TEMP_DIR"
+        
+        # 切换或创建 web 分支
+        git fetch origin web || true
+        git checkout web || git checkout --orphan web
+        
+        # 清空并复制新内容
+        rm -rf ./*
+        cp -r "$TEMP_DIR"/* ./
+        touch .nojekyll
+        
+        # 验证 CNAME 文件
+        echo "Verifying CNAME in web branch:"
+        cat CNAME || echo "CNAME file not found in web branch!"
+        
+        git add .
+        git commit -m "Deploy from main branch - ${{ github.sha }}"
+        git push origin web --force
+        
+        # 清理临时目录
+        rm -rf "$TEMP_DIR"
