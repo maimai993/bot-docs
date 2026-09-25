@@ -1,5 +1,5 @@
 <template>
-  <Teleport to="body">
+  <Teleport v-if="mounted" to="body">
     <div v-if="search.open" class="kkk-search" @mousedown.self="closeSearch()">
       <div class="kkk-search-panel" role="dialog" aria-modal="true" aria-label="搜索文档">
         <div class="kkk-search-head">
@@ -57,6 +57,16 @@ import { closeSearch, goHit, moveActive, onQueryInput, openSearch, search } from
 
 const inputEl = ref<HTMLInputElement | null>(null)
 
+/**
+ * 只在客户端挂 Teleport。
+ *
+ * SSR 阶段即使什么都不渲染，服务端还是会吐出 teleport 的起止锚点，
+ * 而客户端要把内容搬去 body —— 锚点对不齐就是
+ * 「Hydration completed but contains mismatches」的经典来源。
+ * 用 mounted 卡一道：服务端完全不输出 Teleport，客户端挂载后再渲染，两边一致。
+ */
+const mounted = ref(false)
+
 function onInput(event: Event) {
   onQueryInput((event.target as HTMLInputElement).value)
 }
@@ -104,6 +114,7 @@ watch(() => search.open, (open) => {
 })
 
 onMounted(() => {
+  mounted.value = true
   // 兼容初始化时就已经打开的情况
   if (search.open) inputEl.value?.focus()
 })
